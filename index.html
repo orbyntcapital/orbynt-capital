@@ -1,678 +1,642 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Orbynt Capital — Private Investment Fund</title>
-<meta name="description" content="Orbynt Capital is a private investment fund investing across financial markets, with an increased concentration in digital assets like crypto and Web3." />
+<title>Orbynt Capital | Private investment fund</title>
+<meta name="description" content="Orbynt Capital is a private investment fund investing across financial markets, with an increased concentration in digital assets and Web3. An Orbynt Group company." />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://orbynt.capital/" />
-<meta name="theme-color" content="#0D1E2E" />
+<meta name="theme-color" content="#071426" />
+<link rel="icon" type="image/png" href="data:image/png;base64,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" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Orbynt Capital" />
-<meta property="og:title" content="Orbynt Capital — Private Investment Fund" />
-<meta property="og:description" content="A private investment fund investing across financial markets, with an increased concentration in digital assets like crypto and Web3." />
+<meta property="og:title" content="Orbynt Capital | Private investment fund" />
+<meta property="og:description" content="A private investment fund with an increased concentration in digital assets and Web3. An Orbynt Group company." />
 <meta property="og:url" content="https://orbynt.capital/" />
 <meta property="og:image" content="https://orbynt.capital/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Orbynt Capital — Private Investment Fund" />
-<meta name="twitter:description" content="A private investment fund focused on digital assets like crypto and Web3." />
+<meta name="twitter:site" content="@orbynt" />
+<meta name="twitter:title" content="Orbynt Capital | Private investment fund" />
+<meta name="twitter:description" content="A private investment fund focused on digital assets. An Orbynt Group company." />
 <meta name="twitter:image" content="https://orbynt.capital/og-image.png" />
-<link rel="icon" type="image/png" href="data:image/png;base64,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" />
+<script>
+  (function(){var t=null;try{t=localStorage.getItem('oc-theme')}catch(e){}
+  if(t!=='light'&&t!=='dark')t='dark';document.documentElement.setAttribute('data-theme',t);})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
-/* ===================== THEME TOKENS ===================== */
-:root{                       /* DARK (default) */
-  --bg:#080B11; --bg-2:#0B0F16; --surface:#0F141C; --surface-2:#141A23;
-  --hair:rgba(244,242,236,.08); --hair-2:rgba(244,242,236,.15);
-  --text:#F4F2EC; --text-2:rgba(244,242,236,.6); --text-3:rgba(244,242,236,.38);
-  --brass:#C9A86A; --brass-2:#E6CF98; --brass-deep:#A8884A;
-  --nav-bg:rgba(8,11,17,.72); --nav-bg-m:rgba(8,11,17,.96);
-  --panel-shadow:0 50px 100px -50px rgba(0,0,0,.9); --panel-inset:rgba(244,242,236,.05);
-  --dotgrid:rgba(244,242,236,.05);
-  --logo-filter:invert(1) brightness(1.45) contrast(1.04); --logo-blend:screen;
-  --logo-orb:#F8F6F0; --logo-ring:#C9A86A;
-  --glow-1:rgba(201,168,106,.10); --glow-2:rgba(60,90,120,.10);
-  --chart-grid:rgba(244,242,236,.05); --chart-dotstroke:#0B0F16;
-  --serif:'Manrope'; --sans:'Manrope',ui-sans-serif,system-ui,'Segoe UI',Roboto,sans-serif;
-  --mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
-  --nav-h:74px; --pad:clamp(20px,5vw,88px); --maxw:1320px; --r:16px;
+/* ---------- tokens ---------- */
+:root,[data-theme="dark"]{
+  --bg:#071426; --bg-2:#050F1E; --surface:#0A1A30; --surface-2:#0E223D;
+  --ink:#F4F7FA; --ink-2:rgba(244,247,250,.68); --ink-3:rgba(244,247,250,.44);
+  --line:rgba(244,247,250,.10); --line-2:rgba(244,247,250,.2);
+  --gold:#D2A24E; --gold-2:#E4BE76; --mark:#F4F7FA; --star:#D2A24E;
+  --glow:rgba(210,162,78,.15); --glow-edge:rgba(210,162,78,.6);
+  --nav-bg:rgba(7,20,38,.78); --dot:244,247,250; --shadow:0 40px 90px -50px rgba(0,0,0,.85);
+  --green:#A7CFB6; --calyx:#A9C2E8; --phoenix:#E8B477;
+  --btn-ink:#071426;
+  color-scheme:dark;
 }
-[data-theme="light"]{        /* LIGHT (matches the logo) */
-  --bg:#FCFBF7; --bg-2:#F4EFE3; --surface:#FFFFFF; --surface-2:#F3EDDF;
-  --hair:rgba(13,30,46,.12); --hair-2:rgba(13,30,46,.2);
-  --text:#0D1E2E; --text-2:rgba(13,30,46,.62); --text-3:rgba(13,30,46,.42);
-  --brass:#8A6C34; --brass-2:#A8824A; --brass-deep:#6E561F;
-  --nav-bg:rgba(252,251,247,.82); --nav-bg-m:rgba(252,251,247,.97);
-  --panel-shadow:0 40px 90px -52px rgba(13,30,46,.4); --panel-inset:rgba(255,255,255,.8);
-  --dotgrid:rgba(13,30,46,.05);
-  --logo-filter:none; --logo-blend:normal;
-  --logo-orb:#0D1E2E; --logo-ring:#B0894F;
-  --glow-1:rgba(176,137,79,.12); --glow-2:rgba(176,137,79,.05);
-  --chart-grid:rgba(13,30,46,.07); --chart-dotstroke:#FCFBF7;
+[data-theme="light"]{
+  --bg:#F4F7FA; --bg-2:#E9EFF5; --surface:#FFFFFF; --surface-2:#F8FAFC;
+  --ink:#071426; --ink-2:rgba(7,20,38,.7); --ink-3:rgba(7,20,38,.48);
+  --line:rgba(7,20,38,.11); --line-2:rgba(7,20,38,.2);
+  --gold:#A97C36; --gold-2:#8C6424; --mark:#071426; --star:#A97C36;
+  --glow:rgba(169,124,54,.12); --glow-edge:rgba(169,124,54,.55);
+  --nav-bg:rgba(244,247,250,.82); --dot:7,20,38; --shadow:0 40px 80px -52px rgba(7,20,38,.35);
+  --green:#3F7E5A; --calyx:#3A6296; --phoenix:#B4692A;
+  --btn-ink:#F4F7FA;
+  color-scheme:light;
 }
-html{transition:background-color .5s ease}
+:root{
+  --serif:'Gilda Display',Didot,'Bodoni 72',Georgia,serif;
+  --sans:'Montserrat',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --wrap:1240px; --pad:clamp(20px,5vw,72px); --nav-h:78px; --section:clamp(96px,10.5vw,152px); --gap:clamp(32px,5vw,80px);
+  --ease:cubic-bezier(.2,.75,.2,1);
+}
 
-*{margin:0;padding:0;box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.6;
-  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;
-  transition:background-color .5s ease,color .5s ease}
-section{scroll-margin-top:calc(var(--nav-h) + 8px)}
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.7;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;
+  transition:background-color .5s var(--ease),color .5s var(--ease)}
 a{color:inherit;text-decoration:none}
-canvas{display:block}
-::selection{background:var(--brass);color:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+img,svg{display:block}
+::selection{background:var(--gold);color:var(--bg)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:4px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.skip{position:absolute;left:-9999px;top:12px;z-index:200;background:var(--gold);color:var(--btn-ink);padding:10px 16px;border-radius:999px;font-weight:600;font-size:14px}
+.skip:focus{left:16px}
+.defs{position:absolute;width:0;height:0;overflow:hidden}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.005em}
+h2{font-size:clamp(34px,4.1vw,58px);line-height:1.08}
+p{text-wrap:pretty}
+p{max-width:62ch}
 
-/* ===================== custom logo cursor ===================== */
-#cursor{position:fixed;left:0;top:0;width:30px;height:30px;z-index:99999;pointer-events:none;
-  transform:translate(-50%,-50%);color:var(--brass);opacity:0;
-  transition:width .25s cubic-bezier(.2,.8,.3,1),height .25s cubic-bezier(.2,.8,.3,1),opacity .3s,color .4s}
-#cursor.show{opacity:1}
-#cursor.hov{width:50px;height:50px}
-#cursor svg{width:100%;height:100%;display:block;overflow:visible}
-#cursor.click svg{animation-duration:1.4s}
-@keyframes spin{to{transform:rotate(360deg)}}
-body.cursor-on,body.cursor-on *{cursor:none!important}
+/* ---------- brand lockups ---------- */
+.m-cres,.m-sw,.m-word{fill:var(--mark);transition:fill .5s var(--ease)}
+.m-star{fill:var(--star);transition:fill .5s var(--ease)}
+.m-gold{fill:var(--gold);transition:fill .5s var(--ease)}
+.brand{display:inline-flex;align-items:center;gap:12px}
+.brand__mark{width:38px;height:auto;overflow:visible}
+.brand__type{display:flex;flex-direction:column;align-items:center;gap:5px}
+.brand__word{height:19px;width:auto}
+.brand__sub{display:flex;align-items:center;gap:7px;font-family:var(--sans);font-weight:500;font-size:8.5px;letter-spacing:.42em;margin-right:-.42em;color:var(--gold);line-height:1;transition:color .5s}
+.brand__sub i{display:block;width:12px;height:1px;background:currentColor;opacity:.8}
 
-/* ambient backdrop (parallax) */
-.backdrop{position:fixed;inset:-7%;z-index:0;pointer-events:none;will-change:transform;transition:transform .5s ease-out}
-.backdrop::before{content:"";position:absolute;inset:0;transition:background .5s ease;
-  background:radial-gradient(90% 60% at 70% -4%,var(--glow-1),transparent 55%),radial-gradient(70% 50% at 8% 8%,var(--glow-2),transparent 60%)}
-.backdrop::after{content:"";position:absolute;inset:0;opacity:.5;
-  background-image:radial-gradient(var(--dotgrid) 1px,transparent 1px);background-size:46px 46px;
-  -webkit-mask:radial-gradient(80% 80% at 50% 20%,#000,transparent 75%);mask:radial-gradient(80% 80% at 50% 20%,#000,transparent 75%)}
-.layer{position:relative;z-index:1}
+/* ---------- nav ---------- */
+.nav{position:fixed;inset:0 0 auto 0;z-index:60;height:var(--nav-h);display:flex;align-items:center;
+  transition:background-color .4s var(--ease),border-color .4s,height .4s var(--ease);border-bottom:1px solid transparent}
+.nav.scrolled{background:var(--nav-bg);-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%);border-bottom-color:var(--line);--nav-h:68px}
+.nav__in{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 var(--pad);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.nav__links{display:flex;align-items:center;gap:6px}
+.nav__link{font-size:13.5px;font-weight:500;color:var(--ink-2);padding:10px 14px;border-radius:999px;transition:color .25s,background-color .25s}
+.nav__link:hover{color:var(--ink);background:var(--line)}
+.nav__tools{display:flex;align-items:center;gap:10px}
+.theme{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line-2);color:var(--ink);transition:border-color .3s,transform .3s var(--ease)}
+.theme:hover{border-color:var(--gold);transform:rotate(-14deg)}
+.theme svg{width:18px;height:18px}
+[data-theme="dark"] .theme .i-sun{display:none}
+[data-theme="light"] .theme .i-moon{display:none}
+.menu-btn{display:none;height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--line-2);font-size:13px;font-weight:500}
+.sheet{position:fixed;inset:0;z-index:55;background:var(--bg);display:flex;flex-direction:column;justify-content:center;padding:0 var(--pad);
+  opacity:0;visibility:hidden;transition:opacity .35s var(--ease),visibility .35s}
+.sheet.open{opacity:1;visibility:visible}
+.sheet a{font-family:var(--serif);font-size:44px;line-height:1.4;color:var(--ink)}
+.sheet a:hover{color:var(--gold)}
 
-.mono{font-family:var(--mono)}
-.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);display:inline-flex;align-items:center;gap:9px}
-.eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--brass);box-shadow:0 0 10px var(--brass);animation:pulse 2.6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
-.wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad);width:100%}
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:52px;padding:0 28px;border-radius:999px;font-size:14px;font-weight:600;letter-spacing:.01em;transition:transform .3s var(--ease),background-color .3s,color .3s,box-shadow .3s}
+.btn--gold{background:var(--gold);color:var(--btn-ink)}
+.btn--gold:hover{transform:translateY(-2px);box-shadow:0 16px 36px -14px var(--glow-edge)}
+.link-quiet{font-size:14px;font-weight:500;color:var(--ink-2);border-bottom:1px solid var(--line-2);padding-bottom:3px;transition:color .25s,border-color .25s}
+.link-quiet:hover{color:var(--ink);border-color:var(--gold)}
 
-/* ===================== nav ===================== */
-.nav{position:sticky;top:0;z-index:60;background:var(--nav-bg);backdrop-filter:blur(16px);border-bottom:1px solid transparent;transition:border-color .3s,background-color .5s}
-.nav.scrolled{border-bottom:1px solid var(--hair)}
-.nav__in{height:var(--nav-h);max-width:var(--maxw);margin:0 auto;padding:0 var(--pad);display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;line-height:1}.brand .bmark{width:32px;height:32px;flex:none;overflow:visible}.bword{display:inline-flex;flex-direction:column;line-height:1;font-family:'Outfit',var(--sans);--ow:18px}.bword__o{font-weight:700;font-size:var(--ow);letter-spacing:.015em;color:var(--logo-orb);transition:color .45s}.bword__c{font-weight:600;font-size:calc(var(--ow)*.42);letter-spacing:.34em;margin-right:-.34em;margin-top:.2em;text-align:center;color:var(--brass);transition:color .45s}
-.nav__right{display:flex;align-items:center;gap:18px}
-.nav__links{display:flex;align-items:center;gap:32px}
-.nav__link{font-family:var(--mono);font-size:12.5px;color:var(--text-2);position:relative;padding:6px 0;transition:color .25s}
-.nav__link::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--brass);transition:width .3s}
-.nav__link:hover{color:var(--text)}.nav__link:hover::after{width:100%}
-.nav__cta{font-family:var(--mono);font-size:12.5px;color:var(--bg);background:var(--brass);padding:10px 18px;border-radius:10px;font-weight:500;transition:background .25s,box-shadow .25s,transform .2s;will-change:transform}
-.nav__cta:hover{background:var(--brass-2);box-shadow:0 8px 26px -8px rgba(201,168,106,.55)}
-.theme-tg{position:relative;width:40px;height:40px;border-radius:50%;border:1px solid var(--hair-2);background:transparent;color:var(--text-2);cursor:pointer;display:grid;place-items:center;transition:color .25s,border-color .25s,background .25s,transform .3s;flex:0 0 auto}
-.theme-tg:hover{color:var(--text);border-color:var(--text);transform:rotate(18deg)}
-.theme-tg svg{width:17px;height:17px;position:absolute;transition:opacity .35s,transform .5s}
-.theme-tg .sun{opacity:1;transform:rotate(0)}.theme-tg .moon{opacity:0;transform:rotate(-90deg)}
-[data-theme="light"] .theme-tg .sun{opacity:0;transform:rotate(90deg)}
-[data-theme="light"] .theme-tg .moon{opacity:1;transform:rotate(0)}
-.burger{display:none;background:none;border:none;cursor:pointer;width:28px;height:18px;position:relative}
-.burger span{position:absolute;left:0;height:1.6px;width:100%;background:var(--text);transition:.3s}
-.burger span:nth-child(1){top:1px}.burger span:nth-child(2){top:8px}.burger span:nth-child(3){top:15px}
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:calc(var(--nav-h) + 12px) 0 92px;overflow:hidden;isolation:isolate}
+.hero__sky{position:absolute;inset:0;z-index:-2;width:100%;height:100%}
+.hero__halo{position:absolute;z-index:-1;left:50%;top:44%;width:min(980px,120vw);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;
+  background:radial-gradient(closest-side,var(--glow),transparent 72%);opacity:.9;pointer-events:none}
+.hero__inner{display:flex;flex-direction:column;align-items:center;text-align:center;will-change:transform}
+.orb{position:relative;width:min(88vw, max(300px, calc((100svh - var(--nav-h) - 215px) * 1.026)), 660px);container-type:inline-size}
+.orb svg{width:100%;height:auto;overflow:visible}
+.orb__title>span{display:block}
+.orb__title{position:absolute;left:20%;width:56%;top:22.5%;height:44%;display:flex;align-items:center;justify-content:center;text-align:center;
+  font-size:clamp(24px,4.6vw,46px);font-size:6.9cqw;line-height:1.08;letter-spacing:-.01em}
+.orb__title .ln{display:block;overflow:hidden;padding:.06em 0 .1em}
+.orb__title .ln span{display:block}
+.hero__deck{margin-top:clamp(14px,2vw,24px);max-width:48ch;text-wrap:balance;color:var(--ink-2);font-size:clamp(15px,1.25vw,17px)}
+.hero__foot{position:absolute;left:0;right:0;bottom:26px}
+.hero__foot .wrap{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--ink-3)}
+.scrollcue{display:inline-flex;align-items:center;gap:10px}
+.scrollcue i{display:block;width:1px;height:28px;background:linear-gradient(var(--gold),transparent);animation:cue 2.6s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
-/* ===================== buttons ===================== */
-.btn{font-family:var(--mono);font-size:13px;padding:14px 24px;border-radius:12px;cursor:pointer;display:inline-flex;align-items:center;gap:9px;transition:all .28s;border:1px solid transparent;will-change:transform}
-.btn .arw{transition:transform .3s}.btn:hover .arw{transform:translateX(4px)}
-.btn--primary{background:var(--brass);color:var(--bg);font-weight:500}
-.btn--primary:hover{background:var(--brass-2);box-shadow:0 12px 34px -12px rgba(201,168,106,.55)}
-.btn--ghost{background:transparent;color:var(--text);border-color:var(--hair-2)}
-.btn--ghost:hover{border-color:var(--text);background:var(--surface)}
+/* hero load sequence (one orchestrated moment) */
+.draw-cres{stroke-dasharray:1 1;stroke-dashoffset:1}
+.sweep-sw{transform-box:fill-box;transform-origin:left center;transform:scaleX(0)}
+.hero .m-star{transform-box:fill-box;transform-origin:center;opacity:0;transform:scale(.2) rotate(-90deg)}
+.flare{opacity:0;transform-box:fill-box;transform-origin:center}
+.orb__title .ln span{transform:translateY(110%)}
+.hero__deck,.hero__foot{opacity:0;transform:translateY(14px)}
+.nav{opacity:0}
+.ready .draw-cres{animation:drawC 1.9s var(--ease) .15s forwards}
+.ready .sweep-sw{animation:sweep 1.5s var(--ease) .95s forwards}
+.ready .hero .m-star{animation:ignite 1.1s cubic-bezier(.3,1.5,.5,1) 1.75s forwards}
+.ready .flare{animation:flare 2.2s var(--ease) 1.8s forwards}
+.ready .orb__title .ln span{animation:rise 1.1s var(--ease) forwards}
+.ready .orb__title .ln:nth-child(1) span{animation-delay:1.05s}
+.ready .orb__title .ln:nth-child(2) span{animation-delay:1.17s}
+.ready .orb__title .ln:nth-child(3) span{animation-delay:1.29s}
+.ready .hero__deck{animation:up .9s var(--ease) 1.7s forwards}
+.ready .hero__foot{animation:up .9s var(--ease) 2.1s forwards}
+.ready .nav{animation:fade .8s var(--ease) .2s forwards}
+@keyframes drawC{to{stroke-dashoffset:0}}
+@keyframes sweep{to{transform:scaleX(1)}}
+@keyframes ignite{to{opacity:1;transform:none}}
+@keyframes flare{0%{opacity:0;transform:scale(.4)}35%{opacity:1;transform:scale(1.25)}100%{opacity:.55;transform:scale(1)}}
+@keyframes rise{to{transform:none}}
+@keyframes up{to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+/* after the intro, the star breathes */
+.ready .hero .m-star.twinkle{animation:twinkle 7s ease-in-out infinite;opacity:1;transform:none}
+@keyframes twinkle{0%,100%{transform:scale(1) rotate(0)}8%{transform:scale(1.16) rotate(8deg)}16%{transform:scale(1) rotate(0)}}
 
-/* ===================== hero ===================== */
-.hero{padding:clamp(48px,7vw,96px) 0 clamp(60px,8vw,110px)}
-.hero__grid{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(40px,5vw,80px);align-items:center}
-.hero h1{font-weight:800;font-size:clamp(42px,6.2vw,82px);line-height:.99;letter-spacing:-.045em;margin-top:26px}
-.hero h1 em{font-style:normal;color:transparent;background:linear-gradient(110deg,var(--brass-2),var(--brass-deep));-webkit-background-clip:text;background-clip:text}
-.hero h1 .ln{display:block;overflow:hidden;padding-bottom:.3em;margin-bottom:-.3em}
-.hero h1 .ln b{display:inline-block;font-weight:800;transform:translateY(124%);transition:transform 1s cubic-bezier(.16,.85,.25,1)}
-.load.ready .hero h1 .ln b{transform:translateY(0)}
-.hero h1 .ln:nth-child(2) b{transition-delay:.07s}.hero h1 .ln:nth-child(3) b{transition-delay:.14s}
-.hero__deck{margin-top:26px;max-width:48ch;font-size:clamp(16px,1.25vw,18px);color:var(--text-2);line-height:1.62;opacity:0;transform:translateY(14px);transition:opacity .9s ease .5s,transform .9s ease .5s}
-.load.ready .hero__deck{opacity:1;transform:none}
-.hero__cta{margin-top:36px;display:flex;gap:13px;flex-wrap:wrap;opacity:0;transform:translateY(14px);transition:opacity .9s ease .62s,transform .9s ease .62s}
-.load.ready .hero__cta{opacity:1;transform:none}
-.hero__meta{margin-top:40px;display:flex;gap:28px;flex-wrap:wrap;opacity:0;transition:opacity 1s ease .78s}
-.load.ready .hero__meta{opacity:1}
-.hmeta{display:flex;flex-direction:column;gap:5px}
-.hmeta .v{font-weight:700;font-size:20px;letter-spacing:-.02em}
-.hmeta .l{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}
+/* ---------- ledger ---------- */
+.ledger{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg-2)}
+.ledger__grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.cell{padding:clamp(28px,3.4vw,46px) clamp(18px,2.4vw,34px);border-left:1px solid var(--line)}
+.cell:first-child{border-left:0}
+.cell__v{font-family:var(--serif);font-size:clamp(46px,5.4vw,78px);line-height:1;letter-spacing:-.02em;font-variant-numeric:lining-nums tabular-nums}
+.cell__l{margin-top:12px;font-size:13.5px;font-weight:500;color:var(--ink-2)}
 
-/* hero panel */
-.hero__panel{opacity:0;transform:translateY(20px) scale(.985);transition:opacity 1s ease .35s,transform 1s ease .35s;perspective:1200px}
-.load.ready .hero__panel{opacity:1;transform:none}
-.panel{background:linear-gradient(180deg,var(--surface),var(--bg-2));border:1px solid var(--hair);border-radius:var(--r);
-  box-shadow:var(--panel-shadow),inset 0 1px 0 var(--panel-inset);overflow:hidden;will-change:transform;transition:transform .2s ease,box-shadow .5s,background .5s}
-.panel__bar{display:flex;align-items:center;gap:14px;padding:14px 18px;border-bottom:1px solid var(--hair)}
-.panel__dots{display:flex;gap:6px}
-.panel__dots i{width:9px;height:9px;border-radius:50%;background:var(--hair-2)}
-.panel__title{font-family:var(--mono);font-size:11.5px;color:var(--text-2);letter-spacing:.06em}
-.panel__live{margin-left:auto;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);display:inline-flex;align-items:center;gap:7px}
-.panel__live .d{width:6px;height:6px;border-radius:50%;background:var(--brass);box-shadow:0 0 8px var(--brass);animation:pulse 2s ease-in-out infinite}
-.panel__head{display:flex;justify-content:space-between;align-items:flex-start;padding:22px 22px 8px}
-.panel__name{font-weight:700;font-size:22px;letter-spacing:-.02em}
-.panel__role{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);margin-top:6px}
-.panel__val{text-align:right}
-.panel__val .big{font-weight:800;font-size:26px;letter-spacing:-.03em}
-.panel__val .chg{font-family:var(--mono);font-size:11px;color:var(--brass);margin-top:4px}
-.panel__chart{height:clamp(160px,18vw,210px);position:relative;padding:6px 10px 0}
-.panel__chart canvas{width:100%;height:100%}
-.panel__metrics{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--hair)}
-.panel__metrics .m{padding:16px 18px;border-right:1px solid var(--hair);transition:background .3s}
-.panel__metrics .m:hover{background:var(--surface-2)}
-.panel__metrics .m:last-child{border-right:none}
-.panel__metrics .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-3);margin-bottom:7px}
-.panel__metrics .vv{font-family:var(--mono);font-size:13px;color:var(--text);font-weight:500}
+/* ---------- sections ---------- */
+.band{padding:var(--section) 0}
+.split{display:grid;grid-template-columns:7fr 5fr;gap:var(--gap);align-items:start}
+.split p{font-size:clamp(16px,1.3vw,18.5px);color:var(--ink-2);line-height:1.75}
+.split p+p{margin-top:18px}
+.head{display:grid;grid-template-columns:7fr 5fr;gap:var(--gap);align-items:end;margin-bottom:clamp(44px,5vw,72px)}
+.head p{color:var(--ink-2);font-size:clamp(15.5px,1.2vw,17px)}
 
-/* ===================== section heads ===================== */
-.band{padding:clamp(74px,9vw,138px) 0;position:relative}
-.shead{max-width:680px;margin-bottom:clamp(40px,5vw,64px)}
-.shead h2{font-weight:800;font-size:clamp(28px,4.4vw,52px);letter-spacing:-.035em;line-height:1.04;margin-top:18px}
-.shead p{margin-top:18px;color:var(--text-2);font-size:16px;line-height:1.6;max-width:54ch}
+/* line reveal for headings (replays on scroll) */
+.lr{display:block;overflow:hidden;padding-bottom:.08em}
+.lr>span{display:block;text-wrap:balance;transform:translateY(105%);transition:transform 1s var(--ease)}
+.in .lr>span{transform:none}
+.in .lr:nth-child(2)>span{transition-delay:.08s}
+.in .lr:nth-child(3)>span{transition-delay:.16s}
+.fade{opacity:0;transform:translateY(16px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.in.fade,.in .fade{opacity:1;transform:none}
 
-/* spotlight cards */
-.spot{position:relative;overflow:hidden;isolation:isolate}
-.spot::before{content:"";position:absolute;inset:0;border-radius:inherit;opacity:0;transition:opacity .4s;z-index:-1;
-  background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(201,168,106,.13),transparent 62%)}
-.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;opacity:0;transition:opacity .4s;pointer-events:none;
-  background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(201,168,106,.55),transparent 62%);
+/* ---------- spotlight boxes ---------- */
+.spot{position:relative;isolation:isolate;overflow:hidden}
+.spot::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:-1;opacity:0;transition:opacity .45s var(--ease);
+  background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),var(--glow),transparent 62%)}
+.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;pointer-events:none;opacity:0;transition:opacity .45s var(--ease);
+  background:radial-gradient(360px circle at var(--mx,50%) var(--my,50%),var(--glow-edge),transparent 60%);
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
-.spot:hover::before,.spot:hover::after{opacity:1}
+.spot:hover::before,.spot:hover::after,.spot.lit::before,.spot.lit::after{opacity:1}
 
-/* feature grid */
-.feat{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-.fcard{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);padding:clamp(24px,2.4vw,32px);transition:transform .35s,background .35s}
-.fcard:hover{transform:translateY(-6px);background:var(--surface-2);box-shadow:0 22px 55px -26px rgba(0,0,0,.5)}
-.fcard .ic{width:40px;height:40px;border-radius:11px;border:1px solid var(--hair-2);display:grid;place-items:center;margin-bottom:22px;color:var(--brass);font-family:var(--mono);font-size:13px;transition:border-color .35s,color .35s}
-.fcard:hover .ic{border-color:var(--brass);color:var(--brass-2)}
-.fcard h3{font-weight:700;font-size:18px;margin-bottom:10px;letter-spacing:-.01em}
-.fcard p{font-size:14px;color:var(--text-2);line-height:1.55}
+/* ---------- funds ---------- */
+.spectrum{position:relative;margin:0 auto clamp(8px,2vw,20px)}
+.spectrum svg{width:100%;height:auto;overflow:visible}
+.arc{fill:none;stroke:url(#arcGrad);stroke-width:1.6;stroke-dasharray:1 1;stroke-dashoffset:1;transition:stroke-dashoffset 1.8s var(--ease)}
+.in .arc{stroke-dashoffset:0}
+.fs{transition:transform .5s var(--ease),opacity .6s var(--ease);opacity:0}
+.in .fs{opacity:1}
+.in .fs:nth-of-type(2){transition-delay:.25s}
+.fs .glow{opacity:.28;transition:opacity .4s,r .4s}
+.fs.on .glow{opacity:.75}
+.fs text{font-family:var(--sans);font-size:15px;font-weight:500;fill:var(--ink-2);transition:fill .3s}
+.fs.on text{fill:var(--ink)}
+.axis{font-family:var(--sans);font-size:13px;font-weight:500;fill:var(--ink-3)}
+.funds{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.6vw,22px)}
+.fund{border:1px solid var(--line);border-radius:22px;background:var(--surface);padding:clamp(26px,2.6vw,38px);min-height:268px;display:flex;flex-direction:column;
+  transition:border-color .4s,transform .5s var(--ease),background-color .5s,opacity .9s var(--ease)}
+.fund:hover,.fund.lit{border-color:var(--line-2);transform:translateY(-4px)}
+.fund__tag{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--tint)}
+.fund__tag svg{width:16px;height:16px}
+.fund h3{font-size:clamp(28px,2.5vw,36px);line-height:1.1;margin-top:auto;padding-top:56px}
+.fund p{margin-top:12px;color:var(--ink-2);font-size:15px;line-height:1.65}
+.research{margin-top:28px;display:flex;align-items:center;gap:14px;color:var(--ink-3);font-size:14px}
+.research svg{width:15px;height:15px;fill:none;stroke:var(--ink-3);stroke-width:4}
 
-/* strategy explorer */
-.explorer{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(22px,3vw,40px);align-items:start}
-.exlist{display:flex;flex-direction:column;gap:8px}
-.exitem{display:flex;align-items:center;gap:16px;padding:18px 20px;border:1px solid var(--hair);border-radius:14px;background:var(--surface);cursor:pointer;transition:border-color .3s,background .3s,transform .3s;text-align:left;width:100%;font-family:inherit;color:inherit}
-.exitem:hover{background:var(--surface-2);transform:translateX(4px)}
-.exitem.on{border-color:rgba(201,168,106,.5);background:linear-gradient(100deg,rgba(201,168,106,.1),var(--surface))}
-.exitem .code{font-family:var(--mono);font-size:11px;color:var(--text-3);min-width:34px}
-.exitem .nm{flex:1}
-.exitem .nm b{display:block;font-weight:700;font-size:16px;letter-spacing:-.01em}
-.exitem .nm s{display:block;text-decoration:none;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);margin-top:4px}
-.exitem .st{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);display:inline-flex;align-items:center;gap:7px}
-.exitem .st .d{width:6px;height:6px;border-radius:50%;background:var(--text-3)}
-.exitem.on.live .st{color:var(--brass)}.exitem.on.live .st .d{background:var(--brass);box-shadow:0 0 8px var(--brass)}
-.expanel .exbody{transition:opacity .35s}
+/* ---------- standards ---------- */
+.stds{display:grid;grid-template-columns:1fr 1fr;column-gap:var(--gap);row-gap:clamp(36px,4vw,56px)}
+.std{border-top:1px solid var(--line-2);padding-top:26px}
+.std h3{display:flex;align-items:center;gap:14px;font-size:clamp(24px,2.1vw,30px);line-height:1.2}
+.std h3 svg{width:14px;height:14px;flex:none}
+.std p{margin-top:12px;color:var(--ink-2);font-size:15.5px;max-width:52ch}
 
-/* numbers */
-.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--hair);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden}
-.numc{background:var(--bg-2);padding:clamp(28px,3vw,44px) clamp(22px,2.2vw,30px);transition:background .35s}
-.numc:hover{background:var(--surface-2)}
-.numc .v{font-weight:800;font-size:clamp(40px,5vw,68px);letter-spacing:-.04em;line-height:1}
-.numc .v .u{color:var(--brass);font-size:.42em;vertical-align:super;margin-left:2px}
-.numc .l{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-3);margin-top:14px}
-.nums__note{margin-top:clamp(32px,4vw,50px);font-size:13.5px;color:var(--text-3);max-width:60ch;line-height:1.6}
+/* ---------- group ---------- */
+.group{border:1px solid var(--line);border-radius:28px;background:var(--surface);display:grid;grid-template-columns:minmax(220px,4fr) 7fr;gap:clamp(28px,5vw,80px);align-items:center;padding:clamp(34px,5vw,72px)}
+.group__logo{width:100%;max-width:300px;justify-self:center}
+.group__logo svg{width:100%;height:auto}
+.group__logo text{font-family:var(--sans);font-weight:500;letter-spacing:.42em;fill:var(--mark)}
+.group__logo .rule{stroke:var(--mark);stroke-width:2}
+.group p{color:var(--ink-2);font-size:clamp(15.5px,1.2vw,17.5px);margin-top:18px}
+.tagline{margin-top:28px;font-size:11.5px;font-weight:500;letter-spacing:.34em;color:var(--gold);text-wrap:balance}
 
-/* cta */
-.cta{position:relative;overflow:hidden;border-top:1px solid var(--hair)}
-.cta__box{text-align:center;padding:clamp(72px,9vw,140px) 0;position:relative}
-.cta h2{font-weight:800;font-size:clamp(40px,7vw,104px);letter-spacing:-.045em;line-height:.92}
-.cta h2 em{font-style:normal;color:transparent;background:linear-gradient(110deg,var(--brass-2),var(--brass-deep));-webkit-background-clip:text;background-clip:text}
-.cta p{margin:24px auto 36px;color:var(--text-2);font-size:17px;max-width:46ch;line-height:1.6}
-.cta__glow{position:absolute;left:50%;top:50%;width:760px;height:380px;transform:translate(-50%,-50%);border-radius:50%;
-  background:radial-gradient(circle,var(--glow-1),transparent 65%);filter:blur(20px);pointer-events:none}
+/* ---------- contact ---------- */
+.contact{position:relative;border:1px solid var(--line);border-radius:32px;background:var(--surface);padding:clamp(38px,6vw,96px);overflow:hidden}
+.contact__mark{position:absolute;right:-8%;top:50%;width:min(620px,70%);transform:translateY(-50%);opacity:.07;pointer-events:none;z-index:-2}
+[data-theme="light"] .contact__mark{opacity:.06}
+.contact p{margin-top:18px;max-width:46ch;color:var(--ink-2);font-size:clamp(15.5px,1.2vw,17.5px)}
+.mail{display:inline-block;margin-top:clamp(18px,2.4vw,28px);font-family:var(--serif);font-size:clamp(28px,4.6vw,64px);line-height:1.1;letter-spacing:-.01em;
+  background:linear-gradient(var(--gold),var(--gold)) 0 100%/0 1px no-repeat;padding-bottom:6px;transition:background-size .6s var(--ease),color .3s}
+.mail:hover{background-size:100% 1px;color:var(--gold)}
+.contact__row{margin-top:30px;display:flex;align-items:center;gap:28px;flex-wrap:wrap;font-size:14px;color:var(--ink-3)}
+.x-link{display:inline-flex;align-items:center;gap:9px;font-weight:500;color:var(--ink-2);transition:color .25s}
+.x-link:hover{color:var(--ink)}
+.x-link svg{width:14px;height:14px;fill:currentColor}
 
-/* footer */
-.foot{border-top:1px solid var(--hair);padding:clamp(44px,5vw,72px) 0 40px}
-.foot__top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px;margin-bottom:48px}
-.brand--foot{margin-bottom:18px}.brand--foot .bmark{width:38px;height:38px}.brand--foot .bword{--ow:23px}
-.foot__top p{color:var(--text-2);font-size:14px;line-height:1.6;max-width:38ch}
-.fcol h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-3);margin-bottom:16px}
-.fcol a{display:block;font-size:14px;color:var(--text-2);padding:6px 0;transition:color .25s}
-.fcol a:hover{color:var(--brass)}
-.foot__bar{border-top:1px solid var(--hair);padding-top:26px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
-  font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--text-3);line-height:1.7}
+/* ---------- footer ---------- */
+.foot{background:var(--bg-2);border-top:1px solid var(--line);padding:clamp(64px,8vw,104px) 0 34px;margin-top:var(--section)}
+.foot__top{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px;align-items:start}
+.foot__logo{display:block;width:168px}
+.foot__logo svg{width:100%;height:auto}
+.foot h4{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);margin-bottom:14px}
+.foot nav a,.foot .col a{display:block;font-size:14px;color:var(--ink-2);padding:5px 0;transition:color .25s;width:fit-content}
+.foot nav a:hover,.foot .col a:hover{color:var(--gold)}
+.foot__bar{margin-top:clamp(48px,6vw,80px);padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:12.5px;color:var(--ink-3)}
+.foot__bar span:last-child{max-width:62ch}
 
-/* reveal */
-.rv{opacity:0;transform:translateY(24px);transition:opacity .9s cubic-bezier(.16,.8,.3,1),transform .9s cubic-bezier(.16,.8,.3,1)}
-.rv.in{opacity:1;transform:none}
-.rv-d1{transition-delay:.07s}.rv-d2{transition-delay:.14s}.rv-d3{transition-delay:.21s}.rv-d4{transition-delay:.28s}
+/* ---------- cursor (fine pointers only) ---------- */
+.cur,.cur-ring{position:fixed;left:0;top:0;z-index:300;pointer-events:none;opacity:0;transition:opacity .3s}
+.cur{width:16px;height:16px;margin:-8px 0 0 -8px}
+.cur svg{width:100%;height:100%;overflow:visible}
+.cur-ring{width:34px;height:34px;margin:-17px 0 0 -17px;border:1px solid var(--gold);border-radius:50%;transition:opacity .3s,width .35s var(--ease),height .35s var(--ease),margin .35s var(--ease),background-color .35s}
+.cursor-on .cur,.cursor-on .cur-ring{opacity:1}
+.cursor-on .cur-ring.big{width:58px;height:58px;margin:-29px 0 0 -29px;background:var(--glow)}
+@media (hover:hover) and (pointer:fine){ .cursor-on, .cursor-on a, .cursor-on button{cursor:none} }
 
-/* responsive */
-@media (max-width:1024px){
-  .hero__grid{grid-template-columns:1fr;gap:44px}
-  .explorer{grid-template-columns:1fr;gap:22px}
-  .feat{grid-template-columns:repeat(2,1fr)}
-  .nums{grid-template-columns:repeat(2,1fr)}
-  .foot__top{grid-template-columns:1fr 1fr;gap:30px}
+/* ---------- responsive ---------- */
+@media (max-width:980px){
+  .split,.head{grid-template-columns:1fr}
+  .funds{grid-template-columns:1fr}
+  .fund{min-height:0}
+  .fund h3{padding-top:34px}
+  .group{grid-template-columns:1fr;text-align:left}
+  .group__logo{justify-self:start;max-width:220px}
+  .foot__top{grid-template-columns:1fr 1fr}
+  .foot__top>div:first-child{grid-column:1/-1}
 }
 @media (max-width:760px){
-  :root{--nav-h:60px}
-  .nav__links{position:fixed;inset:var(--nav-h) 0 auto 0;background:var(--nav-bg-m);backdrop-filter:blur(18px);
-    flex-direction:column;align-items:flex-start;gap:0;padding:6px var(--pad) 22px;border-bottom:1px solid var(--hair);transform:translateY(-130%);transition:transform .4s cubic-bezier(.2,.8,.2,1)}
-  .nav__links.open{transform:none}
-  .nav__link{width:100%;padding:15px 0;border-bottom:1px solid var(--hair);font-size:15px}
-  .nav__link::after{display:none}.nav__cta{margin-top:14px}
-  .burger{display:block}
-  .feat,.nums{grid-template-columns:1fr}
-  .foot__top{grid-template-columns:1fr;gap:26px}
-  .hero__meta{gap:22px}
+  .tagline{font-size:10.5px;letter-spacing:.22em}
+  .stds{grid-template-columns:1fr}
+  .nav__links{display:none}
+  .menu-btn{display:inline-flex;align-items:center}
+  .ledger__grid{grid-template-columns:1fr 1fr}
+  .cell:nth-child(3){border-left:0}
+  .cell:nth-child(n+3){border-top:1px solid var(--line)}
+  .hero__foot .scrollcue{display:none}
+  .orb{width:min(92vw,520px)}
+  .orb__title{font-size:7.2cqw}
+  .fs text{font-size:40px}
+  .axis{display:none}
+  .spectrum{margin-bottom:28px}
 }
 @media (prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}*{animation:none!important}
-  .rv{opacity:1!important;transform:none!important}
-  .hero h1 .ln b,.hero__deck,.hero__cta,.hero__meta,.hero__panel{opacity:1!important;transform:none!important}
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-delay:0s!important;transition-duration:.001ms!important}
+  .draw-cres{stroke-dashoffset:0}.sweep-sw{transform:none}
+  .hero .m-star,.orb__title .ln span,.hero__deck,.hero__foot,.nav{opacity:1;transform:none}
+  .lr>span,.fade{transform:none;opacity:1}.arc{stroke-dashoffset:0}.fs{opacity:1}
 }
-.fbook{padding:14px 12px 4px;display:flex;flex-direction:column}
-.fbk{display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:14px;padding:12.5px 14px;border-radius:11px;transition:background .3s}
-.fbk:hover{background:var(--surface-2)}
-.fbk__id{font-family:var(--mono);font-size:10.5px;color:var(--text-3);letter-spacing:.04em}
-.fbk__nm{font-weight:700;font-size:15px;letter-spacing:-.01em}
-.fbk__cl{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-2);text-align:right}
-.fbk__st{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);display:inline-flex;align-items:center;gap:7px;min-width:50px;justify-content:flex-end}
-.fbk__st i{width:6px;height:6px;border-radius:50%;background:var(--brass);box-shadow:0 0 8px var(--brass);animation:pulse 2s ease-in-out infinite}
-.fbk.soon{opacity:.48}
-.fbk.soon .fbk__st{color:var(--text-3)}
-.fbk.soon .fbk__st i{background:var(--text-3);box-shadow:none;animation:none}
-@media(max-width:560px){.fbk__cl{display:none}}
-/* premium polish */
-.fcard{box-shadow:0 1px 1px rgba(0,0,0,.05);transition:transform .45s cubic-bezier(.2,.7,.2,1),background .45s,border-color .45s,box-shadow .45s}
-.fcard:hover{border-color:var(--hair-2);box-shadow:0 30px 60px -34px rgba(0,0,0,.6)}
-[data-theme="light"] .fcard:hover{box-shadow:0 28px 54px -34px rgba(13,30,46,.2)}
-.fcard .ic{transition:border-color .45s,color .45s,background .45s,transform .45s}
-.fcard:hover .ic{background:rgba(201,168,106,.09);transform:translateY(-2px)}
-.numc{transition:background .45s,box-shadow .45s}
-.numc:hover{box-shadow:inset 0 2px 0 var(--brass)}
-.fbk{position:relative}
-.fbk::before{content:"";position:absolute;left:0;top:9px;bottom:9px;width:2px;border-radius:2px;background:var(--brass);opacity:0;transform:scaleY(.35);transform-origin:center;transition:opacity .3s,transform .3s}
-.fbk.live:hover::before{opacity:1;transform:scaleY(1)}
-.exitem{transition:border-color .3s,background .3s,transform .3s,box-shadow .35s}
-.exitem:hover{box-shadow:0 20px 42px -28px rgba(0,0,0,.5)}
-.exitem.on{box-shadow:0 20px 46px -26px rgba(201,168,106,.3)}
-.spot::before{background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(201,168,106,.16),transparent 60%)}
-.spot::after{background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(201,168,106,.62),transparent 60%)}
-[data-theme="light"] .spot::before{background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(176,137,79,.14),transparent 60%)}
-[data-theme="light"] .spot::after{background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(176,137,79,.5),transparent 60%)}
-.btn{transition:transform .3s cubic-bezier(.2,.7,.2,1),background .3s,border-color .3s,box-shadow .4s,color .3s}
-.btn--primary:hover{transform:translateY(-2px)}
-.btn--ghost:hover{transform:translateY(-2px)}
-.panel{transition:transform .3s ease,box-shadow .5s,background .5s,border-color .5s}
-.panel:hover{border-color:var(--hair-2)}
-.fcol a.fsoc{display:flex;align-items:center;gap:8px}
 </style>
+<noscript><style>.nav,.hero__deck,.hero__foot,.hero .m-star{opacity:1!important;transform:none!important}.orb__title .ln span,.lr>span,.fade{transform:none!important;opacity:1!important}.draw-cres{stroke-dashoffset:0!important}.sweep-sw{transform:none!important}.arc{stroke-dashoffset:0}.fs{opacity:1}</style></noscript>
 </head>
-<body class="load">
-<div id="cursor"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><defs><path id="om-cur" d="M16.8 50 A33.2 11.4 0 1 1 83.2 50 A33.2 11.4 0 1 1 16.8 50"/></defs><g transform="rotate(-25 50 50)"><path d="M16.8 50 A33.2 11.4 0 0 0 83.2 50" stroke="var(--logo-ring)" stroke-width="3" stroke-linecap="round" fill="none"/><circle r="2.8" fill="var(--logo-orb)" stroke="var(--logo-ring)" stroke-width="0.9" opacity="0"><animateMotion dur="7s" repeatCount="indefinite" rotate="0"><mpath href="#om-cur"/></animateMotion><animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="discrete" values="0;1" keyTimes="0;0.5"/></circle><circle cx="50" cy="50" r="20" fill="var(--logo-orb)"/><path d="M16.8 50 A33.2 11.4 0 0 1 83.2 50" stroke="var(--logo-ring)" stroke-width="3" stroke-linecap="round" fill="none"/><circle r="2.8" fill="var(--logo-orb)" stroke="var(--logo-ring)" stroke-width="0.9" opacity="0"><animateMotion dur="7s" repeatCount="indefinite" rotate="0"><mpath href="#om-cur"/></animateMotion><animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.5"/></circle></g></svg></div>
-<div class="backdrop"></div>
+<body>
+<a class="skip" href="#main">Skip to content</a>
 
-<!-- ===== NAV ===== -->
+<!-- shared logo geometry, traced from the official Orbynt Capital artwork -->
+<svg class="defs" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="g-cres" d="M461.8 50.4c-1 .1-2.5 .3-3.2 .4-.7 .1-3 .3-5.1 .4-2.1 .1-4.4 .3-5.1 .5-.7 .2-2.3 .4-3.7 .5-1.3 .1-2.8 .3-3.2 .5-.5 .2-1.8 .4-2.9 .5-1.2 .1-2.4 .3-2.8 .5-.4 .1-1.5 .4-2.4 .5-1 .1-2.1 .3-2.5 .5-.4 .2-1.5 .4-2.4 .5-1 .1-2 .4-2.3 .5-.3 .2-1.1 .4-1.8 .5-.7 .1-1.6 .3-2 .5-.3 .2-1.2 .4-1.9 .5-.6 .1-1.6 .4-2.1 .6-.5 .2-1.1 .4-1.5 .4-.3 0-1 .2-1.6 .5-.5 .3-1.2 .5-1.6 .5-.3 0-1 .2-1.6 .5-.5 .3-1.2 .5-1.5 .5-.3 0-.8 .2-1.3 .4-.4 .3-1.2 .6-1.7 .6-.4 .1-1 .4-1.2 .5-.2 .2-.7 .4-1.2 .5-.5 .1-1.2 .3-1.7 .6-.4 .2-1 .4-1.2 .4-.2 0-.7 .2-1.2 .5-.4 .3-1 .5-1.2 .5-.2 0-.7 .2-1.2 .5-.4 .3-1 .5-1.2 .5-.2 0-.7 .2-1.2 .5-.4 .3-1 .5-1.2 .5-.2 0-.7 .2-1.1 .5-.3 .3-.8 .5-1.1 .5-.2 0-.7 .2-1.1 .5-.4 .3-.8 .5-1 .5-.2 0-.7 .2-1 .5-.3 .3-.8 .5-1.1 .5-.2 0-.7 .2-.9 .4-.3 .2-.6 .4-.7 .4-.3 0-5.1 2.5-5.7 2.9-.2 .2-.6 .3-.7 .3-.2 0-.6 .2-.9 .5-.3 .3-.8 .5-.9 .5-.2 0-.6 .2-.9 .5-.3 .3-.7 .5-.9 .5-.1 0-.5 .2-.8 .5-.6 .4-1.4 .9-2.4 1.4-.4 .2-.7 .4-.8 .5-.1 .1-.5 .4-.9 .6-.5 .2-1 .5-1.2 .7-.1 .2-.3 .3-.5 .3-.1 0-.4 .2-.6 .4-.2 .2-.5 .5-.8 .5-.2 .1-.6 .3-.9 .6-.2 .2-1 .7-1.6 1-.6 .4-1.3 .9-1.5 1-.2 .2-.7 .5-1 .7-.3 .2-.8 .5-1 .7-.2 .1-.9 .6-1.5 1.1-.6 .5-1.4 1.1-1.8 1.3-.4 .2-.8 .5-1 .6-.3 .2-.5 .4-.6 .5-.1 .2-1.6 1.3-2.4 1.9-.3 .2-.9 .6-1.3 1-.3 .4-.7 .7-.8 .7-.2 0-5.2 4.2-5.5 4.6-.1 .2-.3 .4-.4 .4-.4 0-11.3 10.8-14.6 14.4-1 1.1-2.1 2.4-2.5 2.7-.3 .3-1.2 1.5-2 2.5-.9 1.1-1.8 2.1-2 2.4-1 1.1-1.6 1.8-2.1 2.5-.2 .4-.9 1.3-1.5 2-.5 .7-1.2 1.6-1.5 2-.2 .4-.9 1.3-1.4 1.9-.5 .7-1 1.3-1 1.3 0 .1-.2 .4-.5 .8-.2 .4-.5 .7-.5 .9 0 .1-.2 .3-.4 .5-.2 .2-.7 1-1.2 1.7-.4 .8-.9 1.4-1 1.4-.1 0-.3 .4-.4 .8-.2 .4-.5 .9-.7 1-.1 .1-.3 .4-.3 .5 0 .1-.2 .4-.4 .6-.2 .2-.5 .7-.7 1-.1 .3-.4 .9-.6 1.2-1.7 2.7-2.6 4.4-3.3 5.6-.2 .5-.7 1.3-1 1.8-.6 1-1.1 2.1-1.7 3.2-.2 .3-.4 .8-.6 1.1-.1 .3-.8 1.6-1.5 3-.6 1.4-1.4 2.9-1.7 3.4-.3 .6-.5 1.1-.5 1.4 0 .2-.2 .6-.5 1-.2 .4-.5 .9-.5 1.1 0 .2-.2 .8-.5 1.2-.2 .5-.5 1-.5 1.2 0 .2-.2 .8-.5 1.2-.2 .5-.5 1-.5 1.2 0 .2-.2 .8-.5 1.2-.2 .5-.5 1-.5 1.2 0 .3-.2 .9-.5 1.4-.2 .5-.5 1.1-.5 1.4 0 .2-.2 .9-.5 1.4-.2 .6-.5 1.2-.5 1.5 0 .3-.2 1-.4 1.5-.3 .6-.6 1.4-.6 1.9-.1 .5-.3 1.1-.5 1.4-.2 .4-.4 1.1-.5 1.7-.1 .6-.4 1.5-.6 2-.2 .4-.4 1.1-.4 1.4 0 .3-.2 1-.4 1.5-.2 .5-.5 1.5-.6 2.2-.1 .7-.3 1.7-.5 2.2-.1 .5-.4 1.6-.5 2.5-.1 .9-.3 1.9-.5 2.3-.2 .4-.4 1.6-.5 2.6-.1 1.1-.3 2.4-.5 2.9-.2 .4-.4 1.9-.5 3.2-.1 1.3-.3 3.2-.5 4.1-.4 1.9-.5 4.6-.9 14.4-.2 5.1-.2 7.1 0 8.7 .1 1.1 .3 3.8 .3 5.9 .1 3.4 .3 5.5 .8 8.3 .1 .3 .2 1.5 .3 2.6 .1 1.1 .4 2.8 .6 3.7 .2 .9 .4 2.1 .4 2.5 0 .5 .2 1.5 .4 2.2 .3 .7 .5 2 .6 2.9 .1 .8 .4 2 .6 2.6 .2 .6 .4 1.4 .4 1.7 0 .3 .2 1.2 .5 2 .3 .8 .5 1.7 .5 2 0 .3 .2 1 .4 1.5 .3 .5 .5 1.3 .6 1.8 0 .5 .3 1.4 .6 1.9 .2 .6 .4 1.2 .4 1.5 0 .3 .3 1 .5 1.5 .3 .6 .5 1.2 .5 1.5 0 .3 .3 .9 .5 1.5 .3 .5 .5 1.1 .5 1.3 0 .2 .3 .9 .5 1.4 .3 .5 .5 1.1 .5 1.4 0 .3 .3 .9 .5 1.3 .3 .5 .5 1 .5 1.2 0 .3 .3 .7 .5 1.1 .3 .4 .5 .9 .5 1.1 0 .2 .3 .8 .5 1.2 .3 .5 .5 1 .5 1.2 0 .3 .3 .7 .5 1.1 .3 .4 .5 .9 .5 1.1 0 .2 .3 .7 .5 1.1 .3 .4 .5 .8 .5 1 0 .2 .3 .6 .5 1 .3 .4 .5 .8 .5 1 0 .2 .3 .6 .5 1 .3 .4 .5 .8 .5 1 0 .1 .3 .5 .5 .9 .3 .3 .5 .7 .5 .9 0 .2 .2 .5 .4 .6 .1 .2 .5 .7 .7 1.1 .5 1.2 1 2 1.5 2.6 .2 .3 .4 .6 .4 .7 0 .1 .5 .8 1 1.7 .6 .8 1 1.6 1 1.7 0 .1 .2 .3 .4 .4 .1 .2 .5 .7 .8 1.1 1.4 2 1.7 2.5 2.6 3.5 .4 .4 .8 .9 1 1.2 .7 1.1 2.1 2.7 3.3 3.6 1.7 1.5 4.1 3.6 5.9 5.4 .8 .8 1.5 1.4 1.5 1.4 .1 0 .4 .3 .7 .6 .3 .3 .8 .7 1 .9 .3 .2 1.1 .8 1.9 1.4 .7 .6 1.4 1.1 1.4 1.1 .1 0 .4 .3 .7 .6 1 .9 1.3 1.1 1.8 1.4 .3 .2 1 .6 1.5 1.1 .6 .5 1.5 1.2 2.1 1.6 .7 .4 1.3 .8 1.4 1 .2 .2 .4 .3 .5 .3 .1 0 .5 .2 .7 .5 .3 .3 .6 .5 .7 .5 .2 0 .6 .2 .9 .5 .3 .3 .6 .5 .7 .5 .1 0 .4 .2 .8 .5 .3 .3 .7 .5 .8 .5 .1 0 .5 .2 .7 .5 .3 .3 .6 .5 .7 .5 .2 0 1.8 1 2.4 1.5 .2 .2 .6 .4 1 .6 1 .5 1.8 1 2.4 1.5 .3 .2 .7 .4 .8 .4 .2 0 .5 .2 .8 .5 .3 .3 .7 .5 .8 .5 .1 0 .6 .2 .9 .5 .4 .3 .9 .5 1 .5 .2 0 .7 .2 1 .5 .3 .3 .7 .5 .9 .5 .1 0 .5 .2 .9 .5 .4 .3 .8 .5 1 .5 .2 0 .6 .2 1 .5 .4 .3 .9 .5 1.1 .5 .2 0 .6 .2 1 .5 .3 .3 .8 .5 1 .5 .3 0 .8 .2 1.1 .5 .3 .3 .8 .5 1.1 .5 .2 0 .8 .2 1.1 .5 .4 .3 .9 .5 1.1 .5 .2 0 .7 .2 1.2 .5 .4 .3 1.1 .5 1.5 .6 .4 .1 .9 .3 1.2 .5 .2 .2 .7 .4 .9 .4 .2 0 .7 .2 1.2 .5 .4 .3 1.1 .5 1.5 .6 .4 .1 .9 .3 1.2 .5 .2 .2 .7 .4 .9 .4 .3 0 .9 .2 1.4 .5 .6 .3 1.2 .5 1.5 .5 .3 0 .9 .2 1.2 .5 .4 .3 1 .5 1.3 .5 .4 0 1 .2 1.4 .4 .5 .3 1.3 .5 1.9 .6 .6 .2 1.4 .4 1.7 .5 .3 .2 1 .4 1.6 .5 .6 .1 1.5 .4 2 .6 .4 .2 1.1 .4 1.5 .4 .3 0 1.3 .2 2.2 .5 .8 .3 1.8 .5 2.2 .5 .3 0 1.2 .2 1.8 .4 .6 .2 1.9 .5 2.8 .6 .9 .1 2 .4 2.4 .5 .4 .2 1.7 .4 2.9 .5 1.2 .1 2.8 .3 3.4 .5 .7 .2 2.4 .4 3.9 .5 1.5 .1 3.6 .4 4.6 .6 1.7 .3 3.5 .3 13.5 .3 6.3 0 11.7 0 11.9-.1 .6-.2 .5-.5-.2-1.2-.4-.4-.7-.6-1.2-.6-.4 0-1-.2-1.2-.4-.3-.2-.9-.5-1.3-.6-.5-.1-1.1-.3-1.4-.6-.3-.2-.7-.4-1-.4-.2 0-.7-.2-1-.4-.3-.2-.8-.5-1.2-.6-.4-.1-1-.4-1.3-.6-.2-.2-.6-.4-.8-.4-.2 0-.6-.2-1-.5-.4-.3-.8-.5-1-.5-.2 0-.6-.2-.8-.4-.3-.2-.6-.4-.7-.4-.3 0-3.1-1.4-3.7-1.8-.2-.2-.6-.4-.8-.4-.2 0-.7-.2-1-.5-.3-.3-.8-.5-1-.5-.2 0-.6-.2-.9-.5-.3-.3-.7-.5-.9-.5-.2 0-.6-.2-.9-.5-.4-.3-.8-.5-.9-.5-.1 0-.6-.2-1.1-.5-1.7-1.1-2.2-1.4-2.6-1.6-.3-.1-.5-.2-.5-.3 0-.1-.4-.4-.8-.6-.5-.2-1-.5-1.2-.7-.1-.1-.3-.3-.5-.3-.1 0-.4-.1-.5-.3-.1-.2-.5-.5-.9-.7-.3-.1-1-.6-1.5-.9-1.1-.8-2.2-1.5-3.1-2.1-.4-.2-.7-.5-.7-.6 0-.1-.3-.3-.6-.4-.3-.1-.6-.3-.6-.4 0-.1-.3-.3-.6-.5-.7-.3-.9-.5-1.8-1.4-.3-.2-.8-.6-1-.7-.2-.1-.6-.3-.8-.5-1.2-1.1-3-2.5-3.1-2.5-.1 0-.4-.2-.6-.5-.2-.2-1.5-1.3-2.8-2.4-2.9-2.5-11.1-10.8-13.6-13.7-.9-1.1-1.9-2.3-2.1-2.5-.2-.2-1-1.2-1.8-2.2-.8-1-1.9-2.4-2.5-3.1-.5-.7-1.3-1.8-1.7-2.4-.4-.6-1-1.4-1.4-1.9-.3-.4-.7-1.1-.9-1.4-.2-.3-.7-1-1.1-1.5-.4-.5-.9-1.1-1-1.4-.2-.3-.7-1.1-1.1-1.8-.5-.7-.9-1.3-.9-1.4 0-.1-.2-.4-.4-.7-.7-.8-.9-1.2-1.4-2.2-.2-.5-.5-.9-.7-1.1-.2-.1-.4-.5-.6-.9-.2-.3-.6-1-.9-1.6-.3-.5-.7-1.3-.9-1.7-.2-.4-.4-.8-.6-1-.1-.2-.3-.6-.5-1-.1-.4-.3-.9-.5-1-.1-.1-.3-.5-.4-.8-.1-.3-.3-.7-.5-.9-.2-.2-.4-.6-.5-1-.1-.4-.3-1-.6-1.3-.3-.4-.5-.8-.5-1 0-.2-.2-.5-.4-.8-.2-.3-.4-.7-.5-1-.1-.5-.7-1.8-1.6-3.6-.3-.6-.5-1.1-.5-1.3 0-.2-.2-.7-.5-1.1-.3-.4-.5-.9-.5-1.2 0-.3-.2-.8-.5-1.3-.3-.4-.5-1-.5-1.2 0-.2-.2-.8-.5-1.3-.3-.5-.5-1.2-.5-1.4 0-.3-.2-.9-.5-1.5-.3-.5-.5-1.2-.5-1.5 0-.3-.2-.9-.5-1.5-.3-.5-.5-1.2-.5-1.4 0-.2-.2-1-.5-1.8-.3-.8-.5-1.6-.5-1.9 0-.3-.2-.9-.4-1.4-.2-.4-.4-1.2-.5-1.8-.1-.6-.3-1.5-.5-2-.2-.5-.5-1.5-.6-2.2-.1-.7-.3-1.6-.5-2.1-.2-.4-.4-1.5-.5-2.5-.1-1-.3-2.1-.5-2.5-.2-.4-.4-1.8-.5-3.1-.1-1.2-.3-2.7-.5-3.3-.2-.5-.4-2.2-.5-3.8-.1-1.5-.3-3.1-.4-3.5-.5-2-.6-5.4-.5-16.7 .1-9.7 .1-11.8 .4-13.2 .2-.9 .4-2.8 .5-4.3 .1-1.5 .3-3.2 .5-3.8 .2-.6 .4-1.9 .5-2.9 .1-1.1 .3-2.2 .5-2.6 .2-.4 .4-1.5 .5-2.5 .1-1 .4-2.1 .5-2.4 .2-.3 .4-1.3 .5-2.2 .1-.9 .3-1.9 .5-2.2 .2-.4 .4-1.2 .5-2 .1-.7 .4-1.6 .6-2.1 .2-.4 .4-1 .4-1.2 0-.3 .2-1 .5-1.6 .2-.7 .5-1.5 .6-2 .1-.4 .3-1.1 .5-1.6 .2-.4 .4-1 .4-1.4 0-.3 .2-.9 .4-1.4 .3-.4 .6-1.2 .6-1.8 .1-.5 .3-1.1 .5-1.3 .2-.1 .4-.7 .5-1.3 .1-.5 .4-1.3 .6-1.6 .2-.3 .4-.8 .4-1.1 0-.2 .2-.8 .5-1.2 .3-.5 .5-1.2 .6-1.6 .1-.3 .3-.8 .5-1.1 .2-.3 .4-.8 .4-1.1 0-.3 .2-.8 .5-1.2 .3-.3 .5-.9 .6-1.4 .1-.4 .2-.8 .4-1 .2-.1 .4-.6 .5-1.1 .2-.5 .4-1 .5-1.1 .2-.1 .3-.3 .3-.5 0-.1 .3-.8 .7-1.5 .4-.8 .7-1.5 .8-1.7 .1-.2 .4-.8 .7-1.4 .3-.5 .8-1.3 1-1.8 .2-.4 .7-1.2 1-1.8 .3-.5 .8-1.3 1-1.8 .2-.4 .7-1.2 1-1.8 .3-.5 .7-1.3 .9-1.6 .3-.6 .8-1.5 1.7-2.8 .9-1.3 1.4-2.1 1.4-2.3 0 0 .2-.3 .5-.6 .3-.2 .5-.5 .5-.6 0-.3 1.3-2.2 1.7-2.6 .2-.1 .3-.3 .3-.4 0-.1 .4-.7 .9-1.3 1-1.4 1.5-2.1 2-2.8 .2-.3 .6-.8 .8-1.1 .2-.3 .6-.8 .9-1.2 .3-.3 .7-.8 .8-1 .2-.1 .7-.8 1.1-1.4 .4-.6 1.1-1.5 1.6-2.1 .5-.5 1.3-1.4 1.8-2 4.5-5.3 9.8-10.7 13-13.4 .8-.6 1.7-1.4 2.1-1.7 .3-.2 1-.8 1.5-1.3 1.2-1.1 2.5-2.1 2.7-2.1 .1 0 .4-.2 .6-.5 .3-.3 .6-.5 .7-.5 .2 0 .4-.1 .5-.3 .1-.2 .7-.7 1.3-1.1 1.3-.8 1.7-1.1 2.8-2 1.1-.8 1.9-1.4 2.4-1.6 .3-.1 .5-.3 .5-.4 0-.1 .4-.4 .8-.6 .5-.3 1.1-.6 1.4-.8 .3-.2 .8-.5 1.1-.7 .3-.3 .7-.5 .8-.5 .2 0 .5-.2 .8-.4 .6-.5 1.4-1 2.5-1.5 .3-.2 .8-.5 1-.7 .2-.2 .6-.4 .8-.4 .2 0 .7-.2 1-.5 .3-.3 .7-.5 .9-.5 .2 0 .6-.2 1-.5 .3-.3 .7-.5 .9-.5 .2 0 .6-.2 1-.5 .4-.3 .9-.5 1.1-.5 .2 0 .7-.2 1.1-.5 .4-.3 .8-.5 1-.5 .2 0 .6-.2 1-.5 .4-.3 .9-.5 1.2-.5 .2 0 .7-.2 1.1-.5 .3-.3 .7-.5 .9-.5 .3 0 .9-.2 1.4-.5 .5-.3 1.1-.5 1.3-.5 .2 0 .8-.2 1.2-.5 .5-.3 1-.5 1.3-.5 .2 0 .9-.2 1.4-.5 .5-.3 1.1-.5 1.3-.5 .2 0 .8-.2 1.3-.5 .5-.3 1.2-.5 1.5-.5 .4 0 .9-.2 1.2-.4 .2-.2 1-.5 1.7-.6 .6-.1 1.5-.3 1.9-.6 .5-.2 1.1-.4 1.5-.4 .4 0 1.1-.2 1.6-.4 .5-.2 1.5-.5 2.2-.6 .7-.1 1.8-.4 2.5-.6 .6-.2 1.5-.4 1.8-.4 .3 0 1.5-.2 2.5-.5 1-.3 2.4-.5 3-.5 .6 0 1.8-.2 2.6-.4 1-.3 2.6-.5 4.8-.6 1.8-.1 3.7-.3 4.2-.4 1.2-.4 12.9-.4 15.9 0 1.2 .1 3.7 .3 5.6 .4 2 .1 3.8 .3 4.4 .5 .6 .2 1.9 .4 3 .5 1.2 .1 2.5 .4 2.9 .5 .5 .2 1.7 .4 2.6 .5 .9 .1 2 .3 2.4 .5 .4 .1 1.4 .4 2.3 .5 .8 .1 1.8 .3 2.1 .5 .3 .2 1.1 .4 1.7 .5 .7 .1 1.6 .4 2.1 .6 .5 .2 1.1 .4 1.4 .4 .3 0 1 .2 1.6 .5 .6 .3 1.3 .5 1.6 .5 .3 0 .9 .2 1.4 .5 .5 .2 1.3 .5 1.7 .6 .4 .1 1 .3 1.3 .5 .2 .1 .8 .3 1.4 .4 .5 .1 1 .3 1.2 .5 .2 .2 .7 .4 1.2 .5 .4 .1 1.1 .4 1.4 .6 .3 .2 .7 .4 .9 .4 .2 0 .7 .2 1.2 .5 .4 .2 1.1 .5 1.5 .6 .3 .1 .9 .3 1.2 .5 .2 .2 .7 .4 .9 .4 .2 0 .7 .2 1.1 .5 .4 .3 .8 .5 1 .5 .2 0 .6 .2 1 .5 .4 .3 .8 .5 1 .5 .2 0 .6 .2 1 .5 .4 .3 .9 .5 1.1 .5 .2 0 .6 .2 1 .5 .3 .3 .7 .5 .9 .5 .2 0 .6 .2 1 .5 .4 .3 .8 .5 1 .5 .2 0 .5 .2 .7 .4 .2 .2 .6 .5 .8 .5 .2 .1 .7 .4 1 .6 .3 .3 .7 .5 .9 .5 .2 0 .6 .2 .8 .5 .3 .3 .6 .5 .8 .5 .1 0 .5 .2 .9 .5 .3 .3 .7 .5 .8 .5 .1 0 .5 .2 .7 .5 .3 .3 .6 .5 .7 .5 .1 0 .7 .4 1.3 .8 .6 .5 1.5 1 2 1.2 .4 .2 .8 .5 .8 .6 0 .1 .2 .3 .5 .3 .3 .1 .6 .4 .8 .6 .2 .3 .4 .5 .5 .5 .3 0 .8 .4 2.1 1.5 .4 .3 .8 .5 .9 .5 .1 0 .3 .2 .5 .5 .2 .3 .4 .5 .5 .5 .3 0 .8 .4 2.1 1.5 .4 .3 .7 .5 .8 .5 .1 0 .6 .5 1.2 1 .5 .6 1.1 1 1.2 1 0 0 .6 .5 1.3 1.1 .6 .5 1.9 1.6 2.7 2.4 2.3 2 12.6 12.3 13 13 .2 .3 .5 .5 .6 .5 .2 0 .8-.5 1.4-1.2 .7-.7 2.1-2.2 3.3-3.3 1.1-1.1 2-2.2 2-2.4 0-.4-.6-1-5.4-5.9-4.9-4.8-6.5-6.3-9.5-8.8-1.2-1-2.2-1.9-2.3-2.1-.1-.1-.3-.3-.4-.3-.1 0-.5-.2-.8-.5-.3-.3-.9-.8-1.3-1.1-.4-.3-.9-.7-1.2-.9-.3-.2-.8-.6-1.2-.9-1.8-1.3-3.4-2.6-3.9-3-.2-.3-.6-.6-.8-.7-.3-.2-1.3-.8-2.5-1.7-.4-.3-1.4-1-2.3-1.6-.9-.6-1.6-1.1-1.6-1.2 0-.1-.2-.2-.5-.4-.6-.2-1.5-.8-2.5-1.6-.3-.2-.7-.4-.9-.4-.1 0-.5-.2-.8-.5-.3-.3-.7-.5-.9-.5-.2 0-.5-.1-.6-.3-.2-.2-.6-.5-1.1-.7-.4-.2-.9-.5-1.1-.7-.1-.1-.4-.3-.6-.3-.2 0-.5-.2-.8-.5-.2-.3-.6-.5-.8-.5-.2 0-.5-.1-.8-.3-.4-.4-1.2-.8-2.9-1.7-.4-.2-1.2-.7-1.7-1-.5-.3-1.1-.7-1.4-.8-.3-.1-.7-.3-1-.5-.3-.1-.7-.4-1-.5-1.3-.6-2.8-1.3-3.6-1.7-.6-.3-1.2-.5-1.4-.5-.2 0-.6-.2-.9-.4-.3-.2-.9-.5-1.3-.6-.5-.1-1.1-.4-1.3-.6-.3-.2-.7-.4-.9-.4-.2 0-.8-.2-1.3-.5-.6-.3-1.1-.5-1.3-.5-.2 0-.8-.2-1.3-.5-.6-.3-1.2-.5-1.4-.5-.2 0-.8-.2-1.3-.5-.5-.3-1.2-.5-1.4-.5-.3 0-.9-.2-1.5-.5-.5-.2-1.4-.5-1.8-.6-.5 0-1.2-.3-1.5-.5-.4-.2-.9-.4-1.2-.4-.3 0-1.1-.2-1.8-.5-.6-.3-1.4-.5-1.8-.5-.3 0-1-.2-1.5-.5-.6-.2-1.5-.5-2.1-.5-.6-.1-1.5-.3-2-.6-.5-.2-1.3-.4-1.8-.4-.5 0-1.4-.2-2-.4-.6-.2-1.8-.5-2.8-.6-.9-.1-1.9-.3-2.4-.5-.4-.2-1.5-.4-2.6-.5-1-.1-2.3-.3-2.9-.5-.5-.2-2.1-.4-3.5-.5-1.4-.1-3.1-.3-3.9-.5-.7-.2-3.2-.4-5.5-.5-2.2-.1-4.7-.3-5.5-.4-4.1-.6-11.8-.7-16.5-.4z"/>
+    <path id="g-sw" d="M642.1 225.3c-.4 .5-.7 1.6-.9 3.3-.1 .8-.3 1.9-.5 2.2-.2 .4-.4 1.4-.5 2.3-.1 .9-.3 2-.5 2.3-.2 .4-.4 1.3-.5 2.1-.1 .8-.3 1.9-.6 2.6-.2 .6-.4 1.4-.4 1.8 0 .3-.2 1.3-.5 2-.3 .8-.5 1.7-.5 2 0 .4-.2 1-.4 1.5-.2 .5-.5 1.4-.6 2-.1 .7-.3 1.5-.5 1.8-.1 .4-.4 1.1-.5 1.8-.1 .6-.4 1.4-.6 1.8-.2 .4-.4 .9-.4 1.2 0 .3-.2 1-.4 1.5-.3 .6-.6 1.4-.6 1.8-.1 .5-.4 1.2-.6 1.6-.2 .5-.4 1-.4 1.2 0 .3-.2 .9-.5 1.4-.3 .5-.5 1.1-.5 1.4 0 .2-.2 .7-.4 1.1-.2 .3-.5 1-.6 1.5-.1 .4-.4 1.1-.6 1.4-.2 .4-.4 .8-.4 1 0 .3-.2 .8-.5 1.2-.3 .5-.5 1-.5 1.2 0 .2-.2 .8-.5 1.2-.3 .5-.5 1-.5 1.2 0 .3-.2 .7-.4 1-.2 .3-.5 .9-.6 1.3-.1 .4-.4 .9-.6 1.2-.2 .3-.4 .6-.4 .8 0 .1-.2 .6-.5 1.1-.2 .4-.5 1-.6 1.3-.1 .3-.3 .7-.5 1-.2 .3-.4 .6-.4 .8 0 .2-.2 .7-.5 1-.3 .3-.5 .8-.5 1 0 .2-.2 .6-.5 1-.3 .4-.5 .8-.5 1 0 .2-.2 .7-.5 1-.3 .3-.5 .8-.5 1 0 .2-.2 .5-.4 .7-.2 .2-.5 .7-.6 1.1-.1 .4-.4 .9-.5 1.1-.3 .3-.9 1.2-1.4 2.3-.1 .3-.4 .6-.5 .7-.1 .1-.4 .5-.6 1-.2 .4-.7 1.3-1 1.8-.3 .6-.7 1.2-.8 1.5-.2 .3-.5 .8-.7 1.1-.3 .3-.5 .7-.5 .8 0 .1-.2 .5-.5 .7-.3 .3-.5 .6-.5 .7 0 .1-.2 .4-.5 .8-.3 .3-.5 .7-.5 .8 0 .1-.2 .4-.4 .6-.2 .2-.5 .6-.6 .8-.2 .5-.8 1.3-2 2.9-.4 .6-1.1 1.6-1.5 2.2-.4 .6-.8 1.2-1 1.4-.3 .3-1.1 1.4-1.9 2.5-.2 .4-.7 1-1 1.3-.2 .4-.8 1-1.1 1.4-1 1.4-6.6 8.2-8.1 9.8-3 3.4-14.6 15-14.9 15 0 0-.6 .5-1.2 1.1-.7 .7-1.5 1.4-1.9 1.7-.8 .6-2.4 2-3.2 2.7-.3 .3-.6 .5-.8 .5-.1 0-.3 .2-.4 .4-.1 .2-.8 .8-1.6 1.4-.8 .6-1.7 1.4-2.1 1.7-.3 .3-.7 .5-.8 .5-.1 0-.4 .2-.6 .5-.6 .6-1.7 1.5-1.9 1.5-.1 0-1.2 .8-2.5 2-.5 .4-1.2 .9-1.6 1.1-.3 .1-.7 .4-.9 .6-.1 .2-.3 .3-.5 .3-.1 0-.4 .2-.6 .5-.3 .3-.6 .5-.7 .5-.1 0-.5 .2-.8 .5-.3 .3-.7 .5-.9 .5-.1 0-.4 .2-.6 .5-.3 .2-.9 .7-1.5 1-.6 .3-1.3 .8-1.5 1.1-.3 .2-.6 .4-.7 .4-.1 0-.5 .2-.8 .5-.3 .3-.7 .5-.9 .5-.1 0-.4 .2-.5 .3-.2 .2-.6 .5-1.1 .7-.4 .3-1.2 .7-1.7 1-.5 .3-1.2 .7-1.5 .9-.3 .2-.7 .4-.9 .6-.1 .2-.6 .4-1 .5-.4 .1-.8 .3-.8 .4 0 .1-.4 .4-.8 .6-.5 .3-1.3 .7-1.9 1-.5 .3-1.3 .8-1.8 1-2 1.1-2.4 1.3-2.9 1.7-.3 .2-.6 .3-.8 .3-.2 0-.5 .2-.8 .4-.2 .2-.7 .5-1.1 .6-.4 .1-.9 .4-1.2 .6-.3 .2-.7 .4-.9 .4-.2 0-.6 .2-1 .5-.4 .3-.8 .5-1 .5-.2 0-.7 .2-1.1 .5-.4 .3-.9 .5-1.2 .5-.2 0-.7 .2-1 .5-.4 .3-.9 .5-1.1 .5-.3 0-.8 .2-1.3 .5-.4 .3-1 .5-1.2 .5-.2 0-.7 .2-1.2 .5-.4 .3-.9 .5-1.1 .5-.2 0-.8 .2-1.3 .5-.5 .3-1.1 .5-1.3 .5-.2 0-.8 .2-1.3 .5-.6 .3-1.2 .5-1.4 .5-.2 0-.7 .2-1.2 .5-.4 .3-1 .5-1.3 .5-.3 0-1 .2-1.5 .5-.5 .3-1.2 .5-1.5 .5-.3 0-.9 .2-1.5 .5-.5 .3-1.2 .5-1.5 .5-.3 0-1 .2-1.6 .5-.6 .3-1.3 .5-1.6 .5-.3 0-1.1 .2-1.8 .5-.6 .3-1.5 .5-1.9 .5-.4 0-1.2 .2-1.7 .4-.5 .3-1.5 .5-2.2 .6-.7 .1-1.6 .3-1.9 .5-.4 .2-1.4 .4-2.3 .5-.9 .1-2.1 .3-2.6 .5-.5 .2-1.8 .4-2.9 .5-1.1 .1-2.4 .4-2.9 .5-.6 .2-2.2 .4-4.3 .5-1.9 .1-3.7 .3-4.1 .4-3.5 .9-29.9 1-34.9 .1-.9-.1-3.2-.4-5-.5-1.9-.1-3.8-.3-4.4-.5-.5-.2-2.1-.4-3.5-.5-1.4-.1-2.9-.3-3.4-.5-.5-.2-1.7-.4-2.7-.5-1-.1-2.3-.4-3-.6-.6-.2-1.5-.4-2-.4-.4 0-1.4-.2-2.2-.5-.8-.3-1.7-.5-2.2-.5-.4 0-1.2-.2-1.7-.4-.5-.2-1.4-.5-2.1-.6-.7-.1-1.6-.4-2.1-.6-.5-.2-1.2-.4-1.5-.4-.3 0-1.1-.2-1.7-.5-.5-.3-1.3-.5-1.6-.5-.2 0-.9-.2-1.5-.5-.5-.2-1.4-.5-1.8-.6-.5 0-1.2-.3-1.5-.5-.4-.2-1-.4-1.5-.5-.4 0-1.1-.3-1.6-.5-.4-.2-1-.4-1.2-.4-.2 0-.8-.2-1.3-.5-.5-.3-1.1-.5-1.3-.5-.2 0-.8-.2-1.4-.5-.5-.3-1.2-.5-1.4-.5-.2 0-.7-.2-1.2-.5-.4-.3-1-.5-1.2-.5-.2 0-.8-.2-1.3-.5-.5-.3-1.1-.5-1.3-.5-.2 0-.7-.2-1.1-.5-.4-.3-.9-.5-1.1-.5-.2 0-.7-.2-1.1-.5-.4-.3-.8-.5-1-.5-.4 0-4.9-2.2-5.4-2.7-.2-.1-.5-.3-.7-.3-.3 0-.7-.2-1-.5-.4-.3-.8-.5-.9-.5-.2 0-.6-.2-.9-.5-.4-.3-.8-.5-1-.5-.2 0-.6-.2-.9-.5-.3-.3-.8-.5-1-.5-.2 0-.6-.2-.9-.5-.4-.3-.8-.5-.9-.5-.2 0-.6-.2-.9-.5-.3-.3-.7-.5-.9-.5-.2 0-.6-.2-.9-.5-.3-.3-.7-.5-.9-.5-.2 0-.5-.2-.8-.5-.2-.3-.6-.5-.7-.5-.2 0-.6-.2-1-.5-.3-.3-.7-.5-.8-.5-.1 0-.4-.1-.5-.3-.2-.2-.6-.5-1.1-.7-.4-.2-.9-.5-1.1-.7-.1-.1-.4-.3-.5-.3-.1 0-.5-.2-.8-.5-.4-.3-.7-.5-.9-.5-.1 0-.4-.2-.7-.4-.2-.3-.9-.8-1.5-1.1-.6-.3-1.3-.8-1.5-1-.3-.3-.6-.5-.7-.5-.1 0-.7-.3-1.3-.8-2-1.3-2.4-1.6-2.7-1.6-.3 0-.4 .2-.4 .5 0 .4 1.1 1.5 4.3 4.7 4.8 4.9 5.4 5.4 8.3 7.9 1.1 .9 2.4 2.1 2.9 2.6 2 1.8 2.7 2.4 4 3.4 .8 .6 2.1 1.6 2.9 2.2 .7 .7 1.7 1.4 2.1 1.7 .4 .3 1 .7 1.3 1 .3 .2 .7 .4 .8 .4 .1 0 .3 .2 .5 .5 .2 .3 .4 .5 .5 .5 .3 0 .8 .4 2.1 1.5 .4 .3 .8 .5 .9 .5 .1 0 .4 .2 .7 .5 .2 .2 .8 .6 1.1 .8 .4 .2 .9 .5 1.1 .6 .2 .2 .5 .5 .8 .7 .2 .2 .5 .4 .7 .4 .1 0 .4 .2 .7 .5 .3 .3 .7 .5 .8 .5 .1 0 .4 .2 .7 .5 .2 .3 .5 .5 .7 .5 .2 0 .5 .2 .8 .5 .4 .2 .8 .5 1.1 .6 .2 .1 .4 .2 .4 .3 0 .1 .4 .4 .9 .6 .5 .2 .9 .5 .9 .6 0 .1 .4 .3 .8 .4 .4 .1 .9 .4 1.1 .6 .2 .2 .5 .4 .7 .4 .2 0 .7 .2 1 .5 .3 .3 .7 .5 .9 .5 .1 0 .5 .2 .7 .4 .3 .2 .8 .5 1.2 .7 .4 .2 .9 .4 1.2 .6 .3 .2 .7 .4 1 .5 .3 .1 .7 .3 .8 .4 .2 .1 .6 .3 1 .5 .4 .2 1 .5 1.3 .6 1.3 .7 1.6 .9 2.1 1.1 .3 .1 .9 .5 1.4 .7 .6 .3 1.1 .5 1.4 .5 .2 0 .6 .2 1 .5 .4 .3 .9 .5 1.1 .5 .3 0 .7 .2 .9 .4 .3 .2 .9 .5 1.4 .6 .5 .1 1.1 .4 1.2 .5 .2 .2 .7 .4 1 .4 .4 .1 1.1 .4 1.6 .6 .4 .3 1 .5 1.2 .5 .2 0 .7 .2 1.3 .5 .5 .3 1.1 .5 1.4 .5 .2 0 .9 .2 1.4 .5 .6 .3 1.2 .5 1.5 .5 .3 0 .9 .2 1.3 .4 .5 .3 1.3 .6 1.8 .6 .5 .1 1.3 .4 1.7 .6 .4 .2 1.1 .4 1.6 .5 .5 0 1.3 .3 1.8 .5 .5 .2 1.2 .4 1.6 .4 .4 0 1.1 .2 1.6 .4 .5 .3 1.5 .5 2.2 .6 .8 .1 1.6 .3 2 .5 .4 .2 1.4 .4 2.3 .5 .9 .1 2.1 .4 2.7 .6 .6 .2 1.8 .4 2.6 .5 .9 0 1.9 .2 2.4 .4 .5 .2 1.9 .4 3.1 .5 1.3 .1 3 .4 3.8 .5 .9 .2 3 .4 4.8 .5 1.7 .1 4.5 .4 6.1 .5 4.2 .5 18 .6 21 .1 1.2-.2 3.7-.5 5.7-.6 2-.1 4.1-.3 4.7-.5 .6-.2 1.9-.3 2.9-.4 1-.1 2.5-.3 3.3-.5 .9-.2 2.4-.5 3.5-.6 1-.1 2.3-.4 2.9-.6 .6-.2 1.4-.4 1.9-.4 .5 0 1.6-.2 2.4-.5 .9-.3 1.9-.5 2.3-.5 .4 0 1.1-.2 1.6-.4 .5-.2 1.4-.5 2-.6 .6-.1 1.5-.3 2-.6 .5-.2 1.1-.4 1.4-.4 .3 0 .9-.2 1.3-.4 .4-.2 1.3-.5 1.9-.6 .6-.1 1.2-.3 1.4-.5 .2-.1 .8-.3 1.3-.4 .6-.1 1.4-.4 1.9-.6 .5-.3 1.1-.5 1.4-.5 .3 0 .9-.2 1.3-.5 .5-.3 1.1-.5 1.3-.5 .3 0 .8-.2 1.1-.4 .3-.2 .8-.4 1.1-.5 .4-.1 1.1-.3 1.6-.6 .4-.3 1-.5 1.3-.5 .2 0 .8-.2 1.2-.5 .5-.3 1-.5 1.2-.5 .2 0 .8-.2 1.2-.5 .5-.3 1-.5 1.2-.5 .3 0 .7-.2 1.1-.5 .4-.3 .9-.5 1.1-.5 .2 0 .6-.2 1-.5 .3-.3 .7-.5 .9-.5 .3 0 .7-.2 1.1-.5 .4-.3 .8-.5 .9-.5 .2 0 .6-.2 1-.5 .4-.3 .8-.5 1-.5 .2 0 .6-.2 1-.5 .4-.3 .8-.5 1-.5 .1 0 .5-.2 .9-.5 .3-.3 .7-.5 1-.5 .2 0 .7-.2 .9-.5 .3-.3 .6-.5 .8-.5 .2 0 .6-.2 .9-.5 .3-.3 .7-.5 .8-.5 .2 0 .6-.2 .9-.5 .3-.3 .7-.5 .9-.5 .1 0 .5-.2 .7-.5 .3-.3 .6-.5 .8-.5 .1 0 .5-.2 .8-.4 .9-.7 2.3-1.6 2.5-1.6 .2 0 .5-.2 .7-.4 .7-.6 2.3-1.6 2.5-1.6 .1 0 .4-.2 .6-.4 .2-.2 .9-.7 1.4-1 .6-.4 1.5-1.1 2.2-1.6 1.7-1.3 2.2-1.7 2.7-2 .2-.1 .7-.5 1.2-.9 .4-.4 1.3-1.1 2-1.6 .8-.5 1.4-1 1.5-1.2 .1-.1 .2-.3 .4-.3 .1 0 .4-.2 .5-.4 .2-.2 1.2-1.1 2.3-2 1.1-.9 2.5-2 3.1-2.5 1.5-1.3 13.4-13.2 15.1-15.2 .8-.8 1.6-1.7 1.8-2 .3-.2 .9-1 1.6-1.8 .6-.8 1.3-1.6 1.5-1.9 .6-.6 .9-1 2.5-3.2 .7-.8 1.6-2 2.2-2.6 .5-.7 .9-1.3 .9-1.4 0-.1 .4-.7 1-1.3 .5-.7 1.2-1.6 1.6-2.2 .3-.5 .8-1.2 1-1.4 .2-.2 .4-.5 .4-.6 0-.2 1-1.8 1.5-2.3 .3-.4 1.5-2.4 1.5-2.6 0-.1 .2-.3 .5-.6 .3-.2 .5-.6 .5-.8 0-.2 .2-.6 .5-.9 .3-.4 .5-.7 .5-.8 0-.1 .2-.4 .4-.5 .1-.2 .4-.6 .6-1.1 .2-.4 .5-.9 .7-1.1 .2-.1 .3-.3 .3-.5 0-.1 .2-.4 .4-.7 .3-.4 .9-1.4 2.5-4.5 .2-.5 .6-1 .8-1.3 .2-.3 .3-.6 .3-.8 0-.2 .2-.6 .5-1 .3-.4 .5-.8 .5-1 0-.2 .2-.6 .5-1 .3-.4 .5-.8 .5-1 0-.2 .2-.6 .5-.9 .3-.4 .5-.7 .5-.9 0-.2 .5-1.1 1.4-2.8 .1-.3 .3-.7 .4-1 .2-.3 .5-.9 .7-1.4 .3-.6 .5-1.1 .5-1.2 0-.2 .2-.7 .5-1.2 .3-.5 .5-1.1 .5-1.3 0-.2 .2-.7 .5-1.2 .3-.4 .5-1.1 .6-1.5 .1-.3 .3-.8 .5-1.1 .2-.3 .4-.8 .4-1 0-.3 .2-.9 .5-1.4 .3-.6 .5-1.1 .5-1.3 0-.1 .2-.7 .5-1.3 .3-.5 .5-1.2 .5-1.4 0-.2 .2-.9 .5-1.5 .3-.5 .5-1.2 .5-1.5 0-.2 .2-.8 .5-1.4 .3-.5 .5-1.2 .5-1.6 0-.3 .2-1 .5-1.6 .3-.5 .5-1.2 .5-1.6 0-.3 .2-1 .4-1.4 .3-.4 .5-1.3 .6-1.8 .2-.6 .4-1.5 .6-1.9 .2-.5 .4-1.1 .4-1.4 0-.3 .2-1.2 .5-2 .3-.8 .5-1.7 .5-2 0-.3 .2-1.2 .5-2.1 .3-.8 .5-1.8 .5-2.2 0-.3 .2-1.2 .4-2 .3-.7 .5-2.1 .6-3 .1-.9 .4-2.4 .6-3.3 .2-.9 .4-2.1 .4-2.7 0-.6 .2-2.2 .5-3.6 .3-1.5 .6-4.2 .7-6 .1-1.9 .3-3.7 .4-4.2 .1-.5 .3-4.7 .4-10.3 .1-7.6 0-9.6-.2-9.9-.3-.3-.7-.4-.9 0z"/>
+    <path id="g-star" d="M622.3 137.3c-.2 .1-.4 .8-.5 1.6-.1 .8-.2 1.4-.3 1.5 0 .1-.1 .9-.3 1.8-.1 1-.3 2.1-.5 2.6-.1 .5-.4 1.5-.5 2.2-.1 .7-.4 1.7-.6 2.3-.2 .5-.4 1.1-.4 1.3 0 .5-.7 2.8-1.5 5-.3 .7-.5 1.4-.5 1.6 0 .1-.1 .7-.4 1.1-.2 .4-.5 1.1-.7 1.5-.6 1.4-2.6 4.4-3.6 5.5-.9 1-2.9 2.6-3.6 3-.3 .1-.7 .4-.9 .6-.1 .2-.4 .3-.5 .3-.2 0-.6 .2-.9 .5-.3 .3-.8 .5-1.1 .5-.2 0-.6 .2-.9 .4-.3 .2-.9 .5-1.4 .6-.5 .1-1.2 .4-1.7 .6-.4 .2-1 .4-1.2 .4-.3 0-1 .2-1.7 .5-.6 .3-1.4 .5-1.7 .5-.2 0-1.1 .2-1.9 .5-.8 .3-1.9 .5-2.4 .6-.5 .1-1.4 .3-2.1 .5-.6 .2-1.8 .4-2.6 .5-1.6 .2-2.3 .5-2.3 1.2 0 .5 .4 .7 1.3 .7 .4 0 1.4 .2 2.3 .5 .9 .3 2 .5 2.4 .5 .4 0 1.1 .2 1.5 .3 .5 .2 1.5 .5 2.3 .7 .9 .2 1.7 .4 2 .6 .2 .1 .9 .3 1.5 .4 .7 .1 1.4 .4 1.8 .6 .3 .2 .8 .4 1 .4 .2 0 .8 .2 1.3 .5 .5 .3 1 .5 1.1 .5 .2 0 .9 .4 1.7 .8 .9 .4 1.9 1 2.4 1.2 .4 .2 .8 .5 .8 .6 0 .1 .2 .2 .5 .3 .2 .1 .9 .7 1.6 1.4 1.4 1.4 1.6 1.8 2.6 3.2 .3 .6 .8 1.3 1.1 1.7 .2 .4 .4 .9 .4 1 0 .2 .2 .6 .4 .9 .2 .3 .5 .8 .6 1.1 0 .4 .3 1.1 .6 1.6 .2 .5 .4 1.1 .4 1.4 0 .2 .2 .9 .4 1.4 .2 .5 .5 1.4 .6 2 .1 .6 .4 1.3 .5 1.6 .2 .3 .4 1.1 .5 1.8 .1 .6 .3 1.4 .5 1.8 .2 .3 .4 1.1 .5 1.8 .1 .7 .4 1.8 .5 2.4 .2 .6 .4 2 .5 3.1 .3 2.1 .4 2.6 1 2.9 .6 .3 1 0 1.1-1.2 .1-.5 .3-1.1 .5-1.4 .1-.3 .3-1.2 .4-2 .1-.8 .4-1.9 .5-2.5 .2-.5 .4-1.5 .5-2.2 .1-.7 .4-1.6 .6-2.1 .2-.5 .4-1.1 .4-1.4 0-.3 .3-1.1 .5-1.8 .3-.6 .5-1.4 .5-1.6 0-.3 .3-.9 .5-1.5 .3-.5 .5-1.1 .5-1.3 0-.2 .3-.7 .5-1.3 .3-.5 .5-1.1 .5-1.3 0-.2 .2-.5 .4-.8 .2-.3 .6-.9 .8-1.4 .2-.5 .6-1.1 .8-1.4 .2-.3 .7-1 1.1-1.7 .7-1.1 3.6-4.1 4-4.1 .1 0 .4-.2 .8-.5 .3-.3 .7-.5 .8-.5 .2 0 .5-.2 .7-.4 .3-.2 .9-.4 1.3-.6 .5-.1 1-.4 1.3-.6 .3-.2 .6-.4 .8-.4 .2 0 .8-.2 1.3-.5 .5-.3 1.1-.5 1.3-.5 .3 0 .8-.2 1.2-.4 .8-.4 2.8-1.1 4.1-1.4 .5-.1 1.5-.4 2.4-.7 .9-.3 1.9-.5 2.1-.5 .3 0 1.3-.2 2.1-.5 .8-.3 2-.5 2.5-.5 1 0 1.5-.3 1.4-.9-.1-.5-.9-.8-2.9-1.1-1-.1-2.4-.4-3.2-.6-.8-.2-1.9-.4-2.5-.5-.6-.1-1.3-.2-1.6-.4-.3-.1-1-.3-1.7-.5-.6-.1-1.6-.4-2.1-.6-.5-.2-1.1-.4-1.3-.4-.3 0-.8-.2-1.4-.5-.5-.3-1.1-.5-1.3-.5-.3 0-.8-.2-1.1-.4-.3-.2-.9-.5-1.4-.6-.4-.1-.9-.3-1.1-.5-.1-.1-.6-.4-1-.6-2-1-2.5-1.4-3.9-2.9-.9-.8-1.9-2.1-2.4-2.9-.4-.7-.9-1.4-1-1.5-.2-.1-.3-.4-.3-.6 0-.2-.2-.6-.5-1-.3-.4-.5-.8-.5-.9 0-.2-.2-.7-.5-1.2-.3-.6-.5-1.2-.5-1.4 0-.2-.2-.9-.5-1.5-.3-.5-.5-1.3-.5-1.6 0-.2-.2-.9-.4-1.3-.2-.5-.5-1.4-.6-2-.1-.6-.3-1.3-.5-1.7-.1-.3-.4-1.2-.5-1.9-.1-.8-.3-1.7-.5-2.2-.1-.4-.5-2.1-.8-3.7-.3-1.6-.6-3.1-.7-3.3-.2-.5-.6-.6-.9-.2z"/>
+    <path id="g-word" d="M117.4 488.8c-.9 .1-3.3 .3-5.3 .4-2 .1-4.1 .3-4.8 .5-.7 .2-2.2 .4-3.3 .5-1 .1-2.4 .4-3.1 .6-.7 .2-1.7 .4-2.1 .4-.7 0-2.3 .4-5 1.4-.5 .1-1.4 .4-2.1 .6-.6 .1-1.3 .4-1.5 .5-.1 .2-.7 .4-1.1 .5-.5 .1-1.1 .3-1.3 .5-.3 .1-.9 .4-1.4 .5-.5 .2-1.1 .4-1.3 .6-.3 .2-.7 .4-1 .4-.2 0-.7 .2-1.1 .5-.4 .3-.8 .5-1 .5-.2 0-.6 .2-1 .5-.4 .3-.8 .5-.9 .5-.2 0-.6 .2-.9 .5-.3 .3-.7 .5-.9 .5-.1 0-.4 .2-.6 .4-.2 .2-.6 .5-1 .6-.4 .2-.7 .3-.7 .4 0 .2-.3 .4-.6 .5-.4 .2-1 .6-1.5 .9-.4 .4-1 .8-1.3 1-1 .7-2.1 1.5-2.9 2.4-.5 .4-.9 .8-1 .8-.3 0-4.9 5-5.9 6.3-.4 .5-1.2 1.5-1.7 2.3-.6 .7-1.2 1.6-1.5 1.8-.2 .3-.4 .7-.4 .8 0 .1-.2 .4-.5 .6-.3 .3-.5 .6-.5 .7 0 .2-.2 .5-.4 .8-.2 .3-.7 1.2-1.2 2-.4 .9-.8 1.6-.9 1.8-.2 .1-.3 .5-.4 .8-.1 .3-.3 1-.6 1.4-.3 .5-.5 1-.5 1.2 0 .3-.2 .8-.5 1.2-.3 .5-.5 1-.5 1.3 0 .2-.2 1-.5 1.6-.2 .7-.5 1.4-.5 1.6 0 .2-.2 1-.4 1.7-.2 .7-.5 2-.6 3-.1 1-.3 2.7-.5 3.7-.2 1.4-.3 3-.4 5.9 0 3.3 .1 4.4 .5 6.4 .2 1.4 .4 2.8 .4 3.3 0 .4 .2 1.5 .5 2.4 .3 .8 .5 1.8 .5 2.1 0 .3 .2 1 .4 1.4 .2 .5 .5 1.3 .6 1.9 .1 .6 .4 1.3 .6 1.4 .1 .2 .4 .8 .4 1.3 .1 .5 .4 1.2 .6 1.5 .2 .2 .4 .6 .4 .9 0 .2 .3 .7 .5 1.1 .3 .4 .5 .9 .5 1 0 .2 .2 .5 .4 .6 .1 .2 .4 .7 .7 1.1 .2 .5 .6 1.2 .9 1.7 .4 .5 .7 1.1 .9 1.4 .1 .3 .7 1.1 1.2 1.8 .6 .6 1.3 1.5 1.6 2 1.1 1.5 1.5 1.9 4.1 4.5 1.4 1.5 2.7 2.7 2.8 2.7 .1 0 .3 .2 .4 .4 .1 .2 .5 .6 .9 .8 .3 .2 1 .7 1.4 1 .5 .3 1 .7 1.1 .7 .2 .1 .5 .3 .7 .6 .2 .2 .9 .6 1.5 1 .6 .4 1.3 .9 1.6 1.1 .2 .2 .6 .4 .7 .4 .2 0 .6 .2 .9 .5 .3 .3 .7 .5 .9 .5 .1 0 .4 .2 .5 .3 .3 .3 3.4 1.9 3.7 1.9 .1 0 .4 .2 .7 .4 .3 .2 .7 .4 .9 .4 .3 0 .7 .2 1.1 .5 .4 .3 .9 .5 1.2 .5 .2 0 .9 .2 1.4 .5 .6 .3 1.2 .5 1.3 .5 .2 0 .9 .2 1.5 .5 .7 .3 1.4 .5 1.7 .5 .2 0 .8 .2 1.2 .4 .5 .3 1.4 .5 2.1 .6 .7 .1 1.7 .4 2.2 .6 .6 .2 1.4 .4 2 .4 .5 0 1.6 .2 2.3 .4 .7 .2 2.1 .5 3.2 .6 1.1 .1 2.7 .4 3.7 .6 1.5 .3 3 .3 12 .3 9.2 0 10.5 0 11.8-.3 .9-.2 2.6-.5 3.9-.6 1.5-.1 2.7-.3 3.2-.5 .5-.1 1.4-.4 2-.4 .7-.1 1.9-.3 2.7-.6 .7-.3 1.7-.5 2-.5 .4 0 1.2-.2 1.8-.5 .7-.3 1.4-.5 1.7-.5 .2 0 .9-.2 1.5-.5 .6-.3 1.2-.5 1.5-.5 .2 0 .8-.2 1.2-.5 .5-.3 1.1-.5 1.3-.5 .3 0 .8-.2 1.2-.5 .4-.3 .9-.5 1.1-.5 .2 0 .7-.2 1.1-.5 .4-.3 .9-.5 1.1-.5 .2 0 .6-.2 1-.5 .3-.3 .7-.5 .9-.5 .2 0 .6-.2 1-.5 .4-.3 .8-.5 .9-.5 .2 0 .6-.2 .9-.5 .3-.3 .7-.5 .9-.5 .1 0 .5-.2 .7-.4 1.1-.9 2.1-1.6 2.3-1.6 .1 0 .5-.2 .7-.5 .3-.3 .6-.5 .7-.5 .1 0 .5-.3 .8-.6 .3-.3 .9-.8 1.3-1.1 1.2-.9 2-1.7 3.8-3.4 1.9-1.8 6.2-6.9 7.1-8.4 .3-.5 .7-1.2 .9-1.5 .7-1 1.2-1.9 1.6-2.7 .2-.5 .5-.9 .6-1 .1 0 .3-.5 .4-.9 .2-.5 .4-1.1 .6-1.4 .3-.2 .4-.6 .4-.8 0-.3 .2-.7 .4-1.1 .3-.4 .6-1.1 .7-1.6 .3-1.2 .8-2.5 1.5-4.2 .2-.7 .4-1.6 .4-2 0-.4 .2-1.3 .4-1.9 .8-2 1.1-9.5 .7-16.8-.1-2.6-.2-3.6-.6-4.8-.3-.8-.5-1.8-.5-2.2 0-.4-.2-1.1-.4-1.5-.2-.5-.4-1.4-.6-2-.1-.6-.3-1.3-.4-1.5-.2-.3-.4-.9-.6-1.5-.1-.5-.3-1.1-.5-1.3-.1-.2-.3-.7-.5-1.1-.1-.5-.3-.9-.5-1.1-.1-.1-.3-.5-.4-.8 0-.3-.3-.8-.5-1-.2-.3-.4-.8-.6-1.2-.1-.4-.3-.8-.4-.9-.1-.1-.4-.5-.6-1-.2-.5-.4-.9-.6-.9-.1 0-.2-.2-.3-.4-.1-.3-.4-1-.8-1.6-.5-.5-1-1.4-1.3-1.8-1.4-2.1-1.9-2.7-4.6-5.4-2.8-2.8-4.7-4.6-4.9-4.6-.1 0-.4-.2-.6-.4-.2-.3-.8-.7-1.2-1-.4-.3-1-.7-1.3-1-.7-.5-1.1-.8-2.1-1.3-.3-.2-.8-.6-1.1-.8-.3-.3-.6-.5-.7-.5-.1 0-.4-.2-.7-.4-.7-.5-4.6-2.5-5.3-2.7-.3 0-.7-.3-.9-.4-.2-.2-.7-.4-1.2-.5-.5-.1-1-.3-1.2-.5-.1-.1-.7-.4-1.2-.5-.5-.1-1.3-.4-1.6-.6-.4-.2-.9-.4-1.2-.4-.3 0-.8-.2-1.3-.4-.4-.2-1.3-.5-1.9-.6-.6-.1-1.5-.4-2-.6-.5-.2-1.3-.4-1.8-.4-.5 0-1.4-.2-2-.4-.6-.2-2.1-.5-3.4-.6-1.2-.1-2.8-.3-3.4-.5-.6-.2-2.6-.4-4.4-.5-1.8-.1-3.8-.3-4.4-.4-1.2-.2-7.8-.2-10.4 0zm12.5 5.9c.6 .2 1.6 .4 2.4 .5 .7 .1 1.7 .4 2.1 .6 .4 .2 .9 .4 1.2 .4 .3 0 .9 .2 1.3 .5 .5 .3 1 .5 1.2 .5 .3 0 1.2 .4 2.8 1.3 .4 .2 .9 .5 1.3 .6 .4 .2 .9 .5 1.2 .7 .3 .2 .6 .4 .8 .4 .2 0 .6 .2 .8 .5 .3 .3 .6 .5 .7 .5 .2 0 .4 .2 .6 .4 .1 .2 .5 .5 .7 .6 .9 .5 1.6 1.1 4.4 3.8 2.8 2.8 4.4 4.5 4.8 5.4 .2 .3 .5 .6 .7 .8 .1 .1 .3 .4 .3 .5 0 .1 .2 .4 .4 .6 .2 .2 .4 .6 .5 .9 .1 .3 .3 .7 .5 .9 .3 .4 .9 1.5 1.5 2.7 .2 .4 .4 .8 .5 1 .1 .2 .3 .5 .4 .8 .2 .3 .5 .9 .7 1.5 .3 .5 .5 1.1 .5 1.3 0 .2 .3 .9 .5 1.4 .3 .5 .5 1.2 .5 1.5 0 .3 .2 .9 .4 1.3 .2 .4 .5 1.3 .6 2 .1 .6 .3 1.4 .5 1.8 .2 .4 .4 1.5 .5 2.4 .1 1 .4 2.2 .5 2.8 .2 .7 .4 2.7 .5 5.4 .1 2.4 .3 4.8 .3 5.4 .1 .5 0 3.1-.2 5.8-.2 3.4-.4 5.1-.7 6.2-.2 .8-.4 1.9-.4 2.4 0 .5-.1 1.3-.3 1.7-.2 .5-.4 1.4-.6 2.1-.2 .7-.5 1.6-.7 2-.2 .5-.4 1-.4 1.2 0 .3-.2 .9-.5 1.4-.2 .5-.5 1-.5 1.2 0 .2-.2 .7-.5 1.3-.2 .6-.5 1.2-.7 1.5-.1 .3-.3 .7-.5 1-.1 .3-.3 .7-.5 1-.1 .3-.5 1-.8 1.5-.3 .6-.7 1.3-.8 1.6-.2 .4-.5 .8-.8 1-.2 .2-.4 .5-.4 .6 0 .2-1.1 1.8-1.6 2.3-.1 .2-.7 .9-1.3 1.5-1.3 1.7-6.2 6.5-6.5 6.5-.2 0-.4 .2-.7 .4-.6 .6-1.9 1.6-2.1 1.6-.1 0-.5 .2-.8 .5-.3 .3-.7 .5-.9 .5-.1 0-.5 .2-.9 .5-.3 .3-.8 .5-1 .5-.2 0-.5 .2-.8 .4-.3 .2-.9 .5-1.4 .6-.5 .2-1 .4-1.2 .5-.2 .2-.7 .4-1.3 .5-.5 .1-1.3 .4-1.8 .6-.4 .2-1.1 .4-1.5 .4-.4 0-1.3 .2-2.1 .4-.9 .3-2.7 .5-5.4 .7-3.4 .2-4.8 .2-8.6 0-3.6-.2-4.8-.4-5.7-.7-.6-.2-1.4-.4-1.8-.4-.4 0-1-.2-1.4-.4-.5-.2-1.3-.5-1.8-.6-.6-.1-1.2-.3-1.4-.5-.1-.1-.7-.3-1.2-.5-.5-.1-1.1-.4-1.3-.6-.3-.2-.7-.4-.9-.4-.3 0-.6-.1-.8-.3-.3-.3-1.7-1.1-2.7-1.6-.3-.1-.8-.4-1-.7-.2-.2-.4-.4-.5-.4-.1 0-.5-.2-.9-.5-.4-.3-1.3-1.1-2.1-1.7-.8-.6-1.5-1.2-1.6-1.4-.1-.2-.3-.4-.5-.4-.1 0-.3 0-.3-.1 0-.1-.5-.7-1-1.3-1.6-1.5-4.2-4.8-4.2-5.1 0-.1-.2-.3-.4-.6-.4-.5-.7-.9-2.1-3.6-.5-1-1-1.9-1.1-2.1-.3-.6-1.4-3-1.4-3.2 0-.1-.2-.6-.5-1.1-.2-.5-.5-1.2-.5-1.4 0-.2-.2-.8-.5-1.4-.2-.5-.5-1.3-.5-1.6 0-.3-.2-1-.4-1.5-.2-.5-.5-1.6-.6-2.5-.1-.9-.3-2-.5-2.6-.7-2.3-1-14.8-.5-21.1 .1-1.6 .4-3.5 .6-4.4 .2-.8 .4-1.7 .4-2.1 0-.3 .3-1.2 .5-2 .3-.8 .5-1.6 .5-1.9 0-.3 .3-1 .5-1.6 .3-.5 .5-1.2 .5-1.5 0-.3 .3-.9 .5-1.5 .3-.5 .5-1.1 .5-1.3 0-.2 .3-.7 .5-1.1 .3-.4 .5-.9 .5-1.1 0-.2 .2-.7 .4-.9 .3-.3 .5-.9 .7-1.2 .1-.4 .3-.8 .5-1 .3-.4 .8-1.3 1.3-2.3 .2-.3 .5-.8 .7-1 .2-.2 .4-.5 .4-.6 0-.1 .3-.5 .5-.8 .3-.4 .5-.7 .5-.8 0-.1 .2-.4 .4-.6 .2-.2 .8-.9 1.4-1.5 .8-.9 3.5-3.7 5-5.1 .3-.3 .6-.5 .8-.5 .1 0 .3-.2 .6-.4 .7-.8 1.7-1.6 1.9-1.6 .2 0 .5-.2 .9-.5 .3-.2 .7-.5 .9-.6 .3 0 .6-.3 .8-.5 .2-.2 .6-.4 .8-.4 .2 0 .6-.2 1-.5 .3-.3 .7-.5 1-.5 .2 0 .7-.2 1-.5 .4-.3 .9-.5 1.2-.5 .2 0 .8-.2 1.2-.5 .5-.3 1.1-.5 1.4-.5 .4 0 1-.2 1.5-.4 .5-.2 1.3-.5 1.8-.5 .5-.1 1.7-.3 2.7-.5 1-.2 2.1-.4 2.3-.5 .3 0 3.4 0 6.8 0 5.3 0 6.5 .1 7.3 .4zM286.4 488.4c-.8 .1-1.7 .3-2 .4-.4 .1-1.6 .3-2.7 .4-1.2 .1-2.4 .4-3 .6-.6 .2-1.4 .4-1.8 .4-.4 0-1.1 .2-1.6 .4-.5 .2-1.3 .5-1.9 .6-.5 .1-1.2 .4-1.6 .6-.4 .2-.8 .4-1 .4-.2 0-.8 .2-1.3 .5-.5 .3-1.6 .8-2.5 1.2-.8 .4-1.9 1-2.5 1.3-.5 .4-1.3 .7-1.6 .9-.4 .2-.9 .5-1.1 .7-.2 .2-.5 .4-.7 .4-.1 0-.4 .2-.7 .4-.2 .3-.5 .6-.7 .7-1.6 .9-2.5 1.6-3.3 2.4-.3 .3-.6 .5-.6 .5-.3 0-7.1 6.7-8.5 8.3-.4 .4-.8 .7-1 .7-.4 0-.4-.2-.5-4.6-.1-2.6-.2-7-.2-9.7 0-4.3 0-5.1-.3-5.4-.3-.2-1.6-.3-11.8-.3-8.8 0-11.5 .1-11.7 .3-.3 .2-.4 4.1-.4 55.9 0 47.1 0 55.7 .2 55.8 .2 .1 5.6 .2 11.9 .2 10.9 0 11.7 0 12-.3 .3-.4 .3-4.4 .2-42 0-40.5 0-41.6 .3-42.4 .3-.5 .8-1.3 1.2-1.8 .4-.4 1.3-1.4 2-2.2 .7-.8 1.4-1.4 1.5-1.5 .1 0 .8-.7 1.6-1.4 .8-.8 1.9-1.7 2.5-2 .6-.4 1.3-.9 1.6-1.1 .3-.3 .6-.5 .7-.5 .1 0 .6-.2 .9-.5 .4-.3 .9-.5 1-.5 .2 0 .6-.2 .9-.4 .3-.2 .9-.5 1.5-.6 .5-.1 1.1-.3 1.2-.5 .2-.1 .6-.3 1-.4 .4-.1 1.2-.3 1.9-.6 .6-.3 1.3-.5 1.7-.5 .3 0 1.2-.2 2-.5 .9-.3 1.9-.5 2.6-.5 .6 0 2-.1 3.1-.3 2.2-.3 6.4-.4 7.6-.1 .5 .1 1.8 .3 3 .4 1.4 .1 2.6 .3 3.3 .6 .6 .2 1.4 .4 1.8 .4 .4 0 1.1 .2 1.7 .5 .5 .3 1.2 .5 1.5 .5 .3 0 .9 .2 1.3 .5 .5 .3 1 .5 1.2 .5 .2 0 .8 .2 1.2 .5 .5 .3 1 .5 1.2 .5 .3 0 .7 .2 1 .4 .2 .2 .9 .5 1.4 .7 .8 .3 1 .3 1.5 .1 .3-.2 .6-.5 .7-1 .1-.4 .3-.9 .5-1.1 .2-.2 .4-.7 .5-1.1 .1-.4 .3-.9 .5-1.1 .2-.2 .4-.5 .4-.7 0-.2 .2-.6 .5-.9 .3-.3 .5-.8 .6-1.2 .1-.3 .3-.8 .5-1 .3-.3 .4-.7 .4-.9 0-.2 .2-.6 .4-.9 .3-.3 .6-.8 .7-1.2 .1-.4 .3-1 .5-1.3 .2-.2 .4-.6 .4-.8 0-.2 .3-.6 .5-1 .3-.3 .6-.8 .6-1.1 0-.5-.1-.7-1.3-1.2-.7-.4-1.6-.7-2-.7-.4 0-1.3-.2-2.1-.5-.8-.3-1.9-.5-2.5-.5-.6 0-1.5-.1-2-.2-3-.7-4.4-.8-8.5-.8-2.3 .1-4.8 .1-5.5 .2zM337.2 433.2c-3.1 .1-5.2 .2-5.4 .3-.1 .2-.2 21.6-.2 66.9 0 109 0 101.4 .3 101.7 .3 .3 1.7 .3 12.1 .3 9.6 0 11.8 0 12-.3 .2-.1 .2-3.9 .3-12.8 0-11 .1-12.6 .3-12.6 .2 0 .4 .3 .6 .6 .1 .3 .3 .7 .4 .9 .2 .2 .4 .7 .6 1.1 .1 .4 .4 .7 .4 .7 .1 0 .4 .3 .7 .7 .4 .7 .9 1.6 1.8 2.8 1.2 1.7 7.2 7.7 9.2 9.1 .3 .2 .9 .6 1.3 .9 .4 .3 .9 .6 1.1 .7 .2 .1 .6 .4 .8 .6 .2 .2 .5 .4 .7 .4 .1 0 .5 .2 .9 .5 .3 .3 .7 .5 .9 .5 .2 0 .7 .2 1 .5 .3 .3 .7 .5 .9 .5 .1 0 .6 .2 .9 .5 .4 .3 .9 .5 1.1 .5 .3 0 .7 .2 1 .4 .2 .2 .7 .5 1 .5 .4 .1 1 .4 1.5 .6 .5 .3 1.1 .5 1.3 .5 .2 0 .8 .2 1.2 .4 .4 .3 1.3 .5 2 .6 .7 .1 1.4 .4 1.7 .6 .3 .1 1.1 .3 1.9 .4 .8 .1 1.8 .4 2.3 .6 .6 .2 1.4 .4 2 .4 .6 0 1.9 .2 2.8 .4 1.5 .4 2.6 .5 8.2 .6 6 0 6.8 0 9.4-.4 1.6-.2 3.7-.5 4.7-.6 1-.1 2.4-.3 3.1-.6 .6-.2 1.6-.4 2-.4 .5 0 1.4-.2 2-.5 .7-.3 1.5-.5 1.9-.5 .4 0 1.1-.2 1.6-.5 .6-.3 1.2-.5 1.4-.5 .2 0 .9-.2 1.4-.5 .5-.3 1.1-.5 1.3-.5 .3 0 .8-.2 1.2-.5 .4-.3 .9-.5 1.1-.5 .3 0 .8-.2 1.1-.5 .4-.3 .9-.5 1.1-.5 .3 0 .8-.2 1.1-.5 .4-.3 .9-.5 1-.5 .2 0 .6-.2 .9-.4 .2-.2 .8-.5 1.2-.7 .4-.1 .7-.4 .7-.5 0-.1 .3-.3 .7-.4 .4-.1 .8-.4 1-.6 .2-.2 .5-.4 .7-.4 .1 0 .4-.2 .6-.4 .2-.2 .5-.5 .7-.6 .2-.1 .8-.5 1.2-.8 .5-.3 1.1-.8 1.5-1 .3-.2 .7-.6 .8-.8 .1-.2 .3-.4 .4-.4 .1 0 .7-.4 1.2-.9 .5-.6 1.6-1.6 2.3-2.3 1.7-1.6 3.8-3.9 4.6-4.9 1.5-2.1 1.7-2.4 2.1-2.8 .2-.2 .4-.5 .4-.6 0-.1 .2-.4 .5-.7 .3-.3 .5-.7 .5-.9 0-.1 .2-.5 .5-.8 .5-.6 .9-1.4 1.5-2.6 .2-.5 .5-.9 .6-1 .1 0 .3-.4 .4-.8 .2-.4 .4-1 .6-1.3 .2-.2 .4-.6 .4-.8 0-.1 .2-.7 .5-1.3 .3-.5 .5-1.2 .5-1.4 0-.2 .2-.7 .4-1.2 .3-.4 .5-1.3 .6-1.9 .2-.7 .4-1.5 .5-1.8 .2-.3 .4-1.3 .5-2.3 .1-1 .4-2.2 .5-2.8 .2-.5 .4-2.2 .5-3.7 .1-1.5 .3-3.2 .4-3.8 .3-1.5 .3-4.1-.1-6.9-.1-1.3-.3-3-.3-3.7 0-.8-.2-1.9-.4-2.7-.2-.7-.5-1.9-.6-2.6-.1-.8-.3-1.7-.4-2-.2-.4-.4-1-.5-1.5-.1-.5-.3-1.4-.6-2-.3-.7-.5-1.3-.5-1.5 0-.2-.2-.7-.5-1.2-.3-.6-.5-1.2-.5-1.4 0-.2-.2-.7-.5-1.1-.3-.4-.5-.8-.5-1 0-.2-.2-.6-.5-1-.3-.4-.5-.8-.5-.9 0-.1-.2-.5-.5-.8-.3-.4-.5-.7-.5-.7 0-.2-1.2-2.3-1.5-2.6-.2-.2-.7-.8-1.1-1.5-2.3-3.5-5.4-7-8.9-9.8-1-.8-2-1.7-2.3-2-.3-.3-.6-.5-.7-.5-.1 0-.4-.2-.7-.5-.2-.3-.6-.5-.7-.5-.1 0-.5-.2-.7-.4-.7-.5-2.2-1.6-2.4-1.6-.2 0-.5-.2-.8-.5-.3-.3-.7-.5-.9-.5-.1 0-.5-.2-.9-.5-.3-.3-.8-.5-1-.5-.2 0-.6-.2-.9-.5-.4-.3-.8-.5-1-.5-.2 0-.7-.2-1.1-.5-.3-.3-.8-.5-1.1-.5-.2 0-.7-.2-1-.4-.4-.2-1-.5-1.5-.6-.5-.1-1.1-.4-1.3-.5-.3-.2-1-.4-1.7-.5-.6-.1-1.5-.4-2-.6-.5-.2-1.2-.4-1.5-.4-.4 0-1.3-.2-2.1-.5-.8-.3-1.9-.5-2.4-.5-.5 0-1.8-.2-2.9-.5-1.1-.3-2.5-.5-3-.5-.6 0-2.7-.2-4.7-.4-3.8-.4-7.2-.4-10.1 0-.6 .1-2.5 .3-4.1 .4-1.6 .1-3.3 .3-3.8 .5-.4 .2-1.6 .4-2.5 .5-.8 .1-2 .4-2.5 .6-.5 .2-1.2 .4-1.6 .4-.4 0-1.1 .2-1.6 .4-.5 .3-1.4 .5-1.9 .6-.6 .1-1.3 .4-1.6 .6-.3 .2-.8 .4-1.1 .4-.2 0-.8 .2-1.3 .5-.4 .3-1 .5-1.2 .5-.2 0-.6 .2-.9 .4-.3 .2-.8 .5-1.1 .5-.3 .1-.8 .4-1.1 .6-.4 .3-.7 .5-.9 .5-.2 0-.6 .2-.9 .5-.3 .3-.7 .5-.9 .5-.1 0-.5 .2-.8 .5-.6 .4-1 .7-2 1.3-.3 .2-.8 .5-1.1 .8-.3 .2-.6 .4-.7 .4-.2 0-.4 .2-.5 .4-.2 .2-.9 .9-1.7 1.5-2.8 2.4-6.2 5.9-7.3 7.4-.1 .3-.7 1-1.1 1.6-.5 .6-.9 1.2-.9 1.3 0 .1-.2 .3-.4 .5-.2 .2-.6 1-1 1.7-.8 1.7-1 1.9-1.3 1.6-.2-.2-.3-6.8-.3-41.5 0-30.4 0-41.3-.2-41.4-.3-.2-12.4-.3-18.8-.1zm72.5 63.4c.7 .2 1.9 .5 2.7 .6 .9 .1 1.9 .3 2.2 .5 .4 .2 1.2 .4 1.9 .5 .6 .1 1.3 .3 1.5 .5 .2 .2 .8 .4 1.3 .5 .5 .1 1.2 .4 1.5 .6 .2 .2 .7 .4 .9 .4 .2 0 .6 .2 1 .5 .4 .3 .8 .5 1.1 .5 .2 0 .5 .2 .7 .4 .2 .2 .7 .5 1 .6 .4 .1 .7 .3 .7 .4 0 .1 .4 .4 .9 .6 .4 .2 1.2 .7 1.7 1.2 .4 .4 .9 .8 1 .8 0 0 .3 .2 .6 .5 .3 .3 1.3 1.2 2.2 2.1 2.3 2.1 5.6 6.1 5.6 6.7 0 .2 .2 .4 .4 .6 .3 .2 .6 .7 .8 1 .5 1.1 1 1.9 1.3 2.3 .2 .2 .4 .6 .4 .9 .1 .3 .3 .8 .5 1 .2 .2 .5 .8 .6 1.2 .1 .4 .4 .9 .6 1.2 .2 .3 .4 .8 .4 1.1 0 .2 .3 .9 .5 1.4 .3 .5 .5 1.1 .5 1.4 0 .2 .2 .8 .4 1.3 .3 .4 .6 1.4 .7 2.2 .1 .8 .3 1.6 .4 2 .2 .3 .4 1.3 .5 2.4 .1 1 .4 2.4 .6 3 .3 1.1 .3 2 .3 8.5 0 7 0 7.4-.4 8.8-.3 .9-.5 2-.5 2.5 0 .6-.2 1.8-.5 2.7-.2 .9-.5 2-.5 2.3 0 .3-.2 1.1-.5 1.6-.2 .6-.5 1.2-.5 1.5 0 .3-.2 .9-.5 1.3-.2 .5-.5 1-.5 1.2 0 .2-.2 .8-.5 1.3-.2 .5-.5 1-.5 1.2 0 .2-.8 2-1.4 3-.1 .2-.5 1-1 1.9-.4 .9-1 1.8-1.2 2-.2 .3-.4 .6-.4 .8 0 .2-.7 1.3-1.4 2.1-.2 .2-.5 .6-.6 .8-.6 1.3-5.4 6.3-7 7.3-.4 .3-1 .8-1.5 1.1-.4 .3-1 .7-1.2 .8-.3 .2-.5 .4-.5 .5 0 .1-.4 .3-.8 .5-.5 .2-1 .5-1.2 .7-.1 .2-.4 .3-.6 .3-.1 0-.6 .2-1 .5-.3 .3-.8 .5-1 .5-.2 0-.6 .2-1 .5-.3 .3-.9 .5-1.2 .5-.3 0-.8 .2-1 .4-.3 .2-.9 .5-1.4 .6-.5 .1-1.2 .3-1.7 .6-.4 .2-1.1 .4-1.5 .4-.4 0-1.4 .2-2.1 .5-.8 .3-1.7 .5-2.3 .5-.6 0-2 .2-3.1 .3-2.3 .4-4.7 .4-6.4 .1-.7-.1-2.3-.3-3.6-.4-1.4-.1-2.4-.3-2.8-.5-.4-.2-1.3-.4-2.1-.5-.8-.1-1.8-.3-2.3-.5-.4-.2-1.2-.5-1.6-.5-.5-.1-1.1-.3-1.3-.5-.1-.1-.7-.4-1.2-.5-.5 0-1.2-.3-1.5-.6-.3-.2-.7-.4-1-.4-.2 0-.7-.2-1.1-.5-.3-.3-.8-.5-1-.5-.2 0-.6-.2-1-.5-.3-.3-.8-.5-.9-.5-.1 0-.5-.2-.8-.5-.4-.3-.7-.5-.8-.5-.2 0-1.7-.9-2.4-1.5-.2-.2-.6-.5-.9-.6-1.8-1.2-2.3-1.6-5.3-4.6-1.9-1.8-3.9-4.2-3.9-4.5 0-.1-.2-.3-.4-.6-.4-.4-.9-1.1-1.5-2.5-.2-.4-.6-.9-.7-1.1-.2-.1-.4-.4-.4-.6 0-.2-.2-.7-.5-1.1-.2-.4-.5-.9-.5-1.1 0-.1-.2-.6-.5-1.1-.3-.4-.5-1-.5-1.2 0-.2-.2-.7-.4-1-.2-.4-.4-1.2-.6-1.8-.1-.6-.3-1.3-.4-1.6-.2-.3-.4-1-.5-1.5 0-.5-.3-1.7-.5-2.8-.5-1.8-.5-2.2-.5-15 0-13 0-13.1 .5-14.6 .2-.8 .4-1.7 .4-2 0-.3 .3-1.1 .5-1.9 .3-.8 .5-1.6 .5-1.8 0-.3 .3-.9 .5-1.4 .3-.6 .5-1.1 .5-1.2 0-.3 2.1-4.4 2.5-4.9 .2-.1 .4-.5 .5-.8 .1-.3 .5-.9 .9-1.4 .4-.5 .9-1.2 1-1.5 .3-.5 1.8-2.3 2.8-3.4 .2-.2 .7-.8 1.1-1.2 .8-.9 3.3-3.1 4.3-3.8 .3-.3 1-.7 1.4-.9 .4-.2 .7-.5 .7-.6 0-.1 .3-.2 .6-.4 .3-.1 .8-.4 .9-.6 .2-.2 .5-.4 .7-.4 .2 0 .6-.2 .8-.5 .3-.3 .6-.5 .8-.5 .2 0 .6-.2 .9-.4 .3-.2 .8-.5 1.2-.6 .3-.1 .8-.4 1.1-.6 .3-.2 .7-.4 .9-.4 .2 0 .8-.2 1.2-.5 .5-.3 1.1-.5 1.4-.5 .4 0 1-.2 1.5-.5 .5-.2 1.4-.5 1.9-.5 .6-.1 1.4-.3 1.9-.6 .5-.2 1.3-.4 1.7-.4 .4 0 1.4-.2 2.2-.4 1.9-.6 5.3-.8 10.4-.6 3.1 0 4.3 .1 5.2 .4zM482.5 490.5c-.1 .4-.1 .5 .7 1.7 .6 .9 .9 1.4 1.8 3 .2 .4 .6 1 .8 1.3 .2 .3 .4 .7 .4 .9 0 .2 .2 .5 .3 .6 .2 .2 .5 .6 .8 1.1 .2 .4 .6 1 .7 1.3 .2 .3 .5 .8 .8 1.1 .2 .3 .4 .7 .4 .8 0 .2 .2 .4 .3 .5 .2 .2 .5 .6 .7 1 .8 1.6 1.2 2.2 1.6 2.7 .2 .3 .4 .7 .4 .8 0 .2 .2 .5 .5 .8 .4 .6 .9 1.4 1.4 2.4 .2 .4 .4 .8 .6 .9 .1 .1 .3 .5 .4 .8 .1 .3 .4 .8 .6 1.1 .3 .3 .5 .7 .5 .8 0 .2 .2 .6 .5 .9 .3 .3 .5 .7 .5 .8 0 .1 .2 .3 .4 .5 .2 .2 .4 .6 .5 .9 .1 .3 .3 .7 .5 1 .3 .2 .6 .6 .8 .9 .4 1 .9 1.8 1.4 2.4 .2 .3 .4 .7 .4 .9 0 .2 .2 .5 .4 .6 .1 .2 .4 .7 .6 1.2 .2 .4 .5 .8 .6 .9 .1 .1 .4 .4 .5 .8 .5 1 1 1.8 1.5 2.4 .2 .3 .4 .7 .4 .8 0 .2 .2 .5 .5 .8 .5 .7 1 1.5 1.4 2.6 .2 .4 .5 .7 .6 .7 0 0 .3 .4 .5 .9 .2 .4 .5 .9 .7 1.1 .2 .1 .3 .4 .3 .5 0 .1 .2 .5 .4 .8 .2 .2 .4 .7 .5 1 .1 .2 .4 .7 .6 .9 .3 .3 .5 .6 .5 .8 0 .2 .2 .5 .4 .7 .2 .2 .5 .6 .7 .9 .1 .3 .5 .9 .7 1.3 .2 .4 .5 .9 .7 1.1 .1 .2 .4 .6 .6 1 .2 .4 .6 1.1 .9 1.6 .3 .5 .8 1.3 1 1.7 .2 .5 .5 .9 .7 1.1 .2 .2 .3 .4 .3 .6 0 .1 .2 .5 .5 .9 .3 .4 .5 .7 .5 .8 0 .1 1.3 2.3 1.7 2.7 .1 .2 .3 .5 .5 .8 .1 .3 .5 .9 .8 1.4 .4 .5 .8 1.3 1 1.7 .1 .4 .4 .7 .5 .7 .1 0 .3 .4 .5 .9 .2 .4 .7 1.3 1 1.8 .4 .6 .7 1.2 .9 1.5 .1 .3 .4 .8 .7 1.1 .2 .3 .4 .7 .4 .9 0 .2 .2 .5 .4 .7 .3 .2 .6 .7 .8 1 .4 1 .9 1.8 1.4 2.4 .2 .3 .4 .7 .4 .9 0 .2 .2 .5 .4 .7 .3 .2 .6 .7 .8 1 .4 1 .9 1.8 1.4 2.4 .2 .3 .4 .7 .4 .8 0 .2 .2 .5 .5 .8 .4 .6 .9 1.4 1.4 2.4 .2 .4 .4 .8 .6 .9 .2 .1 .4 .5 .4 .8 .1 .3 .3 .7 .6 1 .2 .2 .5 .6 .7 .9 .4 1 .9 1.8 1.4 2.4 .2 .3 .4 .7 .4 .8 0 .2 .2 .5 .5 .8 .4 .6 .9 1.4 1.4 2.4 .2 .4 .4 .8 .6 .9 .2 .1 .3 .5 .4 .8 .1 .3 .4 .7 .6 1.1 .3 .3 .5 .7 .5 .8 0 .2 .2 .5 .5 .9 .2 .3 .6 .7 .7 1 .5 1 1 1.8 1.2 2.1 .3 .4 .9 1.4 1.6 2.8 .2 .5 .5 .9 .7 1.1 .2 .2 .3 .5 .3 .9 0 .5-.5 1.1-3.6 4.3-7.4 7.5-16.9 16.9-19.3 19.1-1.3 1.2-3.5 3.3-4.9 4.6-1.4 1.3-3.2 3.1-4.1 3.9-.9 .8-2.2 2.1-3.1 2.8-1.6 1.6-1.7 1.7-4.8 4.2-2 1.6-2.4 2.1-2 2.3 .1 .1 5.4 .1 11.7 .1 10.3 0 11.4 0 11.8-.3 .2-.2 .3-.5 .3-.7 0-.2 .3-.6 .5-.9 .3-.4 .5-.8 .5-.9 0-.2 .2-.5 .4-.8 .2-.3 .7-1.1 1.1-1.9 .4-.8 .9-1.6 1.1-1.9 .3-.2 .4-.5 .4-.7 0-.1 .2-.5 .5-.8 .3-.3 .5-.8 .6-1.1 .1-.3 .3-.7 .5-.9 .2-.2 .4-.6 .5-.9 .1-.2 .3-.7 .5-1 1.1-1.5 1.4-2.1 1.4-2.3 0-.1 .2-.4 .4-.6 .3-.3 .5-.7 1.6-2.8 .2-.4 .7-1.2 1-1.7 .4-.5 .8-1.2 .9-1.6 .2-.4 .5-.8 .6-1 .2-.2 .6-.9 1-1.7 .4-.8 .9-1.6 1.1-1.9 .3-.2 .4-.5 .4-.7 0-.1 .2-.5 .5-.8 .2-.3 .6-.9 .8-1.3 .5-.8 1-1.8 1.7-3.1 .3-.5 .8-1.3 .9-1.7 .2-.4 .5-.9 .7-1.1 .2-.2 .4-.6 .5-.9 .1-.3 .3-.7 .5-.9 .2-.2 .4-.6 .5-.9 .1-.2 .3-.7 .5-1 1-1.5 1.4-2.1 1.4-2.3 0-.1 .2-.3 .3-.5 .3-.2 1.5-2.1 1.7-2.7 .1-.1 .3-.5 .6-.8 .2-.3 .4-.8 .4-.9 0-.2 .2-.5 .4-.6 .1-.2 .5-.6 .7-1.1 .5-1.2 1-1.9 1.5-2.6 .2-.3 .4-.7 .4-.8 0-.1 .3-.5 .5-.8 .3-.4 .5-.8 .5-.9 0-.2 .3-.6 .5-.9 .3-.4 .5-.7 .5-.8 0-.2 1-1.7 1.6-2.5 .2-.3 .5-.8 .5-1 .1-.3 .3-.7 .5-.8 .1-.1 .4-.5 .5-.9 .2-.3 .6-1 .9-1.5 .4-.5 .8-1.3 1-1.7 .2-.5 .5-.9 .6-1 .1 0 .4-.5 .6-.9 .2-.5 .6-1.2 .9-1.7 .3-.4 .7-1.1 .9-1.6 .3-.4 .7-1.2 .9-1.6 .2-.5 .5-1 .7-1.2 .3-.3 .8-1.2 1.3-2.2 .2-.3 .5-.8 .7-1 .2-.2 .4-.5 .4-.7 0-.2 .2-.6 .5-.9 .4-.5 .8-1.2 1.4-2.3 .1-.3 .4-.7 .7-1.1 .2-.3 .4-.6 .4-.8 0-.1 .2-.5 .5-.8 .3-.3 .5-.8 .6-1.1 .1-.3 .3-.7 .5-1 1.1-1.6 1.4-2.1 1.4-2.4 0-.2 .2-.5 .4-.6 .1-.2 .4-.7 .6-1.1 .2-.5 .5-.9 .6-1 .1-.1 .4-.4 .5-.7 .2-.4 .6-1.1 .9-1.7 .3-.5 .8-1.3 1-1.7 .1-.4 .4-.8 .5-.8 .1 0 .3-.4 .5-.8 .6-1.3 1.1-2 1.6-2.7 .2-.3 .4-.7 .4-.8 0-.1 .3-.5 .5-.8 .3-.4 .5-.8 .5-.9 0-.2 .2-.6 .5-.9 .2-.3 .5-.8 .7-1.1 .1-.3 .5-.9 .8-1.5 .4-.5 .8-1.3 .9-1.6 .2-.4 .4-.7 .5-.8 .2-.1 .4-.5 .7-1 .4-.8 1.1-2.1 2-3.7 .3-.5 .6-1.2 .8-1.5 .2-.4 .4-.7 .5-.8 .1-.1 .5-.5 .7-1 .3-.6 .8-1.3 1-1.8 .3-.4 .7-1.1 .9-1.6 .2-.4 .5-.9 .7-1.1 .2-.1 .3-.4 .3-.6 0-.2 .2-.6 .5-.9 .2-.3 .6-.8 .7-1.1 .5-.9 .9-1.7 1.4-2.3 .2-.4 .4-.8 .4-.9 0-.2 .2-.5 .4-.6 .1-.2 .5-.6 .7-1.1 .6-1.3 1.1-2.1 1.4-2.5 .2-.2 .4-.6 .5-.9 .2-.4 .4-.7 .5-.7 .1 0 .3-.4 .5-.8 .3-.5 .7-1.3 1-1.8 .4-.5 .8-1.2 1-1.6 .1-.4 .4-.8 .5-.8 .1 0 .3-.4 .5-.8 .6-1.3 1.1-2.2 1.5-2.6 .2-.2 .4-.6 .5-.9 .2-.4 .3-.7 .5-.7 .1 0 .3-.4 .5-.8 .6-1.2 1.4-2.6 1.7-3 .2-.2 .3-.4 .3-.5 0-.2 .2-.5 .5-.8 .2-.3 .5-.8 .7-1.1 .1-.3 .5-.9 .8-1.5 .3-.5 .8-1.3 .9-1.6 .2-.3 .6-.8 .9-1.2 .5-.6 .6-1.4 .1-1.6-.2 0-2.2-.1-4.5-.1l-4.1 0-.4 .7c-.8 1.6-1.1 2-1.5 2.4-.2 .2-.4 .6-.4 .8 0 .1-.2 .5-.4 .8-.3 .4-.8 1.3-1.2 2.1-.5 .8-1 1.9-1.3 2.4-1.1 2-1.7 2.9-2 3.7-.2 .5-.6 .9-.7 1.1-.2 .1-.4 .5-.5 .8 0 .3-.2 .7-.3 .7-.1 .1-.4 .5-.6 1-.2 .4-.6 1.3-1 1.8-.3 .6-.7 1.4-.9 1.8-.2 .5-.6 .9-.7 1.1-.2 .1-.4 .4-.4 .6 0 .2-.1 .6-.4 .8-.2 .3-.5 .8-.7 1.2-.5 1.2-1.2 2.3-1.4 2.6-.1 .2-.3 .5-.4 .8-.1 .3-.3 .8-.6 1.1-.3 .3-.5 .7-.5 .8 0 .2-.2 .6-.5 .9-.2 .3-.5 .7-.5 .9 0 .1-.2 .5-.4 .8-.2 .3-.6 .8-.8 1.2-.6 1.2-.9 1.6-1.3 2.2-.3 .4-.5 .8-.5 1 0 .1-.1 .4-.3 .5-.2 .2-.5 .7-.7 1.1-.2 .5-.5 1-.7 1.3-.1 .3-.4 .7-.5 1-.1 .3-.5 1-.8 1.5-.3 .6-.7 1.2-.8 1.5-.1 .3-.5 .8-.7 1.1-.3 .3-.5 .7-.5 .9 0 .2-.2 .5-.4 .7-.2 .2-.5 .7-.6 1.1-.1 .4-.4 .9-.5 1-.2 .2-.5 .7-.7 1-.6 1.3-.9 1.7-1.3 2.3-.2 .3-.5 .8-.6 1.1-.2 .3-.6 1-.9 1.5-.3 .6-.7 1.4-1 1.8-.8 1.5-1.1 2-1.5 2.6-.3 .3-.5 .7-.5 .9 0 .2-.2 .6-.5 1-.2 .3-.5 .8-.6 1.1-.1 .3-.2 .6-.4 .7-.2 .2-.4 .6-.6 .9-.1 .3-.5 1.1-.9 1.6-.3 .6-.7 1.4-.9 1.8-.2 .4-.4 .7-.5 .7-.1 0-.4 .4-.6 1-.5 1-1 1.9-2 3.5-.3 .6-.7 1.4-.9 1.8-.3 .5-.5 .9-.7 1-.1 .1-.3 .5-.4 .9-.1 .5-.3 .8-.4 .8-.1 0-.4 .4-.6 .9-.2 .4-.6 1.2-1 1.7-.3 .5-.7 1.2-.9 1.6-.2 .4-.4 .8-.5 .9-.3 .1-.8 1-1.5 2.5-.3 .7-.7 .8-1.1 .3-.5-.6-2.5-3.9-3-4.8-.2-.4-.5-.9-.6-1.1-.2-.1-.4-.3-.4-.4 0-.2-1.3-2.4-1.7-2.8-.1-.2-.3-.4-.3-.6 0-.1-.1-.4-.3-.6-.2-.3-.8-1.3-1.5-2.5-.2-.4-.5-.8-.6-1-.3-.3-.5-.8-1.6-2.8-.2-.4-.6-1.2-1-1.7-.3-.5-.7-1.2-.9-1.6-.2-.4-.4-.8-.5-.8-.1 0-.4-.4-.6-.8-.2-.5-.5-1-.6-1.2-.2-.1-.4-.3-.4-.5 0-.1-.1-.4-.4-.6-.2-.2-.4-.6-.5-.9 0-.3-.2-.7-.4-.8-.2-.1-.5-.6-.7-1-.3-.5-.7-1.2-1-1.8-.3-.5-.7-1.3-1-1.7-.2-.5-.4-.9-.5-.9-.2 0-.3-.3-.5-.6-.1-.4-.3-.8-.5-1-.3-.4-.8-1.3-1.4-2.5-.2-.4-.6-.9-.7-1.1-.2-.1-.4-.4-.4-.6 0-.2-.2-.6-.4-.9-.5-.7-1.1-1.5-1.5-2.4-.1-.4-.4-.7-.5-.8-.1-.1-.4-.5-.6-1-.2-.4-.6-1.2-1-1.7-.3-.5-.8-1.2-1-1.7-.7-1.4-1.1-2-1.5-2.6-.3-.3-.5-.6-.5-.8 0-.1-.2-.5-.4-.8-.5-.6-1-1.4-1.5-2.6-.2-.4-.6-.9-.7-1.1-.2-.1-.4-.3-.4-.5 0-.1-.2-.5-.4-.8-.5-.6-1-1.4-1.5-2.6-.3-.5-.5-.9-.7-1-.1-.1-.3-.4-.5-.7-.1-.4-.6-1.1-.9-1.7-.3-.5-.7-1.3-.9-1.6-.1-.4-.4-.7-.5-.8-.1-.1-.4-.4-.6-.8-.2-.5-.7-1.2-1-1.8-.3-.5-.7-1.3-.9-1.6-.1-.4-.4-.7-.5-.8-.1-.1-.4-.4-.6-.8-.2-.5-.7-1.2-1-1.8-.3-.5-.7-1.2-.8-1.5-.2-.3-.5-.7-.7-1.1-.3-.3-.5-.6-.5-.8 0-.1-.2-.5-.4-.8-.5-.6-.8-1.2-1.4-2.2-.2-.4-.5-.9-.7-1.2-.3-.3-.5-.7-.5-.8 0-.1-.2-.5-.5-.8-.2-.4-.5-.8-.5-.9 0-.2-.2-.6-.5-1-.2-.4-.5-.8-.5-.9 0-.1-.2-.5-.5-.8l-.5-.5-13.3 0c-11.6 0-13.3 .1-13.4 .3zM708.9 488.4c-1 .1-2.4 .3-3.1 .4-.7 .1-2.4 .3-3.9 .4-1.5 .1-3.1 .4-3.8 .6-.7 .2-1.7 .4-2.1 .4-.5 0-1.3 .2-1.8 .4-.4 .2-1.4 .5-2.1 .6-.6 .1-1.6 .4-2.1 .6-.5 .2-1.1 .4-1.4 .4-.3 0-.9 .2-1.4 .5-.5 .3-1.2 .5-1.4 .5-.3 0-.7 .2-1 .4-.3 .2-.8 .5-1.2 .6-.4 .1-1 .4-1.3 .6-.3 .2-.7 .4-.9 .4-.1 0-.5 .2-.8 .4-.5 .4-1.6 1-2.9 1.6-.4 .2-.9 .5-1.1 .7-.1 .2-.4 .3-.5 .3-.2 0-.6 .2-.9 .4-.9 .7-2.3 1.6-2.5 1.6-.1 0-.4 .2-.6 .5-.3 .2-.8 .6-1.2 .9-.4 .3-1 .8-1.4 1.1-.3 .3-.7 .5-.8 .5-.1 0-1.7 1.6-3.7 3.5-1.9 1.9-3.5 3.5-3.6 3.4-.1-.1-.2-4.2-.2-9.7 0-8.4 0-9.6-.3-9.9-.3-.2-1.6-.3-11.6-.3-11 0-11.3 0-11.7 .4-.4 .4-.4 .7-.4 55.9 0 42.8 .1 55.5 .3 55.7 .3 .3 23.1 .3 23.5 0 .2-.2 .2-9.9 .2-42.3l0-42.1 .9-1.1c.5-.5 1-1.2 1.2-1.5 .5-.8 4.1-4.6 5.2-5.4 .5-.4 1.5-1.1 2.1-1.6 1.4-1.1 2.7-2 2.9-2 .1 0 .4-.2 .6-.4 .5-.4 1.3-.9 2.5-1.5 .4-.2 .9-.5 1.2-.7 .3-.2 .6-.4 .8-.4 .1 0 .5-.2 .9-.5 .3-.3 .8-.5 1.1-.5 .2 0 .7-.2 1-.4 .3-.2 .9-.5 1.4-.6 .5-.1 1.2-.4 1.6-.6 .4-.2 1.1-.4 1.5-.4 .4 0 1.1-.2 1.5-.4 .6-.3 1.5-.5 2.9-.6 1.1-.1 2.4-.3 2.9-.5 .6-.3 1.4-.4 5.9-.4 4.4 0 5.4 .1 6.5 .4 .7 .2 2 .4 2.8 .5 .8 .1 1.7 .3 2 .5 .3 .2 1 .4 1.6 .4 .5 .1 1.2 .3 1.5 .5 .2 .2 .9 .5 1.4 .6 .5 .1 1.2 .4 1.5 .6 .2 .2 .6 .4 .8 .4 .2 0 .6 .2 .8 .4 .3 .2 .8 .4 1 .5 .3 .1 .7 .3 .9 .5 .2 .2 .7 .5 .9 .6 1.4 .6 5.2 3.9 7.3 6.4 1.5 1.7 2.9 3.7 2.9 4.1 0 .1 .2 .4 .5 .8 .3 .3 .5 .7 .5 .9 0 .1 .2 .5 .5 .9 .3 .3 .5 .8 .5 1 0 .3 .2 .7 .4 1 .2 .2 .5 .9 .6 1.4 .1 .5 .4 1.3 .6 1.7 .2 .4 .4 .9 .4 1.2 0 .3 .2 1.2 .4 1.9 .3 .9 .6 2.4 .7 4.1 .1 1.6 .2 17.4 .3 37.5 0 32.3 0 34.8 .4 35.1 .2 .2 3 .2 12 .2 9.8 0 11.8 0 12-.3 .2-.2 .2-9.6 .2-36.7l-.1-36.5-.4-1.9c-.3-1-.5-2.4-.5-3.1 0-.8-.1-1.5-.4-2.1-.2-.5-.5-1.3-.5-1.9-.1-.5-.3-1.3-.5-1.7-.2-.3-.5-1-.6-1.5-.1-.6-.3-1.1-.5-1.3-.1-.1-.3-.6-.4-.9-.1-.5-.6-1.6-1.4-3-.1-.3-.4-.9-.6-1.2-.1-.4-.7-1.3-1.2-2-.5-.7-.9-1.4-.9-1.4 0-.2-2.3-2.8-4.2-4.7-2.5-2.5-5.4-5-5.8-5-.1 0-.4-.2-.6-.4-.7-.5-2.2-1.6-2.5-1.6-.1 0-.4-.2-.7-.5-.3-.3-.8-.5-1-.5-.2 0-.6-.2-.8-.4-.3-.2-.8-.4-1.1-.5-.3-.1-1-.4-1.5-.6-.5-.3-1.1-.5-1.3-.5-.2 0-.8-.2-1.4-.5-.5-.3-1.2-.5-1.5-.5-.3 0-1.2-.2-1.9-.5-.7-.3-1.7-.5-2.1-.5-.4 0-1.5-.2-2.4-.5-.9-.3-2.2-.5-2.8-.5-.6 0-1.7-.1-2.4-.2-4.9-.8-6.8-.9-10.3-.6zM821.8 457.1c-1.4 1.3-6.1 5.9-10.4 10.1-4.3 4.3-8.8 8.6-9.9 9.6-1.1 1.1-3.7 3.6-5.8 5.7-2.1 2-5.5 5.4-7.7 7.5-3.2 3.2-3.8 3.9-3.7 4.2 .2 .2 1 .3 7.8 .2 6.3 0 7.7 0 7.9 .3 .1 .2 .2 10.3 .3 39.8l0 39.6 .5 1.6c.2 .9 .4 2 .4 2.5 0 .5 .2 1.4 .5 2 .3 .7 .5 1.5 .5 1.8 0 .3 .2 .9 .5 1.4 .2 .5 .5 1.2 .6 1.6 .1 .4 .3 .9 .5 1.2 .2 .2 .4 .6 .4 .8 0 .2 .2 .6 .4 .9 .2 .2 .5 .7 .7 1.1 .6 1.2 1.1 2 1.4 2.4 .2 .2 1 1.1 1.8 2.1 1.5 1.9 2.9 3.2 4.2 4.1 .4 .3 1 .8 1.4 1.1 .4 .3 .8 .5 1 .5 .1 0 .5 .2 .9 .5 .4 .3 .8 .5 1 .5 .2 0 .6 .2 .9 .4 .3 .3 .9 .6 1.4 .7 .4 .1 1 .3 1.1 .4 .2 .2 .8 .4 1.4 .5 .6 .1 1.3 .3 1.6 .5 .3 .2 1.2 .4 2 .5 .9 .2 2.1 .4 2.7 .6 1 .3 2.3 .3 7.3 .3 5.3 0 6.3 0 7.3-.3 .6-.2 1.9-.4 2.8-.5 1.1-.1 1.9-.3 2.6-.6 .6-.3 1.4-.5 1.7-.5 .4 0 1.2-.2 1.7-.5 .6-.3 1.2-.5 1.5-.5 .3 0 .9-.2 1.3-.5 .5-.3 1-.5 1.3-.5 .2 0 .8-.2 1.2-.5 .4-.3 .8-.5 1-.5 .2 0 .6-.2 1-.5 .4-.3 .9-.5 1.1-.5 .3 0 .7-.2 1-.5 .3-.3 .7-.5 .9-.5 .1 0 .5-.2 .9-.5 .3-.3 .7-.5 .9-.5 .2 0 .6-.2 .8-.5 .3-.3 .6-.5 .7-.5 .2 0 .5-.2 .8-.4 .4-.3 .8-.6 1-.6 .6-.3 .9-1.5 .9-3.4 0-1 0-1.9-.1-2.1-.2-.4-1.1-.4-1.5 0-.6 .6-1.8 1.5-2.1 1.5-.1 0-.5 .2-.9 .5-.4 .3-.8 .5-1 .5-.2 0-.6 .2-.9 .4-.3 .3-.9 .6-1.4 .6-.5 .1-1.1 .4-1.3 .5-.2 .2-.8 .4-1.3 .5-.5 .1-1.4 .4-1.9 .6-.5 .2-1.3 .4-1.9 .4-.5 0-1.7 .2-2.6 .3-1.9 .4-4.6 .4-5.4 .1-.3-.1-1.4-.3-2.5-.4-1.3-.1-2.1-.3-2.7-.6-.4-.2-1-.4-1.3-.4-.3 0-.8-.2-1.2-.5-.4-.3-.9-.5-1.2-.5-.2 0-.6-.2-.9-.5-.4-.3-.7-.5-.8-.5-.1 0-.5-.2-.7-.4-.3-.3-.9-.8-1.4-1.1-.8-.6-3.6-3.7-3.6-4 0-.1-.2-.4-.4-.6-.2-.2-.4-.6-.5-.9-.1-.3-.3-.8-.6-1.2-.3-.4-.5-.8-.5-1 0-.2-.2-.8-.5-1.3-.3-.5-.5-1.3-.5-1.6 0-.4-.2-1.2-.4-1.9l-.5-1.3 0-40.2c-.1-25.3 0-40.3 .1-40.5 .2-.2 2.7-.3 20.9-.3 19.6 0 20.7 0 21.1-.3 .3-.3 .4-.7 .5-2 0-1.3 0-1.8-.2-2-.3-.4-1.6-.4-21-.4-13.9 0-20.8 0-21.1-.2-.4-.2-.4-.6-.4-17.5 0-9.5 0-17.4-.1-17.6-.1-.1-.3-.3-.5-.3-.2 0-1.4 1.1-2.8 2.5z"/>
+    <path id="g-cap" d="M232.6 670.8c-.6 .2-1.3 .4-1.6 .4-.3 0-.8 .2-1.2 .4-.4 .2-.9 .4-1.2 .5-1.1 .3-4.6 3.1-5.6 4.5-.3 .4-.8 1-1.1 1.4-.3 .4-.9 1.4-1.2 2.1-.4 .8-.8 1.7-1 2-.1 .3-.4 1.2-.5 1.9-.1 .7-.3 1.8-.5 2.3-.3 1.1-.3 3-.1 4.3 .1 .5 .4 1.6 .5 2.4 .2 .8 .5 1.9 .7 2.3 .2 .5 .4 1 .4 1.1 0 .2 .2 .7 .5 1 .3 .4 .5 .8 .5 .9 0 .3 1.6 2.3 2.8 3.5 1.1 1 3.3 2.6 3.7 2.6 .1 0 .3 .2 .5 .3 .5 .4 3.1 1.3 4.6 1.5 1.6 .3 5.4 .3 7.3 0 1.6-.2 4.4-1 4.9-1.5 .2-.1 .6-.3 1-.4 .4-.2 1.5-1 2.5-1.8 2-1.7 2.1-2 1-3.2-.4-.4-1.1-1.3-1.7-1.9-1.1-1.5-1.6-1.5-2.8-.3-.5 .5-1.2 1.1-1.5 1.3-3.4 1.8-4.7 2.1-7.7 1.9-1.4-.1-2.1-.2-2.9-.6-.5-.3-1.1-.5-1.3-.5-.2 0-.4-.1-.5-.2-.1-.1-.5-.4-.9-.7-1.2-.8-2.5-2.2-3.2-3.6-.6-1.3-1.4-4.5-1.4-5.9 0-1.2 .8-4.8 1.3-6.1 .6-1.2 1.9-2.9 2.9-3.8 1.8-1.5 4.1-2.3 6.6-2.3 2 0 5 .7 5.7 1.2 .3 .2 .7 .4 .8 .4 .1 0 .8 .5 1.5 1 1.6 1.3 2 1.4 3 .2 .4-.5 1.2-1.4 1.7-1.9 .5-.6 .9-1.2 .9-1.4 0-.4-2.6-2.7-3.3-3-.2 0-.6-.3-.8-.5-.2-.2-.5-.4-.7-.4-.1 0-.7-.2-1.2-.5-.5-.3-1.1-.5-1.3-.5-.2 0-.9-.2-1.5-.4-1-.3-1.7-.4-4.3-.4-2.5 .1-3.4 .1-4.3 .4zM465.3 671.1c-.2 .4-.3 2.4-.3 17.5 0 13.5 .1 17.2 .3 17.4 .3 .2 5.5 .3 5.9 0 .2-.2 .2-3.2 .2-17.5 0-15.4 0-17.3-.3-17.6-.3-.2-.8-.3-2.9-.3-2.4 0-2.6 0-2.9 .5zM314.2 671.1c-.2 .1-.6 .5-.7 .7-.6 1.4-1.6 3.4-1.9 4.2-.2 .4-.6 1.2-.8 1.7-.2 .4-.6 1.5-1 2.3-.3 .8-.8 2-1.1 2.5-.2 .6-.5 1.3-.6 1.7-.1 .3-.2 .7-.4 .8-.1 .2-.3 .5-.4 .9-.1 .3-.3 1-.6 1.5-.3 .5-.5 1-.5 1.1 0 .2-.7 1.8-1.5 3.4-.3 .5-.5 1.1-.5 1.2 0 .2-.2 .8-.5 1.3-.8 1.7-1.5 3.2-1.5 3.4 0 .1-.2 .7-.5 1.2-.3 .5-.5 1.1-.5 1.2 0 .2-.2 .6-.4 .9-.2 .4-.5 1-.6 1.4-.1 .5-.3 .9-.5 1.1-.4 .4-.8 1.9-.6 2.3 .1 .3 .5 .3 3 .3l2.8 0 .6-.6c.3-.3 .6-.9 .7-1.4 .2-.5 .4-1 .5-1.2 .2-.1 .4-.7 .5-1.1 .1-.5 .3-1.1 .5-1.2 .1-.2 .4-.8 .5-1.2 .1-.5 .4-1 .6-1.1 .4-.2 15.6-.3 15.9 0 .3 .2 1.4 2.5 1.6 3.3 .1 .3 .3 .8 .5 1.1 .2 .3 .4 .7 .4 1 0 .3 .3 1 .6 1.5l.6 .9 3 0c1.6 0 3.1 0 3.3-.1 .4-.2 .4-.8-.1-1.4-.2-.3-.4-.7-.4-.9 0-.1-.2-.6-.5-1.1-.3-.4-.5-.9-.5-1.1 0-.1-.2-.7-.5-1.2-.3-.5-.5-1.1-.5-1.3 0-.2-.2-.7-.5-1.2-.3-.4-.5-.9-.5-1.1 0-.2-.2-.8-.5-1.3-.2-.5-.7-1.5-1-2.2-.3-.6-.7-1.6-1-2.1-.2-.5-.5-1.1-.6-1.5 0-.3-.3-.8-.5-1-.2-.3-.4-.7-.4-.9 0-.2-.2-.8-.5-1.3-.8-1.7-1.4-3.2-1.6-3.8-.1-.3-.3-.7-.4-.9-.2-.2-.4-.7-.5-1.2-.1-.5-.3-1-.5-1.2-.1-.1-.3-.7-.5-1.2-.1-.5-.3-1-.5-1.2-.1-.1-.3-.6-.4-.9-.1-.3-.3-.9-.6-1.4-.3-.4-.5-1-.5-1.2 0-.5-.5-1.6-1.1-2.2-.5-.5-.5-.5-2.9-.5-1.6 0-2.7 .1-3 .3zm3.4 10c.9 1.6 1.6 3.2 1.7 3.7 .1 .3 .3 .8 .5 1.2 .2 .4 .4 .8 .4 1 0 .1 .3 .6 .5 1.1 .3 .6 .5 1.2 .5 1.4 0 .2 .3 .7 .5 1.2 .5 .9 .6 1.7 .1 1.7-.2 0-2.5 0-5.2 0-4.2 0-4.9 0-5.1-.3-.3-.4-.2-.8 .3-1.5 .3-.2 .4-.6 .4-.9 0-.2 .3-.7 .5-1.2 .3-.4 .5-.9 .5-1 0-.3 .9-2.4 1.6-3.7 .2-.4 .4-.9 .4-1 0-.2 .2-.5 .4-.8 .2-.3 .5-.8 .5-1.1 .2-.7 .5-1.1 .8-1 .1 .1 .5 .6 .7 1.2zM385.6 671.2c-.2 .2-.3 3.2-.3 17.2-.1 17-.1 17 .3 17.4 .4 .4 .7 .4 3.1 .4 3.9 0 3.6 .5 3.4-5.7-.1-3.6-.1-5 .1-5.3 .2-.5 .3-.5 5-.5 3.7 0 5.1-.1 6.4-.3 .9-.2 1.9-.5 2.1-.7 .2-.1 .8-.3 1.2-.5 .4-.1 .8-.4 1-.6 .2-.2 .5-.4 .6-.4 .1 0 .7-.5 1.3-1.1 1.2-1.1 2.2-2.8 2.8-4.9 .4-1.2 .4-1.8 .4-3.8-.1-1.7-.2-2.8-.5-3.5-.3-.9-.5-1.3-1.2-2.7-.3-.6-2.6-3-2.9-3-.1 0-.5-.2-.8-.5-.3-.3-.8-.5-.9-.5-.2 0-.6-.2-1-.4-1.3-.8-3.9-1-12.2-1-6.9 0-7.7 0-7.9 .3zm16.6 6.1c1.4 .4 2.6 1.4 3.4 2.9 .6 1.3 .7 1.4 .6 3-.1 1.3-.2 1.8-.7 2.6-.8 1.4-1.7 2.2-3.2 2.7-1.1 .4-1.6 .5-5.4 .6l-4.2 .1-.4-.5c-.2-.4-.3-1.2-.3-5.8 0-4.3 .1-5.3 .3-5.6 .3-.2 .9-.3 4.7-.2 2.4 0 4.7 .1 5.2 .2zM524.5 671.1c-.2 .1-.3 1-.3 2.7 0 2 .1 2.7 .3 2.9 .3 .3 1.1 .3 5.3 .3 3.2 0 5 .1 5.2 .3 .2 .1 .2 2.8 .2 14.2 0 12.6 0 14.1 .3 14.4 .3 .3 .9 .3 3.1 .3 2 0 2.8 0 3.1-.3 .4-.2 .4-.6 .4-14.2-.1-11.1 0-14.1 .2-14.3 .2-.3 .8-.4 5.2-.4 4.3-.1 5-.2 5.3-.4 .2-.3 .3-.8 .3-2.8 .1-1.8 0-2.5-.2-2.7-.3-.2-2.5-.3-14.2-.3-10.6 0-14.1 .1-14.2 .3zM616.6 671c-.4 .3-1.3 1.7-1.5 2.5 0 .3-.3 .8-.5 1.1-.2 .3-.4 .6-.4 .8 0 .1-.2 .7-.5 1.2-.3 .5-.5 1-.5 1.2 0 .1-.2 .7-.5 1.2-.2 .5-.7 1.5-1 2.1-.3 .7-.7 1.7-1 2.2-.3 .5-.5 1-.5 1.2 0 .1-.2 .7-.5 1.3-.6 1.2-1.2 2.6-1.9 4.3-.3 .6-.8 1.5-1 2.1-.3 .6-.8 1.6-1 2.2-.9 1.8-1.5 3.3-1.7 3.8-.1 .3-.3 .8-.5 1.1-.2 .3-.4 .7-.4 .9 0 .2-.3 .9-1.6 3.8-.2 .4-.4 1.1-.3 1.5l0 .6 2.7 .1c3.1 0 3.7-.1 4-1 .1-.4 .5-1.1 .7-1.6 .3-.5 .5-1.1 .5-1.2 0-.2 .2-.7 .5-1.2 .3-.5 .5-1.1 .5-1.4 0-.2 .3-.7 .6-1l.6-.6 7.8 0 7.8 0 .6 .9c.3 .4 .6 1 .6 1.2 0 .2 .2 .8 .5 1.2 .3 .5 .5 1 .5 1.2 0 .2 .2 .9 .5 1.4 .3 .5 .5 1 .5 1.2 0 .2 .2 .5 .5 .6 .4 .3 1 .3 3.4 .3l3-.1 .1-.5c0-.4-.1-.8-.5-1.3-.3-.4-.5-.9-.5-1.1 0-.1-.2-.6-.5-1.1-.3-.4-.5-1-.5-1.2 0-.2-.1-.6-.4-.9-.2-.3-.4-.9-.6-1.3-.1-.5-.4-1.2-.6-1.5-.2-.4-.4-.8-.4-1 0-.2-.2-.8-.5-1.3-.3-.5-.5-1.1-.5-1.2 0-.3-.5-1.5-2-4.6-.5-1.1-1-2.1-1-2.3 0-.1-.2-.6-.5-1.1-.3-.4-.5-1-.5-1.2 0-.2-.2-.7-.5-1.2-.3-.4-.5-1-.5-1.2 0-.2-.2-.7-.5-1.2-.3-.4-.5-.9-.5-1.1 0-.1-.2-.7-.5-1.2-.2-.5-.5-1.2-.6-1.5 0-.4-.2-.7-.4-.9-.1-.1-.3-.5-.4-.8-.1-.4-.3-1.1-.6-1.5-.3-.5-.5-1.1-.5-1.3 0-.2-.3-.7-.6-1.1l-.7-.7-2.5 0c-1.4 0-2.6 .1-2.8 .2zm3.3 9.7c.2 .2 .3 .6 .3 .8 0 .2 .2 .8 .5 1.3 .3 .5 .5 1 .5 1.2 0 .2 .2 .6 .4 1 .3 .3 .5 .9 .6 1.3 .2 .7 .9 2.4 1.6 4.1 .4 .7 .6 1.3 .6 1.3 0 .1-.1 .2-.3 .4-.2 .2-1.2 .3-5.1 .3-4.3 0-4.9 0-5.2-.3-.2-.2-.2-.4 0-.6 .1-.2 .3-.5 .4-.7 0-.1 .3-.7 .6-1.3 .2-.6 .4-1.2 .4-1.3 0-.2 .3-.6 .5-1.1 .3-.4 .5-.9 .5-1.1 0-.1 .3-.7 .5-1.3 .3-.5 .5-1.1 .5-1.2 0-.1 .3-.5 .5-.9 .3-.3 .5-.8 .5-1 0-.2 .1-.6 .2-.9 .3-.6 1.1-.7 1.5 0zM687.9 671.1l-.5 .3 0 17c0 16.8 0 17 .4 17.4 .4 .4 .6 .4 12.2 .4 8 0 11.8-.1 12-.2 .3-.3 .3-5.5 0-5.7-.1-.1-4-.2-8.7-.2-7.2-.1-8.4-.2-8.7-.4-.4-.3-.4-1.3-.4-14.2 0-9-.1-14-.2-14.3-.2-.3-.5-.4-2.9-.4-2.2 0-2.9 .1-3.2 .3z"/>
+    <path id="g-rules" d="M54.8 687.8c-.4 .1-.6 .4-.6 1 0 1.2-4.5 1.1 60.7 1.1l60 0 .3-.5c.2-.4 .2-.6 0-1.1l-.3-.6-59.9 0c-33 0-60.1 .1-60.2 .1zM765.6 688c-.5 .3-.5 1.1 0 1.6 .4 .4 1.2 .4 60.9 .4l60.4-.1 .3-.5c.3-.5 .3-.6 0-1.1l-.3-.6-60.5 0c-49.4 0-60.5 .1-60.8 .3z"/>
+    <radialGradient id="g-flare" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="var(--star)" stop-opacity=".9"/>
+      <stop offset=".25" stop-color="var(--star)" stop-opacity=".35"/>
+      <stop offset="1" stop-color="var(--star)" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
+
+<div class="cur" aria-hidden="true"><svg viewBox="584 135 78 83"><use href="#g-star" class="m-star"/></svg></div>
+<div class="cur-ring" aria-hidden="true"></div>
+
 <header class="nav" id="nav">
   <div class="nav__in">
-    <a href="#top" class="brand" aria-label="Orbynt Capital"><svg class="bmark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><defs><path id="om-nav" d="M16.8 50 A33.2 11.4 0 1 1 83.2 50 A33.2 11.4 0 1 1 16.8 50"/></defs><g transform="rotate(-25 50 50)"><path d="M16.8 50 A33.2 11.4 0 0 0 83.2 50" stroke="var(--logo-ring)" stroke-width="3" stroke-linecap="round" fill="none"/><circle r="2.8" fill="var(--logo-orb)" stroke="var(--logo-ring)" stroke-width="0.9" opacity="0"><animateMotion dur="7s" repeatCount="indefinite" rotate="0"><mpath href="#om-nav"/></animateMotion><animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="discrete" values="0;1" keyTimes="0;0.5"/></circle><circle cx="50" cy="50" r="20" fill="var(--logo-orb)"/><path d="M16.8 50 A33.2 11.4 0 0 1 83.2 50" stroke="var(--logo-ring)" stroke-width="3" stroke-linecap="round" fill="none"/><circle r="2.8" fill="var(--logo-orb)" stroke="var(--logo-ring)" stroke-width="0.9" opacity="0"><animateMotion dur="7s" repeatCount="indefinite" rotate="0"><mpath href="#om-nav"/></animateMotion><animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.5"/></circle></g></svg><span class="bword"><span class="bword__o">ORBYNT</span><span class="bword__c">CAPITAL</span></span></a>
-    <div class="nav__right">
-      <nav class="nav__links" id="menu">
-        <a class="nav__link" href="#do">What we are</a>
-        <a class="nav__link" href="#strategies">Funds</a>
-        <a class="nav__link" href="#numbers">By the numbers</a>
-        <a class="nav__cta" data-mag href="#contact">Get in touch</a>
+    <a href="#top" class="brand" aria-label="Orbynt Capital, back to top">
+      <svg class="brand__mark" viewBox="282 44 384 376" aria-hidden="true"><use href="#g-cres" class="m-cres"/><use href="#g-sw" class="m-sw"/><use href="#g-star" class="m-star"/></svg>
+      <span class="brand__type">
+        <svg class="brand__word" viewBox="48 431 822 212" aria-hidden="true"><use href="#g-word" class="m-word"/></svg>
+        <span class="brand__sub"><i></i>CAPITAL<i></i></span>
+      </span>
+    </a>
+    <div class="nav__tools">
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="#funds">Funds</a>
+        <a class="nav__link" href="#standards">Standards</a>
+        <a class="nav__link" href="#group">Group</a>
+        <a class="nav__link" href="#contact">Contact</a>
       </nav>
-      <button class="theme-tg" id="themeTg" aria-label="Toggle light and dark theme">
-        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5 5l1.4 1.4M17.6 17.6L19 19M19 5l-1.4 1.4M6.4 17.6L5 19"/></svg>
-        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="sheet">Menu</button>
+      <button class="theme" id="themeBtn" aria-label="Switch between light and dark theme">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/></svg>
       </button>
-      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
 
-<main class="layer">
-<!-- ===== HERO ===== -->
-<section class="hero" id="top">
+<div class="sheet" id="sheet" aria-hidden="true">
+  <a href="#funds">Funds</a><a href="#standards">Standards</a><a href="#group">Group</a><a href="#contact">Contact</a>
+</div>
+
+<main id="main">
+<!-- ===== hero ===== -->
+<section class="hero" id="top" aria-label="Introduction">
+  <canvas class="hero__sky" id="sky" aria-hidden="true"></canvas>
+  <div class="hero__halo" aria-hidden="true"></div>
+  <div class="wrap hero__inner" id="heroInner">
+    <div class="orb">
+      <svg viewBox="270 34 404 394" aria-hidden="true">
+        <defs>
+          <mask id="mk-cres" maskUnits="userSpaceOnUse" x="200" y="-40" width="560" height="520">
+            <path class="draw-cres" pathLength="1" d="M561.9 151.7 A130 130 0 1 0 509.1 319.2" fill="none" stroke="#fff" stroke-width="150" stroke-linecap="round"/>
+          </mask>
+          <mask id="mk-sw" maskUnits="userSpaceOnUse" x="300" y="180" width="380" height="260">
+            <linearGradient id="swGrad" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#fff"/><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+            <rect class="sweep-sw" x="330" y="200" width="380" height="230" fill="url(#swGrad)"/>
+          </mask>
+        </defs>
+        <circle class="flare" cx="623.1" cy="176.7" r="70" fill="url(#g-flare)"/>
+        <g mask="url(#mk-cres)"><use href="#g-cres" class="m-cres"/></g>
+        <g mask="url(#mk-sw)"><use href="#g-sw" class="m-sw"/></g>
+        <use href="#g-star" class="m-star" id="heroStar"/>
+      </svg>
+      <h1 class="orb__title">
+        <span>
+          <span class="ln"><span>A private</span></span>
+          <span class="ln"><span>investment fund</span></span>
+          <span class="ln"><span>for digital assets.</span></span>
+        </span>
+      </h1>
+    </div>
+    <p class="hero__deck">Investing across financial markets, with an increased concentration in digital assets and Web3.</p>
+  </div>
+  <div class="hero__foot">
+    <div class="wrap"><span>An Orbynt Group company</span><span class="scrollcue">Scroll<i></i></span></div>
+  </div>
+</section>
+
+<!-- ===== ledger ===== -->
+<section class="ledger" aria-label="At a glance">
+  <div class="wrap ledger__grid">
+    <div class="cell spot rv fade"><div class="cell__v" data-count="3">3</div><div class="cell__l">Funds live</div></div>
+    <div class="cell spot rv fade"><div class="cell__v" data-count="2">2</div><div class="cell__l">Funds in research</div></div>
+    <div class="cell spot rv fade"><div class="cell__v" data-count="5" data-suffix="+">5+</div><div class="cell__l">Active strategies</div></div>
+    <div class="cell spot rv fade"><div class="cell__v">2025</div><div class="cell__l">Established</div></div>
+  </div>
+</section>
+
+<!-- ===== about ===== -->
+<section class="band" id="about" aria-labelledby="about-h">
+  <div class="wrap split">
+    <h2 id="about-h" class="rv"><span class="lr"><span>A private fund</span></span><span class="lr"><span>with a long horizon.</span></span></h2>
+    <div class="rv fade">
+      <p>Orbynt Capital manages capital across three live funds, each with its own objective and level of risk. Two further funds are in research.</p>
+      <p>Our positions and methods are kept private. Performance and terms are shared only with partners.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== funds ===== -->
+<section class="band" id="funds" aria-labelledby="funds-h" style="padding-top:0">
   <div class="wrap">
-    <div class="hero__grid">
-      <div class="hero__left">
-        <span class="eyebrow"><span class="dot"></span> Private investment fund</span>
-        <h1>
-          <span class="ln"><b>A private</b></span>
-          <span class="ln"><b>investment fund</b></span>
-          <span class="ln"><b>for <em>digital assets</em>.</b></span>
-        </h1>
-        <p class="hero__deck">Orbynt Capital invests across financial markets, with an increased concentration in digital assets like crypto and Web3. We run several distinct funds under one roof, each with its own strategy, objective, and risk profile.</p>
-        <div class="hero__cta">
-          <a class="btn btn--primary" data-mag href="#strategies">View our funds <span class="arw">→</span></a>
-          <a class="btn btn--ghost" data-mag href="#contact">Get in touch</a>
-        </div>
-        <div class="hero__meta">
-          <div class="hmeta"><span class="v" data-count="3">0</span><span class="l">Funds</span></div>
-          <div class="hmeta"><span class="v" data-count="2">0</span><span class="l">In research</span></div>
-          <div class="hmeta"><span class="v" data-count="5" data-suffix="+">0</span><span class="l">Strategies</span></div>
-          <div class="hmeta"><span class="v">2025</span><span class="l">Established</span></div>
-        </div>
+    <div class="head">
+      <h2 id="funds-h" class="rv"><span class="lr"><span>Three funds,</span></span><span class="lr"><span>one spectrum of risk.</span></span></h2>
+      <p class="rv fade">Each fund carries a defined mandate and sits at its own point on the risk spectrum.</p>
+    </div>
+
+    <div class="spectrum rv" id="spectrum" aria-hidden="true">
+      <svg viewBox="0 0 1200 230">
+        <defs><linearGradient id="arcGrad" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="var(--green)" stop-opacity=".25"/><stop offset=".5" stop-color="var(--calyx)" stop-opacity=".5"/><stop offset="1" stop-color="var(--phoenix)" stop-opacity=".85"/></linearGradient></defs>
+        <path id="arcPath" class="arc" pathLength="1" d="M20 206 C 360 214, 780 170, 1180 46"/>
+        <text class="axis" x="20" y="186">Lower risk</text>
+        <text class="axis" x="1180" y="22" text-anchor="end">Higher risk</text>
+        <g class="fs" data-f="green"><circle class="glow" r="26" fill="var(--green)" filter="url(#soft)"/><use href="#g-star" style="fill:var(--green)"/><text text-anchor="middle">Green</text></g>
+        <g class="fs" data-f="calyx"><circle class="glow" r="32" fill="var(--calyx)" filter="url(#soft)"/><use href="#g-star" style="fill:var(--calyx)"/><text text-anchor="middle">Calyx</text></g>
+        <g class="fs" data-f="phoenix"><circle class="glow" r="40" fill="var(--phoenix)" filter="url(#soft)"/><use href="#g-star" style="fill:var(--phoenix)"/><text text-anchor="middle">Phoenix</text></g>
+        <defs><filter id="soft" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="12"/></filter></defs>
+      </svg>
+    </div>
+
+    <div class="funds">
+      <article class="fund spot rv fade" data-f="green" style="--tint:var(--green)">
+        <div class="fund__tag"><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" style="fill:var(--tint)"/></svg>Low risk</div>
+        <h3>Orbynt Green</h3>
+        <p>Built to preserve capital first and compound steadily.</p>
+      </article>
+      <article class="fund spot rv fade" data-f="calyx" style="--tint:var(--calyx)">
+        <div class="fund__tag"><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" style="fill:var(--tint)"/></svg>Moderate risk</div>
+        <h3>Orbynt Calyx</h3>
+        <p>Quantitative, model driven and fully automated.</p>
+      </article>
+      <article class="fund spot rv fade" data-f="phoenix" style="--tint:var(--phoenix)">
+        <div class="fund__tag"><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" style="fill:var(--tint)"/></svg>High risk</div>
+        <h3>Orbynt Phoenix</h3>
+        <p>Concentrated positions with asymmetric upside.</p>
+      </article>
+    </div>
+    <div class="research rv fade">
+      <svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star"/></svg>
+      <svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star"/></svg>
+      <span>Two further funds are in research.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== standards ===== -->
+<section class="band" id="standards" aria-labelledby="std-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="std-h" class="rv"><span class="lr"><span>Our standards.</span></span></h2>
+      <p class="rv fade">The following standards apply to every fund we manage.</p>
+    </div>
+    <div class="stds">
+      <div class="std rv fade"><h3><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" class="m-gold"/></svg>Confidentiality</h3><p>Information concerning our partners, holdings and research is held in strict confidence. It is disclosed only to parties with a direct relationship with the fund, and only to the extent required.</p></div>
+      <div class="std rv fade"><h3><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" class="m-gold"/></svg>Risk management</h3><p>Each fund operates within defined limits on exposure, concentration and drawdown. These limits are established before capital is deployed and are monitored on a continuous basis.</p></div>
+      <div class="std rv fade"><h3><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" class="m-gold"/></svg>Governance</h3><p>Every fund is managed under a defined mandate that sets out its objective, risk tolerance and scope of investment. Changes to a mandate are reviewed and recorded before they take effect.</p></div>
+      <div class="std rv fade"><h3><svg viewBox="584 135 78 83" aria-hidden="true"><use href="#g-star" class="m-gold"/></svg>Long-term orientation</h3><p>Our funds are managed with a multi-year horizon. Decisions are assessed against long-term outcomes rather than short-term performance.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== group ===== -->
+<section class="band" id="group" aria-labelledby="grp-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="group spot rv fade">
+      <div class="group__logo" aria-hidden="true">
+        <svg viewBox="40 40 858 690">
+          <use href="#g-cres" class="m-cres"/><use href="#g-sw" class="m-sw"/><use href="#g-star" class="m-cres"/><use href="#g-word" class="m-word"/>
+          <line class="rule" x1="128" y1="688" x2="232" y2="688"/><line class="rule" x1="705" y1="688" x2="809" y2="688"/>
+          <text x="468.5" y="700" font-size="34" text-anchor="middle">GROUP</text>
+        </svg>
       </div>
-      <div class="hero__panel" id="heroPanel">
-        <div class="panel spot">
-          <div class="panel__bar">
-            <div class="panel__dots"><i></i><i></i><i></i></div>
-            <span class="panel__title">orbynt / fund book</span>
-            <span class="panel__live"><span class="d"></span> Live</span>
-          </div>
-          <div class="fbook">
-            <div class="fbk live"><span class="fbk__id">F-01</span><span class="fbk__nm">Orbynt Green</span><span class="fbk__cl">Low risk</span><span class="fbk__st"><i></i>Live</span></div>
-            <div class="fbk live"><span class="fbk__id">F-02</span><span class="fbk__nm">Orbynt Calyx</span><span class="fbk__cl">Quantitative</span><span class="fbk__st"><i></i>Live</span></div>
-            <div class="fbk live"><span class="fbk__id">F-03</span><span class="fbk__nm">Orbynt Phoenix</span><span class="fbk__cl">High risk</span><span class="fbk__st"><i></i>Live</span></div>
-            <div class="fbk soon"><span class="fbk__id">F-04</span><span class="fbk__nm">Mandate IV</span><span class="fbk__cl">In research</span><span class="fbk__st"><i></i>Soon</span></div>
-            <div class="fbk soon"><span class="fbk__id">F-05</span><span class="fbk__nm">Mandate V</span><span class="fbk__cl">In research</span><span class="fbk__st"><i></i>Soon</span></div>
-          </div>
-          <div class="panel__metrics">
-            <div class="m"><div class="k">Funds</div><div class="vv">3</div></div>
-            <div class="m"><div class="k">Strategies</div><div class="vv">5+</div></div>
-            <div class="m"><div class="k">Since</div><div class="vv">2025</div></div>
-          </div>
-        </div>
+      <div>
+        <h2 id="grp-h"><span class="lr"><span>Part of Orbynt Group.</span></span></h2>
+        <p>Orbynt Capital is a member of Orbynt Group, the parent company behind a growing family of Orbynt businesses.</p>
+        <div class="tagline">POSSIBILITIES. PURPOSE. PROGRESS.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== WHAT WE DO ===== -->
-<section class="band" id="do">
+<!-- ===== contact ===== -->
+<section id="contact" aria-labelledby="ct-h">
   <div class="wrap">
-    <div class="shead">
-      <span class="eyebrow rv"><span class="dot"></span> What we are</span>
-      <h2 class="rv rv-d1">A private fund, several strategies.</h2>
-      <p class="rv rv-d2">Orbynt Capital is a private investment fund. We invest across financial markets, with an increased concentration in digital assets like crypto and Web3.</p>
-      <p class="rv rv-d3">Rather than rely on a single strategy, we run a family of funds. Each one has its own objective, approach, and risk profile, so capital can be matched to the outcome it is meant to achieve. Three funds are live and managing capital today; two more are in development.</p>
-    </div>
-    <div class="feat">
-      <div class="fcard spot rv"><div class="ic">01</div><h3>Multiple mandates</h3><p>We run several funds at once, each built for a different objective and level of risk. That breadth lets us perform across very different market conditions.</p></div>
-      <div class="fcard spot rv rv-d1"><div class="ic">02</div><h3>Specialist focus</h3><p>Our attention is concentrated on digital asset markets, where dedicated expertise and infrastructure still produce a genuine edge.</p></div>
-      <div class="fcard spot rv rv-d2"><div class="ic">03</div><h3>Risk before return</h3><p>Every position sits inside a defined risk framework. Limits and sizing are set before any capital is committed.</p></div>
-      <div class="fcard spot rv rv-d3"><div class="ic">04</div><h3>Proprietary methods</h3><p>Our models, strategies, and infrastructure are built and operated in-house, and how they work stays private.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== STRATEGIES ===== -->
-<section class="band" id="strategies" style="background:var(--bg-2);border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)">
-  <div class="wrap">
-    <div class="shead">
-      <span class="eyebrow rv"><span class="dot"></span> Our funds</span>
-      <h2 class="rv rv-d1">A fund for each objective.</h2>
-      <p class="rv rv-d2">Three funds are live and managing capital today; two more are in development. Each pursues a distinct strategy at a different point on the risk spectrum. Select one to see how it is positioned.</p>
-    </div>
-    <div class="explorer rv rv-d1" id="explorer">
-      <div class="exlist" id="exlist"></div>
-      <div class="expanel spot">
-        <div class="panel spot">
-          <div class="panel__bar">
-            <div class="panel__dots"><i></i><i></i><i></i></div>
-            <span class="panel__title" id="exTitle">orbynt / green</span>
-            <span class="panel__live" id="exLive"><span class="d"></span> Live</span>
-          </div>
-          <div class="exbody" id="exBody">
-            <div class="panel__head">
-              <div><div class="panel__name" id="exName">Orbynt Green</div><div class="panel__role" id="exRole">Low risk</div></div>
-            </div>
-            <div style="padding:0 22px 14px;color:var(--text-2);font-size:14.5px;line-height:1.6" id="exDesc"></div>
-            <div class="panel__chart" style="padding:0 10px"><canvas id="exChart"></canvas></div>
-            <div class="panel__metrics" id="exMetrics"></div>
-          </div>
-        </div>
+    <div class="contact spot rv fade">
+      <svg class="contact__mark" viewBox="282 44 384 376" aria-hidden="true"><use href="#g-cres" class="m-cres"/><use href="#g-sw" class="m-sw"/></svg>
+      <h2 id="ct-h"><span class="lr"><span>Correspondence.</span></span></h2>
+      <p>Orbynt Capital is privately held and does not solicit investment. Correspondence may be directed to:</p>
+      <a class="mail" href="mailto:partners@orbynt.capital">partners@orbynt.capital</a>
+      <div class="contact__row">
+        <a class="x-link" href="https://x.com/orbynt" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@orbynt on X</a>
+        <span>Fund documentation is available to existing partners only.</span>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ===== METHOD ===== -->
-<!-- ===== NUMBERS ===== -->
-<section class="band" id="numbers" style="background:var(--bg-2);border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)">
-  <div class="wrap">
-    <div class="shead">
-      <span class="eyebrow rv"><span class="dot"></span> By the numbers</span>
-      <h2 class="rv rv-d1">Where things stand.</h2>
-    </div>
-    <div class="nums">
-      <div class="numc spot rv"><div class="v" data-count="3">0</div><div class="l">Funds</div></div>
-      <div class="numc spot rv rv-d1"><div class="v" data-count="2">0</div><div class="l">In research</div></div>
-      <div class="numc spot rv rv-d2"><div class="v" data-count="5" data-suffix="+">0</div><div class="l">Strategies</div></div>
-      <div class="numc spot rv rv-d3"><div class="v">2025</div><div class="l">Established</div></div>
-    </div>
-    <p class="nums__note rv">Performance and terms are shared privately with partners. What is shown here describes the fund, not a track record.</p>
-  </div>
-</section>
-
-<!-- ===== CTA ===== -->
-<section class="cta" id="contact">
-  <div class="cta__box wrap spot">
-    <div class="cta__glow"></div>
-    <span class="eyebrow rv"><span class="dot"></span> Get in touch</span>
-    <h2 class="rv rv-d1" style="margin-top:20px">Speak with <em>us</em>.</h2>
-    <p class="rv rv-d2">For allocation, partnership, or investor enquiries, please reach us directly. Every message is read.</p>
-    <div class="rv rv-d3"><a class="btn btn--primary" data-mag href="mailto:partners@orbynt.capital" style="font-size:14px;padding:16px 28px">partners@orbynt.capital <span class="arw">→</span></a></div>
   </div>
 </section>
 </main>
 
-<!-- ===== FOOTER ===== -->
-<footer class="foot layer">
+<footer class="foot">
   <div class="wrap">
     <div class="foot__top">
       <div>
-        <div class="brand brand--foot"><svg class="bmark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><defs><path id="om-foot" d="M16.8 50 A33.2 11.4 0 1 1 83.2 50 A33.2 11.4 0 1 1 16.8 50"/></defs><g transform="rotate(-25 50 50)"><path d="M16.8 50 A33.2 11.4 0 0 0 83.2 50" stroke="var(--logo-ring)" stroke-width="3" stroke-linecap="round" fill="none"/><circle r="2.8" fill="var(--logo-orb)" stroke="var(--logo-ring)" stroke-width="0.9" opacity="0"><animateMotion dur="7s" repeatCount="indefinite" rotate="0"><mpath href="#om-foot"/></animateMotion><animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="discrete" values="0;1" keyTimes="0;0.5"/></circle><circle cx="50" cy="50" r="20" fill="var(--logo-orb)"/><path d="M16.8 50 A33.2 11.4 0 0 1 83.2 50" stroke="var(--logo-ring)" stroke-width="3" stroke-linecap="round" fill="none"/><circle r="2.8" fill="var(--logo-orb)" stroke="var(--logo-ring)" stroke-width="0.9" opacity="0"><animateMotion dur="7s" repeatCount="indefinite" rotate="0"><mpath href="#om-foot"/></animateMotion><animate attributeName="opacity" dur="7s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.5"/></circle></g></svg><span class="bword"><span class="bword__o">ORBYNT</span><span class="bword__c">CAPITAL</span></span></div>
-        <p>Orbynt Capital is a private investment fund focused on digital asset markets.</p>
+        <a href="#top" class="foot__logo" aria-label="Orbynt Capital, back to top">
+          <svg viewBox="44 44 850 668" aria-hidden="true">
+            <use href="#g-cres" class="m-cres"/><use href="#g-sw" class="m-sw"/><use href="#g-word" class="m-word"/>
+            <use href="#g-star" class="m-star"/><use href="#g-cap" class="m-gold"/><use href="#g-rules" class="m-gold"/>
+          </svg>
+        </a>
       </div>
-      <div class="fcol">
-        <h4>Fund</h4>
-        <a href="#do">What we are</a><a href="#strategies">Funds</a><a href="#numbers">By the numbers</a>
+      <div>
+        <h4>Navigate</h4>
+        <nav aria-label="Footer"><a href="#funds">Funds</a><a href="#standards">Standards</a><a href="#group">Group</a><a href="#contact">Contact</a></nav>
       </div>
-      <div class="fcol">
+      <div class="col">
         <h4>Contact</h4>
-        <a href="mailto:partners@orbynt.capital">partners@orbynt.capital</a><a href="#contact">Investor access</a><a href="https://x.com/orbynt" target="_blank" rel="noopener noreferrer" class="fsoc"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@orbynt</a>
+        <a href="mailto:partners@orbynt.capital">partners@orbynt.capital</a>
+        <a href="https://x.com/orbynt" target="_blank" rel="noopener noreferrer">@orbynt on X</a>
       </div>
     </div>
     <div class="foot__bar">
-      <span>© 2026 Orbynt Capital. Private investment fund.</span>
-      <span>For information only. Nothing here is an offer to buy or sell any asset.</span>
+      <span>&copy; 2026 Orbynt Capital. An Orbynt Group company.</span>
+      <span>For information only. Nothing on this site is an offer to buy or sell any asset, or an invitation to invest in any fund.</span>
     </div>
   </div>
 </footer>
 
 <script>
-var REDUCED=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-var TOUCH=window.matchMedia('(hover:none)').matches;
-function isLight(){return document.documentElement.getAttribute('data-theme')==='light';}
-
-/* ===== theme toggle ===== */
 (function(){
-  var tg=document.getElementById('themeTg');
-  tg.addEventListener('click',function(){
-    if(isLight())document.documentElement.removeAttribute('data-theme');
-    else document.documentElement.setAttribute('data-theme','light');
-    if(window.__redrawCharts)window.__redrawCharts();
-  });
-})();
+  var root=document.documentElement;
+  var REDUCED=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var FINE=matchMedia('(hover: hover) and (pointer: fine)').matches;
 
-/* nav */
-(function(){var n=document.getElementById('nav'),b=document.getElementById('burger'),m=document.getElementById('menu');
-  function s(){n.classList.toggle('scrolled',window.scrollY>8)}s();window.addEventListener('scroll',s,{passive:true});
-  b.addEventListener('click',function(){m.classList.toggle('open')});
-  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open')})});})();
+  /* start the intro once fonts are in, so type does not jump */
+  var started=false;function go(){if(started)return;started=true;root.classList.add('ready');
+    setTimeout(function(){var s=document.getElementById('heroStar');if(s&&!REDUCED)s.classList.add('twinkle')},3200);}
+  if(document.fonts&&document.fonts.ready){document.fonts.ready.then(go);setTimeout(go,1400)}else{go()}
 
-/* load */
-window.addEventListener('load',function(){requestAnimationFrame(function(){document.body.classList.add('ready')})});
-setTimeout(function(){document.body.classList.add('ready')},450);
+  /* theme */
+  var tb=document.getElementById('themeBtn');
+  function setTheme(t){root.setAttribute('data-theme',t);try{localStorage.setItem('oc-theme',t)}catch(e){}
+    var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='light'?'#F4F7FA':'#071426');}
+  tb.addEventListener('click',function(){setTheme(root.getAttribute('data-theme')==='light'?'dark':'light')});
+  setTheme(root.getAttribute('data-theme')||'dark');
 
-/* reveal + count */
-(function(){
-  function count(el){var to=parseFloat(el.getAttribute('data-count')),suf=el.getAttribute('data-suffix')||'';
-    if(REDUCED){el.textContent=to+suf;return}if(el._cr)cancelAnimationFrame(el._cr);var st=null;function step(ts){if(!st)st=ts;var k=Math.min(1,(ts-st)/1100),e=1-Math.pow(1-k,3);el.textContent=Math.round(to*e)+suf;if(k<1)el._cr=requestAnimationFrame(step)}el._cr=requestAnimationFrame(step)}
-  var els=document.querySelectorAll('.rv,[data-count]');
-  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');if(e.hasAttribute('data-count'))count(e)});return}
-  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');if(x.target.hasAttribute('data-count'))count(x.target);}else{x.target.classList.remove('in');if(x.target.hasAttribute('data-count')){if(x.target._cr)cancelAnimationFrame(x.target._cr);x.target.textContent='0'+(x.target.getAttribute('data-suffix')||'');}}})},{threshold:.18,rootMargin:'0px 0px -8% 0px'});
-  els.forEach(function(e){io.observe(e)});
-})();
+  /* nav state + mobile sheet */
+  var nav=document.getElementById('nav');
+  function onScrollNav(){nav.classList.toggle('scrolled',scrollY>24)}
+  addEventListener('scroll',onScrollNav,{passive:true});onScrollNav();
+  var mb=document.getElementById('menuBtn'),sheet=document.getElementById('sheet');
+  function closeSheet(){sheet.classList.remove('open');sheet.setAttribute('aria-hidden','true');mb.setAttribute('aria-expanded','false');mb.textContent='Menu'}
+  mb.addEventListener('click',function(){var o=!sheet.classList.contains('open');sheet.classList.toggle('open',o);sheet.setAttribute('aria-hidden',String(!o));mb.setAttribute('aria-expanded',String(o));mb.textContent=o?'Close':'Menu'});
+  sheet.addEventListener('click',function(e){if(e.target.tagName==='A')closeSheet()});
+  addEventListener('keydown',function(e){if(e.key==='Escape')closeSheet()});
 
-/* spotlight cards */
-(function(){if(TOUCH)return;
-  document.addEventListener('pointermove',function(e){var el=e.target.closest&&e.target.closest('.spot');if(!el)return;var b=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-b.left)+'px');el.style.setProperty('--my',(e.clientY-b.top)+'px')},{passive:true});})();
+  /* star field in the hero */
+  var cv=document.getElementById('sky'),ctx=cv.getContext('2d'),stars=[],W=0,H=0,DPR=1,raf=null,visible=true,px=0,py=0,tx=0,ty=0;
+  function rgb(){return getComputedStyle(root).getPropertyValue('--dot').trim()||'244,247,250'}
+  function seed(){DPR=Math.min(2,devicePixelRatio||1);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);
+    var n=Math.round(W*H/7200);stars=[];
+    for(var i=0;i<n;i++){stars.push({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.1+.25,a:Math.random()*.55+.12,s:Math.random()*2+.4,p:Math.random()*6.28,d:Math.random()*.6+.2,sp:i%38===0})}}
+  function sparkle(x,y,r,a,c){ctx.fillStyle='rgba('+c+','+a+')';ctx.beginPath();ctx.moveTo(x,y-r*3);ctx.quadraticCurveTo(x,y,x+r*3,y);ctx.quadraticCurveTo(x,y,x,y+r*3);ctx.quadraticCurveTo(x,y,x-r*3,y);ctx.quadraticCurveTo(x,y,x,y-r*3);ctx.fill()}
+  function draw(t){ctx.clearRect(0,0,W,H);var c=rgb();px+=(tx-px)*.05;py+=(ty-py)*.05;
+    for(var i=0;i<stars.length;i++){var s=stars[i],tw=REDUCED?1:(.65+.35*Math.sin(t*.001*s.s+s.p)),x=s.x+px*s.d,y=s.y+py*s.d;
+      if(s.sp){sparkle(x,y,s.r*1.3,s.a*tw,c)}else{ctx.fillStyle='rgba('+c+','+(s.a*tw)+')';ctx.beginPath();ctx.arc(x,y,s.r,0,6.283);ctx.fill()}}}
+  function loop(t){draw(t);raf=visible&&!REDUCED?requestAnimationFrame(loop):null}
+  seed();draw(0);if(!REDUCED)raf=requestAnimationFrame(loop);
+  addEventListener('resize',function(){seed();draw(performance.now())});
+  new IntersectionObserver(function(e){visible=e[0].isIntersecting;if(visible&&!raf&&!REDUCED)raf=requestAnimationFrame(loop)}).observe(cv);
+  document.addEventListener('visibilitychange',function(){if(document.hidden){cancelAnimationFrame(raf);raf=null}else if(visible&&!REDUCED&&!raf){raf=requestAnimationFrame(loop)}});
+  new MutationObserver(function(){draw(performance.now())}).observe(root,{attributes:true,attributeFilter:['data-theme']});
+  if(FINE&&!REDUCED)addEventListener('pointermove',function(e){tx=(e.clientX/innerWidth-.5)*-26;ty=(e.clientY/innerHeight-.5)*-18},{passive:true});
 
-/* ===== custom logo cursor + magnetic + parallax ===== */
-(function(){
-  if(TOUCH||REDUCED)return;
-  var cur=document.getElementById('cursor'),back=document.querySelector('.backdrop');
-  document.body.classList.add('cursor-on');
-  var x=innerWidth/2,y=innerHeight/2,cx=x,cy=y;
-  window.addEventListener('pointermove',function(e){
-    x=e.clientX;y=e.clientY;cur.classList.add('show');
-    if(back)back.style.transform='translate('+((x/innerWidth-0.5)*-18)+'px,'+((y/innerHeight-0.5)*-18)+'px)';
-  });
-  window.addEventListener('pointerdown',function(){cur.classList.add('click')});
-  window.addEventListener('pointerup',function(){cur.classList.remove('click')});
-  (function raf(){cx+=(x-cx)*0.22;cy+=(y-cy)*0.22;cur.style.transform='translate('+cx+'px,'+cy+'px) translate(-50%,-50%)';requestAnimationFrame(raf)})();
-  /* hover grow over interactive */
-  document.querySelectorAll('a,button,.exitem,.fcard,[data-mag],.theme-tg').forEach(function(el){
-    el.addEventListener('pointerenter',function(){cur.classList.add('hov')});
-    el.addEventListener('pointerleave',function(){cur.classList.remove('hov')});
-  });
-  /* magnetic */
-  document.querySelectorAll('[data-mag]').forEach(function(el){
-    el.addEventListener('pointermove',function(e){var b=el.getBoundingClientRect();el.style.transform='translate('+((e.clientX-(b.left+b.width/2))*.28)+'px,'+((e.clientY-(b.top+b.height/2))*.4)+'px)'});
-    el.addEventListener('pointerleave',function(){el.style.transform=''});
-  });
-})();
+  /* hero drifts away as you scroll */
+  var hi=document.getElementById('heroInner');
+  if(!REDUCED){var tick=false;addEventListener('scroll',function(){if(tick)return;tick=true;requestAnimationFrame(function(){tick=false;var y=scrollY,h=innerHeight;
+    if(y<h*1.2){hi.style.transform='translate3d(0,'+(y*.22)+'px,0)';hi.style.opacity=String(Math.max(0,1-y/(h*.85)))}})},{passive:true})}
 
-/* ============================================================
-   CHART ENGINE (theme aware)
-   ============================================================ */
-var Chart=(function(){
-  function mul(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
-  function series(n,o){var r=mul(o.seed||1),p=[],v=o.start==null?0.2:o.start,i,step=Math.max(2,Math.floor(n/12));
-    for(i=0;i<n;i++){var nz=(r()-0.5)*o.vol;
-      if(o.style==='steps'){if(i%step===0)v+=(r()>0.30?o.drift*4.5:-o.drift*1.6);v+=nz*0.25}
-      else if(o.style==='volatile'){v+=o.drift+nz}
-      else if(o.style==='flat'){v=(o.base==null?0.5:o.base)+(r()-0.5)*o.vol}
-      else{v+=o.drift+nz*0.45}
-      p.push(v)}
-    var mn=Math.min.apply(null,p),mx=Math.max.apply(null,p),rg=(mx-mn)||1;return p.map(function(x){return (x-mn)/rg})}
-  function css(name){return getComputedStyle(document.documentElement).getPropertyValue(name).trim()}
-  function draw(cv,data,o){
-    var dpr=Math.min(window.devicePixelRatio||1,2),w=cv.clientWidth,h=cv.clientHeight;if(w===0||h===0)return;
-    cv.width=w*dpr;cv.height=h*dpr;var c=cv.getContext('2d');c.setTransform(dpr,0,0,dpr,0,0);c.clearRect(0,0,w,h);
-    var grid=css('--chart-grid')||'rgba(244,242,236,.05)',dstroke=css('--chart-dotstroke')||'#0B0F16';
-    var pT=o.padTop||14,pB=o.padBot||14,n=data.length,prog=o.progress==null?1:o.progress;
-    function X(i){return (i/(n-1))*w}function Y(v){return h-pB-v*(h-pT-pB)}
-    if(o.grid!==false){c.strokeStyle=grid;c.lineWidth=1;for(var g=0;g<=3;g++){var yy=pT+(g/3)*(h-pT-pB);c.beginPath();c.moveTo(0,yy);c.lineTo(w,yy);c.stroke()}}
-    var last=Math.max(1,Math.floor(prog*(n-1))),i;
-    if(o.fill!==false){var grd=c.createLinearGradient(0,pT,0,h-pB);grd.addColorStop(0,o.fill||'rgba(201,168,106,.22)');grd.addColorStop(1,'rgba(201,168,106,0)');
-      c.beginPath();c.moveTo(X(0),h-pB);for(i=0;i<=last;i++)c.lineTo(X(i),Y(data[i]));c.lineTo(X(last),h-pB);c.closePath();c.fillStyle=grd;c.fill()}
-    c.beginPath();for(i=0;i<=last;i++){var px=X(i),py=Y(data[i]);if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}
-    c.strokeStyle=o.color||'#C9A86A';c.lineWidth=o.lineWidth||2;c.lineJoin='round';c.lineCap='round';
-    if(o.dashed)c.setLineDash([3,4]);else c.setLineDash([]);c.stroke();c.setLineDash([]);
-    if(o.dot!==false&&last>0){var lx=X(last),ly=Y(data[last]);
-      if(o.glow){c.beginPath();c.arc(lx,ly,(o.dotR||3.2)+o.glow,0,7);c.fillStyle='rgba(201,168,106,.22)';c.fill()}
-      c.beginPath();c.arc(lx,ly,o.dotR||3.2,0,7);c.fillStyle=o.color||'#C9A86A';c.fill();
-      c.beginPath();c.arc(lx,ly,o.dotR||3.2,0,7);c.strokeStyle=dstroke;c.lineWidth=2;c.stroke()}
-  }
-  return {series:series,draw:draw};
-})();
+  /* counters */
+  function count(el){var to=+el.getAttribute('data-count'),suf=el.getAttribute('data-suffix')||'';if(REDUCED){el.textContent=to+suf;return}
+    if(el._r)cancelAnimationFrame(el._r);var st=null;function step(ts){if(!st)st=ts;var k=Math.min(1,(ts-st)/1100),e=1-Math.pow(1-k,3);el.textContent=Math.round(to*e)+suf;if(k<1)el._r=requestAnimationFrame(step)}el._r=requestAnimationFrame(step)}
 
-/* ---- hero panel: live Green chart + gentle tilt (theme aware) ---- */
-(function(){
-  var cv=document.getElementById('hpChart');if(!cv)return;
-  var data=Chart.series(120,{style:'smooth',vol:0.04,drift:0.02,seed:101,start:0.12});
-  var bigEl=document.getElementById('hpVal'),chgEl=document.getElementById('hpChg');
-  var prog=0,t=0,raf=null,running=true;
-  function val(v){return 100+v*38}
-  function colors(){return isLight()?{line:'#9A7B43',fill:'rgba(154,123,67,.18)'}:{line:'#C9A86A',fill:'rgba(201,168,106,.2)'};}
-  function render(){
-    t+=0.016;if(prog<1)prog=Math.min(1,prog+0.02);var col=colors();
-    Chart.draw(cv,data,{progress:REDUCED?1:prog,color:col.line,fill:col.fill,glow:REDUCED?2:(3+Math.sin(t*2.2)*2)});
-    var lead=data[Math.max(1,Math.floor((REDUCED?1:prog)*(data.length-1)))];
-    var cur=val(lead)+(REDUCED?0:Math.sin(t*1.3)*0.05);
-    if(bigEl)bigEl.textContent=cur.toFixed(1);
-    if(chgEl)chgEl.textContent='▲ +'+(cur-100).toFixed(1)+'%';
-    if(running&&!REDUCED)raf=requestAnimationFrame(render);
-  }
-  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){running=en[0].isIntersecting;if(running&&!REDUCED){cancelAnimationFrame(raf);render()}else cancelAnimationFrame(raf)},{threshold:0});io.observe(cv)}
-  render();
-  if(!TOUCH&&!REDUCED){
-    var panel=document.getElementById('heroPanel'),inner=panel.querySelector('.panel');
-    panel.addEventListener('pointermove',function(e){var b=panel.getBoundingClientRect();var ry=((e.clientX-(b.left+b.width/2))/b.width)*5;var rx=-((e.clientY-(b.top+b.height/2))/b.height)*5;inner.style.transform='rotateX('+rx.toFixed(2)+'deg) rotateY('+ry.toFixed(2)+'deg)'});
-    panel.addEventListener('pointerleave',function(){inner.style.transform=''});
-  }
-  var rt;window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){var col=colors();Chart.draw(cv,data,{progress:1,color:col.line,fill:col.fill})},200)});
-})();
+  /* reveals, replay every time they come back into view */
+  var rv=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)||REDUCED){rv.forEach(function(e){e.classList.add('in')})}
+  else{var io=new IntersectionObserver(function(en){en.forEach(function(x){var el=x.target;
+      if(x.isIntersecting){el.classList.add('in');el.querySelectorAll('[data-count]').forEach(count)}
+      else{el.classList.remove('in');el.querySelectorAll('[data-count]').forEach(function(c){if(c._r)cancelAnimationFrame(c._r);c.textContent='0'+(c.getAttribute('data-suffix')||'')})}})},{threshold:.2,rootMargin:'0px 0px -6% 0px'});
+    rv.forEach(function(e){io.observe(e)})}
 
-/* ---- strategy explorer (theme aware) ---- */
-(function(){
-  var S=[
-    {code:'F-01',name:'Orbynt Green',role:'Low risk',status:'Live',live:true,slug:'green',
-      desc:'Our most conservative fund. Green is built for capital preservation first, applying our expertise to target returns ahead of the broader market while keeping risk and drawdowns tightly controlled.',
-      chart:{style:'smooth',vol:0.05,drift:0.0,seed:7},cd:'#C9A86A',cl:'#9A7B43',fd:'rgba(201,168,106,.2)',fl:'rgba(154,123,67,.16)',
-      metrics:[['Risk','Low'],['Objective','Capital growth'],['Status','Live']]},
-    {code:'F-02',name:'Orbynt Calyx',role:'Quantitative',status:'Live',live:true,slug:'calyx',
-      desc:'Our quantitative fund. Calyx uses algorithmic models and dedicated trading infrastructure to identify and capture pricing inefficiencies across digital asset markets, at a speed and scale manual trading cannot match.',
-      chart:{style:'smooth',vol:0.07,drift:0.0,seed:21},cd:'#9FB6CC',cl:'#4F6E88',fd:'rgba(159,182,204,.16)',fl:'rgba(79,110,136,.14)',
-      metrics:[['Risk','Moderate'],['Style','Quantitative'],['Status','Live']]},
-    {code:'F-03',name:'Orbynt Phoenix',role:'High risk',status:'Live',live:true,slug:'phoenix',
-      desc:'Our highest-risk fund. Phoenix takes concentrated, asymmetric positions. Many are expected to fail, and the few that succeed are sized to drive the returns. It is built for investors seeking maximum upside who can accept significant volatility.',
-      chart:{style:'smooth',vol:0.12,drift:0.0,seed:39},cd:'#D8A06A',cl:'#A86A3A',fd:'rgba(216,160,106,.16)',fl:'rgba(168,106,58,.14)',
-      metrics:[['Risk','High'],['Style','Opportunistic'],['Status','Live']]},
-    {code:'F-04',name:'Mandate IV',role:'In research',status:'Soon',live:false,slug:'mandate-iv',
-      desc:'A fourth fund, currently in development. We will share its mandate once it is live.',
-      chart:{style:'flat',vol:0.04,base:0.5,seed:5},cd:'rgba(244,242,236,.45)',cl:'rgba(13,30,46,.4)',fd:'rgba(244,242,236,.04)',fl:'rgba(13,30,46,.04)',dashed:true,
-      metrics:[['Risk','Pending'],['Stage','Research'],['Status','Soon']]},
-    {code:'F-05',name:'Mandate V',role:'In research',status:'Soon',live:false,slug:'mandate-v',
-      desc:'A fifth fund, also in research. We are taking the time to define the approach before committing capital.',
-      chart:{style:'flat',vol:0.04,base:0.5,seed:12},cd:'rgba(244,242,236,.45)',cl:'rgba(13,30,46,.4)',fd:'rgba(244,242,236,.04)',fl:'rgba(13,30,46,.04)',dashed:true,
-      metrics:[['Risk','Pending'],['Stage','Research'],['Status','Soon']]}
-  ];
-  var list=document.getElementById('exlist'),cv=document.getElementById('exChart'),body=document.getElementById('exBody');
-  var elT=document.getElementById('exTitle'),elL=document.getElementById('exLive'),elN=document.getElementById('exName'),
-      elR=document.getElementById('exRole'),elD=document.getElementById('exDesc'),elM=document.getElementById('exMetrics');
-  var cur=0,raf=null,auto=null;
+  /* place fund stars on the risk arc, link them to their panels */
+  var arc=document.getElementById('arcPath');
+  if(arc){var L=arc.getTotalLength(),xs={green:200,calyx:600,phoenix:1000},sc={green:.36,calyx:.46,phoenix:.58};
+    function ptAtX(x){var lo=0,hi2=L;for(var i=0;i<24;i++){var m=(lo+hi2)/2;if(arc.getPointAtLength(m).x<x)lo=m;else hi2=m}return arc.getPointAtLength(lo)}
+    document.querySelectorAll('.fs').forEach(function(g){var f=g.getAttribute('data-f'),p=ptAtX(xs[f]),s=sc[f];
+      g.setAttribute('transform','translate('+p.x.toFixed(1)+','+p.y.toFixed(1)+')');
+      g.querySelector('use').setAttribute('transform','scale('+s+') translate(-623,-176.7)');
+      var t=g.querySelector('text');t.setAttribute('y',String((innerWidth<760?-58:-34)-s*40));});
+    function light(f,on){document.querySelectorAll('[data-f="'+f+'"]').forEach(function(n){n.classList.toggle(n.classList.contains('fs')?'on':'lit',on)})}
+    document.querySelectorAll('.fund').forEach(function(card){var f=card.getAttribute('data-f');
+      card.addEventListener('pointerenter',function(){light(f,true)});card.addEventListener('pointerleave',function(){light(f,false)})});}
 
-  S.forEach(function(s,i){
-    var btn=document.createElement('button');btn.className='exitem spot'+(s.live?' live':'')+(i===0?' on':'');btn.setAttribute('data-i',i);
-    btn.innerHTML='<span class="code">'+s.code+'</span><span class="nm"><b>'+s.name+'</b><s>'+s.role+'</s></span><span class="st"><span class="d"></span>'+s.status+'</span>';
-    btn.addEventListener('click',function(){select(i,true)});
-    btn.addEventListener('mouseenter',function(){select(i,true)});
-    list.appendChild(btn);
-  });
-  function copt(s){return Object.assign({},s.chart,{color:isLight()?s.cl:s.cd,fill:isLight()?s.fl:s.fd,dashed:s.dashed});}
-  function animateChart(s){
-    if(REDUCED){Chart.draw(cv,s._data,Object.assign({progress:1},copt(s)));return}
-    cancelAnimationFrame(raf);var start=null,dur=900;
-    (function go(ts){if(!start)start=ts;var k=Math.min(1,(ts-start)/dur);var e=1-Math.pow(1-k,3);
-      Chart.draw(cv,s._data,Object.assign({progress:e},copt(s)));if(k<1)raf=requestAnimationFrame(go)})(0);
-  }
-  function select(i,user){
-    cur=i;var s=S[i];if(!s._data)s._data=Chart.series(100,s.chart);
-    list.querySelectorAll('.exitem').forEach(function(b,j){b.classList.toggle('on',j===i)});
-    body.style.opacity='0';
-    setTimeout(function(){
-      elT.textContent='orbynt / '+s.slug;elN.textContent=s.name;elR.textContent=s.role;elD.textContent=s.desc;
-      elL.style.display=s.live?'inline-flex':'none';
-      elM.innerHTML=s.metrics.map(function(m){return '<div class="m"><div class="k">'+m[0]+'</div><div class="vv">'+m[1]+'</div></div>'}).join('');
-      body.style.opacity='1';animateChart(s);
-    },180);
-    if(user){clearInterval(auto);startAuto()}
-  }
-  function startAuto(){if(REDUCED)return;auto=setInterval(function(){select((cur+1)%S.length,false)},5000)}
-  function init(){S[0]._data=Chart.series(100,S[0].chart);select(0,false);startAuto()}
-  var ex=document.getElementById('explorer');
-  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){if(en[0].isIntersecting){init();io.disconnect()}},{threshold:.25});io.observe(ex)}
-  else init();
-  ex.addEventListener('pointerenter',function(){clearInterval(auto)});
-  ex.addEventListener('pointerleave',function(){clearInterval(auto);startAuto()});
-  var rt;window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){var s=S[cur];if(s._data)Chart.draw(cv,s._data,Object.assign({progress:1},copt(s)))},200)});
+  /* spotlight on every box, delegated so it covers everything */
+  if(FINE){document.addEventListener('pointermove',function(e){var el=e.target.closest&&e.target.closest('.spot');if(!el)return;
+    var b=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-b.left)+'px');el.style.setProperty('--my',(e.clientY-b.top)+'px')},{passive:true})}
 
-  /* redraw on theme toggle */
-  window.__redrawCharts=function(){var s=S[cur];if(s&&s._data)Chart.draw(cv,s._data,Object.assign({progress:1},copt(s)));};
+  /* north star cursor */
+  if(FINE&&!REDUCED){var cur=document.querySelector('.cur'),ring=document.querySelector('.cur-ring'),mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my,shown=false;
+    addEventListener('pointermove',function(e){mx=e.clientX;my=e.clientY;if(!shown){shown=true;rx=mx;ry=my;root.classList.add('cursor-on')}
+      var hot=e.target.closest&&e.target.closest('a,button,.fund');ring.classList.toggle('big',!!hot)},{passive:true});
+    document.addEventListener('pointerleave',function(){root.classList.remove('cursor-on');shown=false});
+    (function f(){rx+=(mx-rx)*.18;ry+=(my-ry)*.18;cur.style.transform='translate('+mx+'px,'+my+'px)';ring.style.transform='translate('+rx+'px,'+ry+'px)';requestAnimationFrame(f)})();
+    document.querySelectorAll('[data-mag]').forEach(function(b){b.addEventListener('pointermove',function(e){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.18)+'px,'+((e.clientY-r.top-r.height/2)*.28)+'px)'});
+      b.addEventListener('pointerleave',function(){b.style.transform=''})});}
 })();
 </script>
 </body>
